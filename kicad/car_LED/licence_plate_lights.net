@@ -1,0 +1,208 @@
+# EESchema Netlist Version 1.1 created  Mon 03 Mar 2014 02:07:45 PM CET
+(
+ ( /52E28956 MADW__impolux_rgb_smd D1 IMPOLUX_RGB_SMD
+  ( 1 N-000030 )
+  ( 2 N-000031 )
+  ( 3 N-000032 )
+  ( 4 N-000033 )
+  ( 5 N-000034 )
+  ( 6 N-000035 )
+ )
+ ( /52E2894D MADW__impolux_rgb_smd D2 IMPOLUX_RGB_SMD
+  ( 1 N-000036 )
+  ( 2 N-000037 )
+  ( 3 N-000038 )
+  ( 4 N-000029 )
+  ( 5 N-000011 )
+  ( 6 N-000012 )
+ )
+ ( /52E28959 MADW__impolux_rgb_smd D3 IMPOLUX_RGB_SMD
+  ( 1 N-000024 )
+  ( 2 N-000025 )
+  ( 3 N-000026 )
+  ( 4 N-000027 )
+  ( 5 N-000028 )
+  ( 6 N-000022 )
+ )
+ ( /52E28969 MADW__impolux_rgb_smd D4 IMPOLUX_RGB_SMD
+  ( 1 N-000001 )
+  ( 2 N-000002 )
+  ( 3 N-000009 )
+  ( 4 N-000032 )
+  ( 5 N-000031 )
+  ( 6 N-000030 )
+ )
+ ( /52E2896A MADW__impolux_rgb_smd D5 IMPOLUX_RGB_SMD
+  ( 1 N-000007 )
+  ( 2 N-000006 )
+  ( 3 N-000005 )
+  ( 4 N-000038 )
+  ( 5 N-000037 )
+  ( 6 N-000036 )
+ )
+ ( /52E28968 MADW__impolux_rgb_smd D6 IMPOLUX_RGB_SMD
+  ( 1 N-000003 )
+  ( 2 N-000004 )
+  ( 3 N-000023 )
+  ( 4 N-000026 )
+  ( 5 N-000025 )
+  ( 6 N-000024 )
+ )
+ ( /52E28975 MADW__impolux_rgb_smd D7 IMPOLUX_RGB_SMD
+  ( 1 N-000008 )
+  ( 2 N-000008 )
+  ( 3 N-000008 )
+  ( 4 N-000009 )
+  ( 5 N-000002 )
+  ( 6 N-000001 )
+ )
+ ( /52E28976 MADW__impolux_rgb_smd D8 IMPOLUX_RGB_SMD
+  ( 1 N-000008 )
+  ( 2 N-000008 )
+  ( 3 N-000008 )
+  ( 4 N-000005 )
+  ( 5 N-000006 )
+  ( 6 N-000007 )
+ )
+ ( /52E28974 MADW__impolux_rgb_smd D9 IMPOLUX_RGB_SMD
+  ( 1 N-000008 )
+  ( 2 N-000008 )
+  ( 3 N-000008 )
+  ( 4 N-000023 )
+  ( 5 N-000004 )
+  ( 6 N-000003 )
+ )
+ ( /52E28C09 MADW__impolux_rgb_smd D10 IMPOLUX_RGB_SMD
+  ( 1 N-000035 )
+  ( 2 N-000034 )
+  ( 3 N-000033 )
+  ( 4 N-000021 )
+  ( 5 N-000020 )
+  ( 6 N-000019 )
+ )
+ ( /52E28C08 MADW__impolux_rgb_smd D11 IMPOLUX_RGB_SMD
+  ( 1 N-000012 )
+  ( 2 N-000011 )
+  ( 3 N-000029 )
+  ( 4 N-000016 )
+  ( 5 N-000010 )
+  ( 6 N-000018 )
+ )
+ ( /52E28C07 MADW__impolux_rgb_smd D12 IMPOLUX_RGB_SMD
+  ( 1 N-000022 )
+  ( 2 N-000028 )
+  ( 3 N-000027 )
+  ( 4 N-000015 )
+  ( 5 N-000014 )
+  ( 6 N-000013 )
+ )
+ ( /52E28E20 PINTST P1 CONN_1
+  ( 1 N-000017 )
+ )
+ ( /52E28E31 PINTST P2 CONN_1
+  ( 1 N-000008 )
+ )
+ ( /52E2811B SM1206 R1 47
+  ( 1 N-000021 )
+  ( 2 N-000017 )
+ )
+ ( /52E28126 SM1206 R2 47
+  ( 1 N-000020 )
+  ( 2 N-000017 )
+ )
+ ( /52E28128 SM1206 R3 47
+  ( 1 N-000019 )
+  ( 2 N-000017 )
+ )
+ ( /52E28170 SM1206 R4 47
+  ( 1 N-000016 )
+  ( 2 N-000017 )
+ )
+ ( /52E2816F SM1206 R5 47
+  ( 1 N-000010 )
+  ( 2 N-000017 )
+ )
+ ( /52E2816E SM1206 R6 47
+  ( 1 N-000018 )
+  ( 2 N-000017 )
+ )
+ ( /52E28196 SM1206 R7 47
+  ( 1 N-000015 )
+  ( 2 N-000017 )
+ )
+ ( /52E28197 SM1206 R8 47
+  ( 1 N-000014 )
+  ( 2 N-000017 )
+ )
+ ( /52E28198 SM1206 R9 47
+  ( 1 N-000013 )
+  ( 2 N-000017 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

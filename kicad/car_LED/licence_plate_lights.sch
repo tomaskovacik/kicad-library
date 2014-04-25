@@ -1,0 +1,383 @@
+EESchema Schematic File Version 2  date Mon 03 Mar 2014 01:38:46 PM CET
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:rgb_led_toy
+LIBS:licence_plate_lights-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "3 mar 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2800 4350 2650 4350
+Wire Wire Line
+	2800 3750 2650 3750
+Wire Wire Line
+	2800 2950 2650 2950
+Wire Wire Line
+	2800 2100 2650 2100
+Wire Wire Line
+	2800 1500 2650 1500
+Wire Wire Line
+	7400 3250 7300 3250
+Wire Wire Line
+	8800 4050 8950 4050
+Wire Wire Line
+	8800 3250 8950 3250
+Wire Wire Line
+	8800 2650 8950 2650
+Wire Wire Line
+	8800 1800 8950 1800
+Connection ~ 1950 1500
+Wire Wire Line
+	2150 1500 1950 1500
+Connection ~ 1950 2100
+Wire Wire Line
+	2150 2100 1950 2100
+Connection ~ 1950 2950
+Wire Wire Line
+	2150 2950 1950 2950
+Connection ~ 1950 3750
+Wire Wire Line
+	2150 3750 1950 3750
+Wire Wire Line
+	2150 4350 1950 4350
+Wire Wire Line
+	1950 4350 1950 1150
+Connection ~ 8950 2100
+Connection ~ 8950 2950
+Connection ~ 8950 3750
+Connection ~ 8950 4350
+Wire Wire Line
+	7300 4050 7400 4050
+Wire Wire Line
+	5750 4350 5900 4350
+Wire Wire Line
+	5750 3750 5900 3750
+Wire Wire Line
+	7300 2950 7400 2950
+Wire Wire Line
+	7300 2100 7400 2100
+Wire Wire Line
+	7300 1500 7400 1500
+Wire Wire Line
+	5750 2950 5900 2950
+Wire Wire Line
+	5750 2100 5900 2100
+Wire Wire Line
+	5750 1500 5900 1500
+Wire Wire Line
+	4200 4050 4350 4050
+Wire Wire Line
+	4200 3250 4350 3250
+Wire Wire Line
+	4200 2650 4350 2650
+Wire Wire Line
+	4200 1800 4350 1800
+Wire Wire Line
+	4200 1500 4350 1500
+Wire Wire Line
+	4200 2100 4350 2100
+Wire Wire Line
+	4200 2950 4350 2950
+Wire Wire Line
+	4200 3750 4350 3750
+Wire Wire Line
+	4200 4350 4350 4350
+Wire Wire Line
+	5750 1800 5900 1800
+Wire Wire Line
+	5750 2650 5900 2650
+Wire Wire Line
+	5750 3250 5900 3250
+Wire Wire Line
+	7300 1800 7400 1800
+Wire Wire Line
+	7300 2650 7400 2650
+Wire Wire Line
+	5750 4050 5900 4050
+Wire Wire Line
+	7300 4350 7400 4350
+Connection ~ 8950 4050
+Connection ~ 8950 3250
+Connection ~ 8950 2650
+Connection ~ 8950 1800
+Wire Wire Line
+	8950 4600 8950 1500
+Wire Wire Line
+	2150 4050 1950 4050
+Connection ~ 1950 4050
+Wire Wire Line
+	2150 3250 1950 3250
+Connection ~ 1950 3250
+Wire Wire Line
+	2150 2650 1950 2650
+Connection ~ 1950 2650
+Wire Wire Line
+	2150 1800 1950 1800
+Connection ~ 1950 1800
+Wire Wire Line
+	8950 1500 8800 1500
+Wire Wire Line
+	8800 2100 8950 2100
+Wire Wire Line
+	8800 2950 8950 2950
+Wire Wire Line
+	8800 3750 8950 3750
+Wire Wire Line
+	8950 4350 8800 4350
+Wire Wire Line
+	7300 3750 7400 3750
+Wire Wire Line
+	2650 1800 2800 1800
+Wire Wire Line
+	2650 2650 2800 2650
+Wire Wire Line
+	2650 3250 2800 3250
+Wire Wire Line
+	2650 4050 2800 4050
+$Comp
+L CONN_1 P2
+U 1 1 52E28E31
+P 8950 4750
+F 0 "P2" H 9030 4750 40  0000 L CNN
+F 1 "CONN_1" H 8950 4805 30  0001 C CNN
+	1    8950 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_1 P1
+U 1 1 52E28E20
+P 1950 1000
+F 0 "P1" H 2030 1000 40  0000 L CNN
+F 1 "CONN_1" H 1950 1055 30  0001 C CNN
+	1    1950 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L IMPOLUX_RGB_SMD D10
+U 1 1 52E28C09
+P 3500 1800
+F 0 "D10" H 3950 1800 60  0000 C CNN
+F 1 "IMPOLUX_RGB_SMD" V 3000 1800 60  0000 C CNN
+	1    3500 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L IMPOLUX_RGB_SMD D11
+U 1 1 52E28C08
+P 3500 2950
+F 0 "D11" H 3950 2950 60  0000 C CNN
+F 1 "IMPOLUX_RGB_SMD" V 3000 2950 60  0000 C CNN
+	1    3500 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L IMPOLUX_RGB_SMD D12
+U 1 1 52E28C07
+P 3500 4050
+F 0 "D12" H 3950 4050 60  0000 C CNN
+F 1 "IMPOLUX_RGB_SMD" V 3000 4050 60  0000 C CNN
+	1    3500 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L IMPOLUX_RGB_SMD D8
+U 1 1 52E28976
+P 8100 2950
+F 0 "D8" H 8550 2950 60  0000 C CNN
+F 1 "IMPOLUX_RGB_SMD" V 7600 2950 60  0000 C CNN
+	1    8100 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L IMPOLUX_RGB_SMD D7
+U 1 1 52E28975
+P 8100 1800
+F 0 "D7" H 8550 1800 60  0000 C CNN
+F 1 "IMPOLUX_RGB_SMD" V 7600 1800 60  0000 C CNN
+	1    8100 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L IMPOLUX_RGB_SMD D9
+U 1 1 52E28974
+P 8100 4050
+F 0 "D9" H 8550 4050 60  0000 C CNN
+F 1 "IMPOLUX_RGB_SMD" V 7600 4050 60  0000 C CNN
+	1    8100 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L IMPOLUX_RGB_SMD D5
+U 1 1 52E2896A
+P 6600 2950
+F 0 "D5" H 7050 2950 60  0000 C CNN
+F 1 "IMPOLUX_RGB_SMD" V 6100 2950 60  0000 C CNN
+	1    6600 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L IMPOLUX_RGB_SMD D4
+U 1 1 52E28969
+P 6600 1800
+F 0 "D4" H 7050 1800 60  0000 C CNN
+F 1 "IMPOLUX_RGB_SMD" V 6100 1800 60  0000 C CNN
+	1    6600 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L IMPOLUX_RGB_SMD D6
+U 1 1 52E28968
+P 6600 4050
+F 0 "D6" H 7050 4050 60  0000 C CNN
+F 1 "IMPOLUX_RGB_SMD" V 6100 4050 60  0000 C CNN
+	1    6600 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L IMPOLUX_RGB_SMD D3
+U 1 1 52E28959
+P 5050 4050
+F 0 "D3" H 5500 4050 60  0000 C CNN
+F 1 "IMPOLUX_RGB_SMD" V 4550 4050 60  0000 C CNN
+	1    5050 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L IMPOLUX_RGB_SMD D1
+U 1 1 52E28956
+P 5050 1800
+F 0 "D1" H 5500 1800 60  0000 C CNN
+F 1 "IMPOLUX_RGB_SMD" V 4550 1800 60  0000 C CNN
+	1    5050 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L IMPOLUX_RGB_SMD D2
+U 1 1 52E2894D
+P 5050 2950
+F 0 "D2" H 5500 2950 60  0000 C CNN
+F 1 "IMPOLUX_RGB_SMD" V 4550 2950 60  0000 C CNN
+	1    5050 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R9
+U 1 1 52E28198
+P 2400 4350
+F 0 "R9" V 2480 4350 50  0000 C CNN
+F 1 "47" V 2400 4350 50  0000 C CNN
+	1    2400 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L R R8
+U 1 1 52E28197
+P 2400 4050
+F 0 "R8" V 2480 4050 50  0000 C CNN
+F 1 "47" V 2400 4050 50  0000 C CNN
+	1    2400 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R7
+U 1 1 52E28196
+P 2400 3750
+F 0 "R7" V 2480 3750 50  0000 C CNN
+F 1 "47" V 2400 3750 50  0000 C CNN
+	1    2400 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 52E28170
+P 2400 2650
+F 0 "R4" V 2480 2650 50  0000 C CNN
+F 1 "47" V 2400 2650 50  0000 C CNN
+	1    2400 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R5
+U 1 1 52E2816F
+P 2400 2950
+F 0 "R5" V 2480 2950 50  0000 C CNN
+F 1 "47" V 2400 2950 50  0000 C CNN
+	1    2400 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R6
+U 1 1 52E2816E
+P 2400 3250
+F 0 "R6" V 2480 3250 50  0000 C CNN
+F 1 "47" V 2400 3250 50  0000 C CNN
+	1    2400 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 52E28128
+P 2400 2100
+F 0 "R3" V 2480 2100 50  0000 C CNN
+F 1 "47" V 2400 2100 50  0000 C CNN
+	1    2400 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 52E28126
+P 2400 1800
+F 0 "R2" V 2480 1800 50  0000 C CNN
+F 1 "47" V 2400 1800 50  0000 C CNN
+	1    2400 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 52E2811B
+P 2400 1500
+F 0 "R1" V 2480 1500 50  0000 C CNN
+F 1 "47" V 2400 1500 50  0000 C CNN
+	1    2400 1500
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

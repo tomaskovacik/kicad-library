@@ -1,0 +1,164 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Mon 03 Mar 2014 02:07:45 PM CET
+
+BeginCmp
+TimeStamp = /52E28956;
+Reference = D1;
+ValeurCmp = IMPOLUX_RGB_SMD;
+IdModule  = MADW__impolux_rgb_smd;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E2894D;
+Reference = D2;
+ValeurCmp = IMPOLUX_RGB_SMD;
+IdModule  = MADW__impolux_rgb_smd;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E28959;
+Reference = D3;
+ValeurCmp = IMPOLUX_RGB_SMD;
+IdModule  = MADW__impolux_rgb_smd;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E28969;
+Reference = D4;
+ValeurCmp = IMPOLUX_RGB_SMD;
+IdModule  = MADW__impolux_rgb_smd;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E2896A;
+Reference = D5;
+ValeurCmp = IMPOLUX_RGB_SMD;
+IdModule  = MADW__impolux_rgb_smd;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E28968;
+Reference = D6;
+ValeurCmp = IMPOLUX_RGB_SMD;
+IdModule  = MADW__impolux_rgb_smd;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E28975;
+Reference = D7;
+ValeurCmp = IMPOLUX_RGB_SMD;
+IdModule  = MADW__impolux_rgb_smd;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E28976;
+Reference = D8;
+ValeurCmp = IMPOLUX_RGB_SMD;
+IdModule  = MADW__impolux_rgb_smd;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E28974;
+Reference = D9;
+ValeurCmp = IMPOLUX_RGB_SMD;
+IdModule  = MADW__impolux_rgb_smd;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E28C09;
+Reference = D10;
+ValeurCmp = IMPOLUX_RGB_SMD;
+IdModule  = MADW__impolux_rgb_smd;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E28C08;
+Reference = D11;
+ValeurCmp = IMPOLUX_RGB_SMD;
+IdModule  = MADW__impolux_rgb_smd;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E28C07;
+Reference = D12;
+ValeurCmp = IMPOLUX_RGB_SMD;
+IdModule  = MADW__impolux_rgb_smd;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E28E20;
+Reference = P1;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E28E31;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E2811B;
+Reference = R1;
+ValeurCmp = 47;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E28126;
+Reference = R2;
+ValeurCmp = 47;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E28128;
+Reference = R3;
+ValeurCmp = 47;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E28170;
+Reference = R4;
+ValeurCmp = 47;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E2816F;
+Reference = R5;
+ValeurCmp = 47;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E2816E;
+Reference = R6;
+ValeurCmp = 47;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E28196;
+Reference = R7;
+ValeurCmp = 47;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E28197;
+Reference = R8;
+ValeurCmp = 47;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E28198;
+Reference = R9;
+ValeurCmp = 47;
+IdModule  = SM1206;
+EndCmp
+
+EndListe
