@@ -1,0 +1,963 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="2.6902in" x="0in" version="1.2" y="0in"  height="1.056in" viewBox="0 0 193.695 76.032" baseProfile="tiny" xmlns:svg="http://www.w3.org/2000/svg">
+ <g partID="1970900">
+  <g id="board">
+   <rect width="193.119" x="0.288" y="0.288" fill="none" height="75.4559" stroke="black" fill-opacity="0.5" id="boardoutline" stroke-width="0.5"/>
+  </g>
+ </g>
+ <g partID="3185821">
+  <g transform="translate(39.2398,35.7484)">
+   <g  id="copper1">
+    <g fill="none" cx="3.01733"  cy="3.01733" stroke="black" r="0.992124" id="0" stroke-width="0.850392"/>
+   </g>
+  </g>
+ </g>
+ <g partID="3186081">
+  <g transform="translate(3.09802,14.4884)">
+   <g  id="copper1">
+    <g fill="none" cx="3.01733"  cy="3.01733" stroke="black" r="0.992124" id="1" stroke-width="0.850392"/>
+   </g>
+  </g>
+ </g>
+ <g partID="3186111">
+  <g transform="translate(56.2476,4.56677)">
+   <g  id="copper1">
+    <g fill="none" cx="3.01733"  cy="3.01733" stroke="black" r="0.992124" id="2" stroke-width="0.850392"/>
+   </g>
+  </g>
+ </g>
+ <g partID="3186841">
+  <g transform="translate(8.05866,41.4172)">
+   <g  id="copper1">
+    <g fill="none" cx="3.01733"  cy="3.01733" stroke="black" r="0.992124" id="3" stroke-width="0.850392"/>
+   </g>
+  </g>
+ </g>
+ <g partID="3187721">
+  <g transform="translate(56.2476,13.0708)">
+   <g  id="copper1">
+    <g fill="none" cx="3.01733"  cy="3.01733" stroke="black" r="0.992124" id="4" stroke-width="0.850392"/>
+   </g>
+  </g>
+ </g>
+ <g partID="3208431">
+  <g transform="translate(89.5544,21.5748)">
+   <g  id="copper1">
+    <g fill="none" cx="3.01733"  cy="3.01733" stroke="black" r="0.992124" id="5" stroke-width="0.850392"/>
+   </g>
+  </g>
+ </g>
+ <g partID="3209011">
+  <g transform="translate(82.468,28.6612)">
+   <g  id="copper1">
+    <g fill="none" cx="3.01733"  cy="3.01733" stroke="black" r="0.992124" id="6" stroke-width="0.850392"/>
+   </g>
+  </g>
+ </g>
+ <g partID="3216131">
+  <g transform="translate(11.602,14.4884)">
+   <g  id="copper1">
+    <g fill="none" cx="3.01733"  cy="3.01733" stroke="black" r="0.992124" id="7" stroke-width="0.850392"/>
+   </g>
+  </g>
+ </g>
+ <g partID="3216861">
+  <g transform="translate(68.2949,8.81877)">
+   <g  id="copper1">
+    <g fill="none" cx="3.01733"  cy="3.01733" stroke="black" r="0.992124" id="8" stroke-width="0.850392"/>
+   </g>
+  </g>
+ </g>
+ <g partID="3218601">
+  <g transform="translate(56.2476,8.81877)">
+   <g  id="copper1">
+    <g fill="none" cx="3.01733"  cy="3.01733" stroke="black" r="0.992124" id="9" stroke-width="0.850392"/>
+   </g>
+  </g>
+ </g>
+ <g partID="3241161">
+  <g transform="translate(43.4918,26.5356)">
+   <g  id="copper1">
+    <g fill="none" cx="3.01733"  cy="3.01733" stroke="black" r="0.992124" id="10" stroke-width="0.850392"/>
+   </g>
+  </g>
+ </g>
+ <g partID="3241861">
+  <g transform="translate(3.09805,20.1575)">
+   <g  id="copper1">
+    <g fill="none" cx="3.01733"  cy="3.01733" stroke="black" r="0.992124" id="11" stroke-width="0.850392"/>
+   </g>
+  </g>
+ </g>
+ <g partID="3256381">
+  <g transform="translate(133.492,64.8028)">
+   <g  id="copper1">
+    <g fill="none" cx="3.01733"  cy="3.01733" stroke="black" r="0.992124" id="12" stroke-width="0.850392"/>
+   </g>
+  </g>
+ </g>
+ <g partID="3275401">
+  <g transform="translate(65.4603,26.5356)">
+   <g  id="copper1">
+    <g fill="none" cx="3.01733"  cy="3.01733" stroke="black" r="0.992124" id="13" stroke-width="0.850392"/>
+   </g>
+  </g>
+ </g>
+ <g partID="3295741">
+  <g transform="translate(29.3185,50.63)">
+   <g  id="copper1">
+    <g fill="none" cx="3.01733"  cy="3.01733" stroke="black" r="0.992124" id="14" stroke-width="0.850392"/>
+   </g>
+  </g>
+ </g>
+ <g partID="3300401">
+  <g transform="translate(8.05868,35.748)">
+   <g  id="copper1">
+    <g fill="none" cx="3.01733"  cy="3.01733" stroke="black" r="0.992124" id="15" stroke-width="0.850392"/>
+   </g>
+  </g>
+ </g>
+ <g partID="3301481">
+  <g transform="translate(9.47602,50.63)">
+   <g  id="copper1">
+    <g fill="none" cx="3.01733"  cy="3.01733" stroke="black" r="0.992124" id="16" stroke-width="0.850392"/>
+   </g>
+  </g>
+ </g>
+ <g partID="3311031">
+  <g transform="translate(29.3185,45.6693)">
+   <g  id="copper1">
+    <g fill="none" cx="3.01733"  cy="3.01733" stroke="black" r="0.992124" id="17" stroke-width="0.850392"/>
+   </g>
+  </g>
+ </g>
+ <g partID="3311661">
+  <g transform="translate(15.8539,45.6692)">
+   <g  id="copper1">
+    <g fill="none" cx="3.01733"  cy="3.01733" stroke="black" r="0.992124" id="18" stroke-width="0.850392"/>
+   </g>
+  </g>
+ </g>
+ <g partID="3317191">
+  <g transform="translate(47.0351,54.1732)">
+   <g  id="copper1">
+    <g fill="none" cx="3.01733"  cy="3.01733" stroke="black" r="0.992124" id="19" stroke-width="0.850392"/>
+   </g>
+  </g>
+ </g>
+ <g partID="3344670">
+  <g transform="translate(-15.8354,71.7726)">
+   <g transform="matrix(-4.44089e-16,-1,1,-4.44089e-16,0,0)">
+    <g transform="matrix(1.25, 0, 0, -1.25, 5.66929, 71.5748)">
+     <g id="copper1">
+      <g gorn="0.3.0.0.0.0.0.0">
+       <g transform="scale(1,-1)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="-4.53543" y="-34.2425" fill="black" gorn="0.3.0.0.0.0.0.0.0.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="20"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="scale(1,-1)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="-4.53543" y="-27.4394" fill="black" gorn="0.3.0.0.0.0.0.0.1.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="21"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="scale(1,-1)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="-4.53543" y="-20.6362" fill="black" gorn="0.3.0.0.0.0.0.0.2.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="22"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="scale(1,-1)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="-4.53543" y="-13.8331" fill="black" gorn="0.3.0.0.0.0.0.0.3.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="23"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="scale(1,-1)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="-4.53543" y="-7.02992" fill="black" gorn="0.3.0.0.0.0.0.0.4.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="24"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="scale(1,-1)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="-4.53543" y="-30.8409" fill="black" gorn="0.3.0.0.0.0.0.0.5.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="25"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="scale(1,-1)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="-4.53543" y="-24.0378" fill="black" gorn="0.3.0.0.0.0.0.0.6.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="26"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="scale(1,-1)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="-4.53543" y="-17.2346" fill="black" gorn="0.3.0.0.0.0.0.0.7.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="27"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="scale(1,-1)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="-4.53543" y="-10.4315" fill="black" gorn="0.3.0.0.0.0.0.0.8.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="28"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="scale(1,-1)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="-4.53543" y="-3.62835" fill="black" gorn="0.3.0.0.0.0.0.0.9.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="29"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="scale(1,-1)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="-4.53543" y="-41.0457" fill="black" gorn="0.3.0.0.0.0.0.0.10.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="30"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="scale(1,-1)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="-4.53543" y="-37.6441" fill="black" gorn="0.3.0.0.0.0.0.0.11.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="31"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="scale(1,-1)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="40.8189" y="-34.2425" fill="black" gorn="0.3.0.0.0.0.0.0.12.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="32"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="scale(1,-1)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="40.8189" y="-27.4394" fill="black" gorn="0.3.0.0.0.0.0.0.13.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="33"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="scale(1,-1)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="40.8189" y="-20.6362" fill="black" gorn="0.3.0.0.0.0.0.0.14.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="34"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="scale(1,-1)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="40.8189" y="-13.8331" fill="black" gorn="0.3.0.0.0.0.0.0.15.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="35"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="scale(1,-1)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="40.8189" y="-7.02992" fill="black" gorn="0.3.0.0.0.0.0.0.16.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="36"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="scale(1,-1)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="40.8189" y="-30.8409" fill="black" gorn="0.3.0.0.0.0.0.0.17.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="37"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="scale(1,-1)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="40.8189" y="-24.0378" fill="black" gorn="0.3.0.0.0.0.0.0.18.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="38"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="scale(1,-1)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="40.8189" y="-17.2346" fill="black" gorn="0.3.0.0.0.0.0.0.19.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="39"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="scale(1,-1)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="40.8189" y="-10.4315" fill="black" gorn="0.3.0.0.0.0.0.0.20.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="40"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="scale(1,-1)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="40.8189" y="-3.62835" fill="black" gorn="0.3.0.0.0.0.0.0.21.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="41"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="scale(1,-1)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="40.8189" y="-41.0457" fill="black" gorn="0.3.0.0.0.0.0.0.22.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="42"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="scale(1,-1)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="40.8189" y="-37.6441" fill="black" gorn="0.3.0.0.0.0.0.0.23.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="43"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="matrix(0,-1,-1,0,0,0)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="-4.53543" y="-35.7165" fill="black" gorn="0.3.0.0.0.0.0.0.24.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="44"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="matrix(0,-1,-1,0,0,0)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="-4.53543" y="-28.9134" fill="black" gorn="0.3.0.0.0.0.0.0.25.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="45"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="matrix(0,-1,-1,0,0,0)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="-4.53543" y="-22.1102" fill="black" gorn="0.3.0.0.0.0.0.0.26.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="46"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="matrix(0,-1,-1,0,0,0)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="-4.53543" y="-15.5339" fill="black" gorn="0.3.0.0.0.0.0.0.27.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="47"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="matrix(0,-1,-1,0,0,0)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="-4.53543" y="-32.315" fill="black" gorn="0.3.0.0.0.0.0.0.28.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="48"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="matrix(0,-1,-1,0,0,0)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="-4.53543" y="-25.5118" fill="black" gorn="0.3.0.0.0.0.0.0.29.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="49"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="matrix(0,-1,-1,0,0,0)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="-4.53543" y="-18.9354" fill="black" gorn="0.3.0.0.0.0.0.0.30.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="50"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+       <g transform="matrix(0,-1,-1,0,0,0)">
+        <g>
+         <g>
+          <g>
+           <g>
+            <g>
+             <g>
+              <rect width="9.07087" x="-4.53543" y="-12.1323" fill="black" gorn="0.3.0.0.0.0.0.0.31.0.0.0.0.0.0" height="2.72126" stroke="none" style="fill-rule:nonzero;" fill-opacity="1" id="51"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="2072540">
+  <g transform="translate(108.588,23.8838)">
+   <g transform="matrix(3.38618e-15,1,-1,3.38618e-15,0,0)">
+    <g  id="copper1">
+     <rect width="4.53543" x="0.566929" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="52" stroke-width="0"/>
+     <rect width="4.53543" x="9.35433" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="53" stroke-width="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="2072960">
+  <g transform="translate(141.187,13.9623)">
+   <g transform="matrix(0,1,-1,0,0,0)">
+    <g  id="copper1">
+     <rect width="4.53543" x="0.566929" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="54" stroke-width="0"/>
+     <rect width="4.53543" x="9.35433" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="55" stroke-width="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="2073380">
+  <g transform="translate(133.391,13.9623)">
+   <g transform="matrix(1.27676e-15,1,-1,1.27676e-15,0,0)">
+    <g  id="copper1">
+     <rect width="4.53543" x="0.566929" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="56" stroke-width="0"/>
+     <rect width="4.53543" x="9.35433" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="57" stroke-width="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="2073800">
+  <g transform="translate(148.273,4.7495)">
+   <g transform="matrix(1.55431e-15,1,-1,1.55431e-15,0,0)">
+    <g  id="copper1">
+     <rect width="4.53543" x="0.566929" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="58" stroke-width="0"/>
+     <rect width="4.53543" x="9.35433" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="59" stroke-width="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="2057801">
+  <g transform="translate(89.3736,58.9492)">
+   <g transform="matrix(2.22045e-16,1,-1,2.22045e-16,0,0)">
+    <g  id="copper1">
+     <g fill="none" cx="5.328"  cy="3.888" stroke="black" id="60" r="2.124" stroke-width="1.08"/>
+     <g fill="black"  stroke="none" id="61" stroke-width="0" d="m0,3.888a2.664,2.664,0,0,0,2.664,2.664l5.328,0a2.664,2.664,0,0,0,2.664,-2.664l0,0a2.664,2.664,0,0,0,-2.664,-2.664l-5.328,0a2.664,2.664,0,0,0,-2.664,2.664l0,0zM5.328,2.304a1.584,1.584,0,1,1,0,3.168,1.584,1.584,0,1,1,0,-3.168z"/>
+     <g fill="none" cx="5.328"  cy="11.088" stroke="black" id="62" r="2.124" stroke-width="1.08"/>
+     <g fill="black"  stroke="none" id="63" stroke-width="0" d="m0,11.088a2.664,2.664,0,0,0,2.664,2.664l5.328,0a2.664,2.664,0,0,0,2.664,-2.664l0,0a2.664,2.664,0,0,0,-2.664,-2.664l-5.328,0a2.664,2.664,0,0,0,-2.664,2.664l0,0zM5.328,9.504a1.584,1.584,0,1,1,0,3.168,1.584,1.584,0,1,1,0,-3.168z"/>
+     <g fill="none" cx="5.328"  cy="18.288" stroke="black" id="64" r="2.124" stroke-width="1.08"/>
+     <g fill="black"  stroke="none" id="65" stroke-width="0" d="m0,18.288a2.664,2.664,0,0,0,2.664,2.664l5.328,0a2.664,2.664,0,0,0,2.664,-2.664l0,0a2.664,2.664,0,0,0,-2.664,-2.664l-5.328,0a2.664,2.664,0,0,0,-2.664,2.664l0,0zM5.328,16.704a1.584,1.584,0,1,1,0,3.168,1.584,1.584,0,1,1,0,-3.168z"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="2106211">
+  <g transform="translate(94.7216,69.6052)">
+   <g transform="matrix(-4.44089e-16,-1,1,-4.44089e-16,0,0)">
+    <g  id="copper1">
+     <g fill="none" cx="5.328"  cy="3.888" stroke="black" id="66" r="2.124" stroke-width="1.08"/>
+     <g fill="black"  stroke="none" id="67" stroke-width="0" d="m0,3.888a2.664,2.664,0,0,0,2.664,2.664l5.328,0a2.664,2.664,0,0,0,2.664,-2.664l0,0a2.664,2.664,0,0,0,-2.664,-2.664l-5.328,0a2.664,2.664,0,0,0,-2.664,2.664l0,0zM5.328,2.304a1.584,1.584,0,1,1,0,3.168,1.584,1.584,0,1,1,0,-3.168z"/>
+     <g fill="none" cx="5.328"  cy="11.088" stroke="black" id="68" r="2.124" stroke-width="1.08"/>
+     <g fill="black"  stroke="none" id="69" stroke-width="0" d="m0,11.088a2.664,2.664,0,0,0,2.664,2.664l5.328,0a2.664,2.664,0,0,0,2.664,-2.664l0,0a2.664,2.664,0,0,0,-2.664,-2.664l-5.328,0a2.664,2.664,0,0,0,-2.664,2.664l0,0zM5.328,9.504a1.584,1.584,0,1,1,0,3.168,1.584,1.584,0,1,1,0,-3.168z"/>
+     <g fill="none" cx="5.328"  cy="18.288" stroke="black" id="70" r="2.124" stroke-width="1.08"/>
+     <g fill="black"  stroke="none" id="71" stroke-width="0" d="m0,18.288a2.664,2.664,0,0,0,2.664,2.664l5.328,0a2.664,2.664,0,0,0,2.664,-2.664l0,0a2.664,2.664,0,0,0,-2.664,-2.664l-5.328,0a2.664,2.664,0,0,0,-2.664,2.664l0,0zM5.328,16.704a1.584,1.584,0,1,1,0,3.168,1.584,1.584,0,1,1,0,-3.168z"/>
+     <g fill="none" cx="5.328"  cy="25.488" stroke="black" id="72" r="2.124" stroke-width="1.08"/>
+     <g fill="black"  stroke="none" id="73" stroke-width="0" d="m0,25.488a2.664,2.664,0,0,0,2.664,2.664l5.328,0a2.664,2.664,0,0,0,2.664,-2.664l0,0a2.664,2.664,0,0,0,-2.664,-2.664l-5.328,0a2.664,2.664,0,0,0,-2.664,2.664l0,0zM5.328,23.904a1.584,1.584,0,1,1,0,3.168,1.584,1.584,0,1,1,0,-3.168z"/>
+     <g fill="none" cx="5.328"  cy="32.688" stroke="black" id="74" r="2.124" stroke-width="1.08"/>
+     <g fill="black"  stroke="none" id="75" stroke-width="0" d="m0,32.688a2.664,2.664,0,0,0,2.664,2.664l5.328,0a2.664,2.664,0,0,0,2.664,-2.664l0,0a2.664,2.664,0,0,0,-2.664,-2.664l-5.328,0a2.664,2.664,0,0,0,-2.664,2.664l0,0zM5.328,31.104a1.584,1.584,0,1,1,0,3.168,1.584,1.584,0,1,1,0,-3.168z"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="2074340">
+  <g transform="translate(118.367,28.1357)">
+   <g transform="matrix(-2.77556e-16,-1,1,-2.77556e-16,0,0)">
+    <g  id="copper1">
+     <rect width="4.53543" x="0.566929" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="76" stroke-width="0"/>
+     <rect width="4.53543" x="9.35433" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="77" stroke-width="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="2095721">
+  <g transform="translate(179.37,4.06437)">
+   <g  id="copper1">
+    <g fill="none" cx="5.328"  cy="3.888" stroke="black" id="78" r="2.124" stroke-width="1.08"/>
+    <g fill="black"  stroke="none" id="79" stroke-width="0" d="m0,3.888a2.664,2.664,0,0,0,2.664,2.664l5.328,0a2.664,2.664,0,0,0,2.664,-2.664l0,0a2.664,2.664,0,0,0,-2.664,-2.664l-5.328,0a2.664,2.664,0,0,0,-2.664,2.664l0,0zM5.328,2.304a1.584,1.584,0,1,1,0,3.168,1.584,1.584,0,1,1,0,-3.168z"/>
+    <g fill="none" cx="5.328"  cy="11.088" stroke="black" id="80" r="2.124" stroke-width="1.08"/>
+    <g fill="black"  stroke="none" id="81" stroke-width="0" d="m0,11.088a2.664,2.664,0,0,0,2.664,2.664l5.328,0a2.664,2.664,0,0,0,2.664,-2.664l0,0a2.664,2.664,0,0,0,-2.664,-2.664l-5.328,0a2.664,2.664,0,0,0,-2.664,2.664l0,0zM5.328,9.504a1.584,1.584,0,1,1,0,3.168,1.584,1.584,0,1,1,0,-3.168z"/>
+    <g fill="none" cx="5.328"  cy="18.288" stroke="black" id="82" r="2.124" stroke-width="1.08"/>
+    <g fill="black"  stroke="none" id="83" stroke-width="0" d="m0,18.288a2.664,2.664,0,0,0,2.664,2.664l5.328,0a2.664,2.664,0,0,0,2.664,-2.664l0,0a2.664,2.664,0,0,0,-2.664,-2.664l-5.328,0a2.664,2.664,0,0,0,-2.664,2.664l0,0zM5.328,16.704a1.584,1.584,0,1,1,0,3.168,1.584,1.584,0,1,1,0,-3.168z"/>
+    <g fill="none" cx="5.328"  cy="25.488" stroke="black" id="84" r="2.124" stroke-width="1.08"/>
+    <g fill="black"  stroke="none" id="85" stroke-width="0" d="m0,25.488a2.664,2.664,0,0,0,2.664,2.664l5.328,0a2.664,2.664,0,0,0,2.664,-2.664l0,0a2.664,2.664,0,0,0,-2.664,-2.664l-5.328,0a2.664,2.664,0,0,0,-2.664,2.664l0,0zM5.328,23.904a1.584,1.584,0,1,1,0,3.168,1.584,1.584,0,1,1,0,-3.168z"/>
+    <g fill="none" cx="5.328"  cy="32.688" stroke="black" id="86" r="2.124" stroke-width="1.08"/>
+    <g fill="black"  stroke="none" id="87" stroke-width="0" d="m0,32.688a2.664,2.664,0,0,0,2.664,2.664l5.328,0a2.664,2.664,0,0,0,2.664,-2.664l0,0a2.664,2.664,0,0,0,-2.664,-2.664l-5.328,0a2.664,2.664,0,0,0,-2.664,2.664l0,0zM5.328,31.104a1.584,1.584,0,1,1,0,3.168,1.584,1.584,0,1,1,0,-3.168z"/>
+    <g fill="none" cx="5.328"  cy="39.888" stroke="black" id="88" r="2.124" stroke-width="1.08"/>
+    <g fill="black"  stroke="none" id="89" stroke-width="0" d="m0,39.888a2.664,2.664,0,0,0,2.664,2.664l5.328,0a2.664,2.664,0,0,0,2.664,-2.664l0,0a2.664,2.664,0,0,0,-2.664,-2.664l-5.328,0a2.664,2.664,0,0,0,-2.664,2.664l0,0zM5.328,38.304a1.584,1.584,0,1,1,0,3.168,1.584,1.584,0,1,1,0,-3.168z"/>
+    <g fill="none" cx="5.328"  cy="47.088" stroke="black" id="90" r="2.124" stroke-width="1.08"/>
+    <g fill="black"  stroke="none" id="91" stroke-width="0" d="m0,47.088a2.664,2.664,0,0,0,2.664,2.664l5.328,0a2.664,2.664,0,0,0,2.664,-2.664l0,0a2.664,2.664,0,0,0,-2.664,-2.664l-5.328,0a2.664,2.664,0,0,0,-2.664,2.664l0,0zM5.328,45.504a1.584,1.584,0,1,1,0,3.168,1.584,1.584,0,1,1,0,-3.168z"/>
+    <g fill="none" cx="5.328"  cy="54.288" stroke="black" id="92" r="2.124" stroke-width="1.08"/>
+    <g fill="black"  stroke="none" id="93" stroke-width="0" d="m0,54.288a2.664,2.664,0,0,0,2.664,2.664l5.328,0a2.664,2.664,0,0,0,2.664,-2.664l0,0a2.664,2.664,0,0,0,-2.664,-2.664l-5.328,0a2.664,2.664,0,0,0,-2.664,2.664l0,0zM5.328,52.704a1.584,1.584,0,1,1,0,3.168,1.584,1.584,0,1,1,0,-3.168z"/>
+    <g fill="none" cx="5.328"  cy="61.488" stroke="black" id="94" r="2.124" stroke-width="1.08"/>
+    <g fill="black"  stroke="none" id="95" stroke-width="0" d="m0,61.488a2.664,2.664,0,0,0,2.664,2.664l5.328,0a2.664,2.664,0,0,0,2.664,-2.664l0,0a2.664,2.664,0,0,0,-2.664,-2.664l-5.328,0a2.664,2.664,0,0,0,-2.664,2.664l0,0zM5.328,59.904a1.584,1.584,0,1,1,0,3.168,1.584,1.584,0,1,1,0,-3.168z"/>
+   </g>
+  </g>
+ </g>
+ <g partID="2074760">
+  <g transform="translate(158.478,13.5372)">
+   <g transform="matrix(1,-6.66134e-16,6.66134e-16,1,0,0)">
+    <g  id="copper1">
+     <rect width="4.53543" x="0.566929" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="96" stroke-width="0"/>
+     <rect width="4.53543" x="9.35433" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="97" stroke-width="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="2075180">
+  <g transform="translate(95.1234,29.5527)">
+   <g transform="matrix(9.4369e-16,1,-1,9.4369e-16,0,0)">
+    <g  id="copper1">
+     <rect width="4.53543" x="0.566929" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="98" stroke-width="0"/>
+     <rect width="4.53543" x="9.35433" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="99" stroke-width="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="2075720">
+  <g transform="translate(87.6111,10.844)">
+   <g transform="matrix(-1,1.83187e-15,-1.83187e-15,-1,0,0)">
+    <g  id="copper1">
+     <rect width="4.53543" x="0.566929" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="100" stroke-width="0"/>
+     <rect width="4.53543" x="9.35433" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="101" stroke-width="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="2076800">
+  <g transform="translate(170.1,38.0565)">
+   <g transform="matrix(-6.66134e-16,-1,1,-6.66134e-16,0,0)">
+    <g  id="copper1">
+     <rect width="4.53543" x="0.566929" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="102" stroke-width="0"/>
+     <rect width="4.53543" x="9.35433" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="103" stroke-width="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="2076980">
+  <g transform="translate(135.092,35.5052)">
+   <g transform="matrix(1,-1.55431e-15,1.55431e-15,1,0,0)">
+    <g  id="copper1">
+     <rect width="4.53543" x="0.566929" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="104" stroke-width="0"/>
+     <rect width="4.53543" x="9.35433" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="105" stroke-width="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="2077160">
+  <g transform="translate(142.639,34.0692)">
+   <g transform="matrix(-9.4369e-16,-1,1,-9.4369e-16,0,0)">
+    <g  id="copper1" stroke-width="0">
+     <rect width="1.728" x="4.248" y="14.832" fill="black"  height="6.264" stroke="none" id="106" stroke-width="0"/>
+     <rect width="1.728" x="0.648" y="0" fill="black"  height="6.264" stroke="none" id="107" stroke-width="0"/>
+     <rect width="1.728" x="7.848" y="0" fill="black"  height="6.264" stroke="none" id="108" stroke-width="0"/>
+     <rect width="1.728" x="7.848" y="14.832" fill="black"  height="6.264" stroke="none" id="109" stroke-width="0"/>
+     <rect width="1.728" x="4.248" y="0" fill="black"  height="6.264" stroke="none" id="110" stroke-width="0"/>
+     <rect width="1.728" x="11.448" y="14.832" fill="black"  height="6.264" stroke="none" id="111" stroke-width="0"/>
+     <rect width="1.728" x="11.448" y="0" fill="black"  height="6.264" stroke="none" id="112" stroke-width="0"/>
+     <rect width="1.728" x="0.648" y="14.832" fill="black"  height="6.264" stroke="none" id="113" stroke-width="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="2078560">
+  <g transform="translate(131.407,72.4974)">
+   <g transform="matrix(-6.66134e-16,-1,1,-6.66134e-16,0,0)">
+    <g  id="copper1">
+     <rect width="9.92126" x="-3.62017e-07" y="8.50395" fill="black"  height="4.53543" stroke="none" fill-opacity="1" id="114" stroke-width="0"/>
+     <rect width="9.92126" x="15.3071" y="8.50395" fill="black"  height="4.53543" stroke="none" fill-opacity="1" id="115" stroke-width="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="2078700">
+  <g transform="translate(134.1,49.5373)">
+   <g transform="matrix(-1,9.4369e-16,-9.4369e-16,-1,0,0)">
+    <g  id="copper1">
+     <rect width="9.92126" x="-3.62017e-07" y="8.50395" fill="black"  height="4.53543" stroke="none" fill-opacity="1" id="116" stroke-width="0"/>
+     <rect width="9.92126" x="15.3071" y="8.50395" fill="black"  height="4.53543" stroke="none" fill-opacity="1" id="117" stroke-width="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="2344770">
+  <g transform="translate(178.745,64.4189)">
+   <g transform="matrix(-1,1.83187e-15,-1.83187e-15,-1,0,0)">
+    <g  id="copper1">
+     <rect width="9.92126" x="-3.62017e-07" y="8.50395" fill="black"  height="4.53543" stroke="none" fill-opacity="1" id="118" stroke-width="0"/>
+     <rect width="9.92126" x="15.3071" y="8.50395" fill="black"  height="4.53543" stroke="none" fill-opacity="1" id="119" stroke-width="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="2079160">
+  <g transform="translate(118.793,4.46597)">
+   <g transform="matrix(1,-3.9968e-15,3.9968e-15,1,0,0)">
+    <g  id="copper1">
+     <rect width="5.66929" x="0.566929" y="1.41732" fill="black"  height="3.40157" stroke="none" fill-opacity="1" id="120" stroke-width="0"/>
+     <rect width="5.66929" x="8.50394" y="1.41732" fill="black"  height="3.40157" stroke="none" fill-opacity="1" id="121" stroke-width="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="2338400">
+  <g transform="translate(167.69,41.3169)">
+   <g transform="matrix(-1,2.77556e-16,-2.77556e-16,-1,0,0)">
+    <g  id="copper1">
+     <rect width="4.53543" x="0.566929" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="122" stroke-width="0"/>
+     <rect width="4.53543" x="9.35433" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="123" stroke-width="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="2588521">
+  <g transform="translate(95.9328,44.2516)">
+   <g  id="copper1">
+    <g fill="none" cx="3.01733"  cy="3.01733" stroke="black" r="0.992124" id="124" stroke-width="0.850392"/>
+   </g>
+  </g>
+ </g>
+ <g partID="2596381">
+  <g transform="translate(69.7122,21.5748)">
+   <g  id="copper1">
+    <g fill="none" cx="3.01733"  cy="3.01733" stroke="black" r="0.992124" id="125" stroke-width="0.850392"/>
+   </g>
+  </g>
+ </g>
+ <g partID="2660970">
+  <g transform="translate(87.7532,31.9619)">
+   <g transform="matrix(2.22045e-16,1,-1,2.22045e-16,0,0)">
+    <g  id="copper1">
+     <rect width="9.92126" x="-3.62017e-07" y="8.50395" fill="black"  height="4.53543" stroke="none" fill-opacity="1" id="126" stroke-width="0"/>
+     <rect width="9.92126" x="15.3071" y="8.50395" fill="black"  height="4.53543" stroke="none" fill-opacity="1" id="127" stroke-width="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="2666260">
+  <g transform="translate(126.588,56.9073)">
+   <g transform="matrix(-1,2.77556e-16,-2.77556e-16,-1,0,0)">
+    <g  id="copper1">
+     <rect width="4.53543" x="0.566929" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="128" stroke-width="0"/>
+     <rect width="4.53543" x="9.35433" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="129" stroke-width="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="2667940">
+  <g transform="translate(110.289,56.9073)">
+   <g transform="matrix(-1,2.77556e-16,-2.77556e-16,-1,0,0)">
+    <g  id="copper1">
+     <rect width="4.53543" x="0.566929" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="130" stroke-width="0"/>
+     <rect width="4.53543" x="9.35433" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="131" stroke-width="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="2701390">
+  <g transform="translate(88.6037,73.4901)">
+   <g transform="matrix(0,-1,1,0,0,0)">
+    <g  id="copper1">
+     <rect width="4.53543" x="0.566929" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="132" stroke-width="0"/>
+     <rect width="4.53543" x="9.35433" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="133" stroke-width="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="2742140">
+  <g transform="translate(113.548,24.0253)">
+   <g transform="matrix(-1,0,0,-1,0,0)">
+    <g  id="copper1">
+     <rect width="9.92126" x="-3.62017e-07" y="8.50395" fill="black"  height="4.53543" stroke="none" fill-opacity="1" id="134" stroke-width="0"/>
+     <rect width="9.92126" x="15.3071" y="8.50395" fill="black"  height="4.53543" stroke="none" fill-opacity="1" id="135" stroke-width="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="3347520">
+  <g transform="translate(37.2965,23.6)">
+   <g transform="matrix(-1,0,0,-1,0,0)">
+    <g  id="copper1">
+     <rect width="4.53543" x="0.566929" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="136" stroke-width="0"/>
+     <rect width="4.53543" x="9.35433" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="137" stroke-width="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="3350350">
+  <g transform="translate(31.202,37.348)">
+   <g transform="matrix(-4.44089e-16,-1,1,-4.44089e-16,0,0)">
+    <g  id="copper1">
+     <rect width="4.53543" x="0.566929" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="138" stroke-width="0"/>
+     <rect width="4.53543" x="9.35433" y="0.566929" fill="black"  height="5.38583" stroke="none" fill-opacity="1" id="139" stroke-width="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g partID="3353510">
+  <g transform="translate(9.09132,19.247)">
+   <g  id="copper1">
+    <rect width="9.99728" x="1.6" y="1.6" fill="black"  height="7.49019" stroke="none" fill-opacity="1" id="140" stroke-width="0"/>
+    <g width="0.8" x="10.7973" y="1.6" fill="none"  height="7.49019" stroke="none" id="141" stroke-width="0"/>
+   </g>
+  </g>
+ </g>
+ <g partID="3353780">
+  <g transform="translate(16.4132,31.8411)">
+   <g  id="copper1">
+    <rect width="10.4707" x="1.6" y="1.6" fill="black"  height="7.81381" stroke="none" fill-opacity="1" id="142" stroke-width="0"/>
+    <g width="0.8" x="11.2707" y="1.6" fill="none"  height="7.81381" stroke="none" id="143" stroke-width="0"/>
+   </g>
+  </g>
+ </g>
+</svg>

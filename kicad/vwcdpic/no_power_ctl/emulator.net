@@ -1,0 +1,312 @@
+# EESchema Netlist Version 1.1 created  Fri 07 Feb 2014 04:07:06 PM CET
+(
+ ( /52E771C6 c-smd-6.3mmx8mm C1 100m
+  ( 1 +12V )
+  ( 2 AGND )
+ )
+ ( /52D02F40 SM1206 C2 100n
+  ( 1 POWER_CTL )
+  ( 2 GND )
+ )
+ ( /52D02F45 SM1206 C3 100n
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /52E56B09 TC-D-7343-31-A C4 47m
+  ( 1 N-000005 )
+  ( 2 AGND )
+ )
+ ( /52D3D19D TC-A-3216-18-A C5 2m2
+  ( 1 AGND )
+  ( 2 N-000001 )
+ )
+ ( /52D3C8BA c-smd-5mmx6.1mm C6 10m
+  ( 1 right_in )
+  ( 2 N-000025 )
+ )
+ ( /52D3C91A c-smd-5mmx6.1mm C7 10m
+  ( 1 left_in )
+  ( 2 N-000021 )
+ )
+ ( /52D3D12D c-smd-5mmx6.1mm C8 47m
+  ( 1 N-000023 )
+  ( 2 right_out )
+ )
+ ( /52D3D123 c-smd-5mmx6.1mm C9 47m
+  ( 1 N-000022 )
+  ( 2 left_out )
+ )
+ ( /52E79ABE SM1206POL C10 100n
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /52E79ACE SM1206POL C11 100n
+  ( 1 N-000005 )
+  ( 2 AGND )
+ )
+ ( /52E771D7 SM1210L L1 330uH
+  ( 1 +12V )
+  ( 2 N-000005 )
+ )
+ ( /52D3D325 PINHEAD1-6 P1 CONN_6
+  ( 1 ? )
+  ( 2 POWER_CTL )
+  ( 3 GND )
+  ( 4 CLK )
+  ( 5 DataIn )
+  ( 6 DataOut )
+ )
+ ( /52D52591 PINHEAD1-3 P2 IN
+  ( 1 right_in )
+  ( 2 AGND )
+  ( 3 left_in )
+ )
+ ( /52E903D0 PINHEAD1-3 P3 OUT
+  ( 1 left_out )
+  ( 2 AGND )
+  ( 3 right_out )
+ )
+ ( /52E918F7 PINHEAD1-2 P4 POWER
+  ( 1 +12V )
+  ( 2 AGND )
+ )
+ ( /52D03054 SM1206 R1 10k
+  ( 1 GND )
+  ( 2 +5V )
+ )
+ ( /52D02AC2 SM1206 R5 3k3
+  ( 1 N-000017 )
+  ( 2 CLK )
+ )
+ ( /52D02ABB SM1206 R6 3k3
+  ( 1 N-000016 )
+  ( 2 DataIn )
+ )
+ ( /52D02B05 SM1206 R7 3k3
+  ( 1 N-000015 )
+  ( 2 DataOut )
+ )
+ ( /52D3D16C SM1206 R8 10k
+  ( 1 N-000001 )
+  ( 2 N-000005 )
+ )
+ ( /52D3D170 SM1206 R9 10k
+  ( 1 AGND )
+  ( 2 N-000001 )
+ )
+ ( /52D3CF9C SM1206 R10 10k
+  ( 1 AGND )
+  ( 2 right_in )
+ )
+ ( /52D3CF9F SM1206 R11 10k
+  ( 1 left_in )
+  ( 2 AGND )
+ )
+ ( /52D3CF88 SM1206 R12 100k
+  ( 1 N-000025 )
+  ( 2 N-000001 )
+ )
+ ( /52D3CF91 SM1206 R13 100k
+  ( 1 N-000001 )
+  ( 2 N-000021 )
+ )
+ ( /52D3CE47 SM1206 R14 330k
+  ( 1 N-000024 )
+  ( 2 N-000001 )
+ )
+ ( /52D3CE54 SM1206 R15 330k
+  ( 1 N-000018 )
+  ( 2 N-000001 )
+ )
+ ( /52D3CE2F SM1206 R16 7M5
+  ( 1 N-000024 )
+  ( 2 N-000023 )
+ )
+ ( /52D3CE44 SM1206 R17 7M5
+  ( 1 N-000018 )
+  ( 2 N-000022 )
+ )
+ ( /52D02953 SO8E U1 PIC12F629
+  ( 1 +5V )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 +5V )
+  ( 5 N-000015 )
+  ( 6 N-000016 )
+  ( 7 N-000017 )
+  ( 8 GND )
+ )
+ ( /52D02F38 SOT223 U2 78L05
+  ( 1 GND )
+  ( 2 +5V )
+  ( 3 POWER_CTL )
+  ( 4 +5V )
+ )
+ ( /52D3B907 SO8E U3 TL072
+  ( 1 N-000023 )
+  ( 2 N-000024 )
+  ( 3 N-000025 )
+  ( 4 AGND )
+  ( 5 N-000021 )
+  ( 6 N-000018 )
+  ( 7 N-000022 )
+  ( 8 N-000005 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

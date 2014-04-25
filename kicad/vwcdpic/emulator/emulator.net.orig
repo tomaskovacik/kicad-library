@@ -1,0 +1,440 @@
+# EESchema Netlist Version 1.1 created  Tue 14 Jan 2014 08:59:25 AM CET
+(
+ ( /52D3D325 $noname  P1 CONN_10 {Lib=CONN_10}
+  (    1 right_out )
+  (    2 left_out )
+  (    3 left_in )
+  (    4 right_in )
+  (    5 +12V )
+  (    6 POWER_CTL )
+  (    7 GND )
+  (    8 DataOut )
+  (    9 DataIn )
+  (   10 CLK )
+ )
+ ( /52D3D1A1 $noname  C4 2m2 {Lib=C}
+  (    1 N-000008 )
+  (    2 +12V )
+ )
+ ( /52D3D19D $noname  C5 2m2 {Lib=C}
+  (    1 GND )
+  (    2 N-000008 )
+ )
+ ( /52D3D170 $noname  R9 10k {Lib=R}
+  (    1 GND )
+  (    2 N-000008 )
+ )
+ ( /52D3D16C $noname  R8 10k {Lib=R}
+  (    1 N-000008 )
+  (    2 +12V )
+ )
+ ( /52D3D12D $noname  C8 47m {Lib=C}
+  (    1 N-000002 )
+  (    2 right_out )
+ )
+ ( /52D3D123 $noname  C9 47m {Lib=C}
+  (    1 N-000001 )
+  (    2 left_out )
+ )
+ ( /52D3CF9F $noname  R11 10k {Lib=R}
+  (    1 left_in )
+  (    2 GND )
+ )
+ ( /52D3CF9C $noname  R10 10k {Lib=R}
+  (    1 GND )
+  (    2 right_in )
+ )
+ ( /52D3CF91 $noname  R13 100k {Lib=R}
+  (    1 N-000008 )
+  (    2 N-000004 )
+ )
+ ( /52D3CF88 $noname  R12 100k {Lib=R}
+  (    1 N-000020 )
+  (    2 N-000008 )
+ )
+ ( /52D3CE54 $noname  R15 330k {Lib=R}
+  (    1 N-000005 )
+  (    2 N-000008 )
+ )
+ ( /52D3CE47 $noname  R14 330k {Lib=R}
+  (    1 N-000019 )
+  (    2 N-000008 )
+ )
+ ( /52D3CE44 $noname  R17 7M5 {Lib=R}
+  (    1 N-000005 )
+  (    2 N-000001 )
+ )
+ ( /52D3CE2F $noname  R16 7M5 {Lib=R}
+  (    1 N-000019 )
+  (    2 N-000002 )
+ )
+ ( /52D3C91A $noname  C7 10m {Lib=C}
+  (    1 left_in )
+  (    2 N-000004 )
+ )
+ ( /52D3C8BA $noname  C6 10m {Lib=C}
+  (    1 right_in )
+  (    2 N-000020 )
+ )
+ ( /52D3BCC3 SO8  Q1 IRF7343PBF {Lib=IRF7343PBF}
+  (    1 GND )
+  (    2 POWER_CTL )
+  (    3 N-000013 )
+  (    4 N-000003 )
+  (    5 +12V )
+  (    6 +12V )
+  (    7 N-000024 )
+  (    8 N-000024 )
+ )
+ ( /52D3B907 $noname  U3 TL072 {Lib=TL072}
+  (    1 N-000002 )
+  (    2 N-000019 )
+  (    3 N-000020 )
+  (    4 GND )
+  (    5 N-000004 )
+  (    6 N-000005 )
+  (    7 N-000001 )
+  (    8 +12V )
+ )
+ ( /52D032A3 $noname  R3 1k {Lib=R}
+  (    1 N-000003 )
+  (    2 +12V )
+ )
+ ( /52D0329F $noname  R4 1k5 {Lib=R}
+  (    1 N-000024 )
+  (    2 N-000003 )
+ )
+ ( /52D0329B $noname  R2 1M {Lib=R}
+  (    1 GND )
+  (    2 POWER_CTL )
+ )
+ ( /52D0328F $noname  C1 1m {Lib=C}
+  (    1 POWER_CTL )
+  (    2 GND )
+ )
+ ( /52D03054 $noname  R1 10k {Lib=R}
+  (    1 N-000026 )
+  (    2 +5V )
+ )
+ ( /52D02F45 $noname  C3 100n {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /52D02F40 $noname  C2 100n {Lib=C}
+  (    1 N-000013 )
+  (    2 GND )
+ )
+ ( /52D02F38 $noname  U2 78L05 {Lib=78L05}
+  (  GND GND )
+  (   VI N-000013 )
+  (   VO +5V )
+ )
+ ( /52D02B05 $noname  R7 3k3 {Lib=R}
+  (    1 N-000016 )
+  (    2 DataOut )
+ )
+ ( /52D02AC2 $noname  R5 3k3 {Lib=R}
+  (    1 N-000018 )
+  (    2 CLK )
+ )
+ ( /52D02ABB $noname  R6 3k3 {Lib=R}
+  (    1 N-000017 )
+  (    2 DataIn )
+ )
+ ( /52D02953 SOIC  U1 PIC12F629 {Lib=PIC12F629}
+  (    1 +5V )
+  (    2 ? )
+  (    3 ? )
+  (    4 N-000026 )
+  (    5 N-000016 )
+  (    6 N-000017 )
+  (    7 N-000018 )
+  (    8 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component Q1
+ SO8*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ C9 1
+ R17 2
+ U3 7
+Net 2 "" ""
+ R16 2
+ C8 1
+ U3 1
+Net 3 "" ""
+ R3 1
+ Q1 4
+ R4 2
+Net 4 "" ""
+ R13 2
+ U3 5
+ C7 2
+Net 5 "" ""
+ U3 6
+ R17 1
+ R15 1
+Net 6 "+12V" "+12V"
+ R8 2
+ R3 2
+ P1 5
+ C4 2
+ Q1 6
+ Q1 5
+ U3 8
+Net 7 "GND" "GND"
+ U1 8
+ U3 4
+ P1 7
+ C1 2
+ R2 1
+ C5 1
+ R9 1
+ R11 2
+ R10 1
+ C2 2
+ C3 2
+ U2 GND
+ Q1 1
+Net 8 "" ""
+ R9 2
+ R12 2
+ R15 2
+ R14 2
+ C4 1
+ R13 1
+ C5 2
+ R8 1
+Net 9 "right_out" "right_out"
+ C8 2
+ P1 1
+Net 10 "left_out" "left_out"
+ C9 2
+ P1 2
+Net 11 "left_in" "left_in"
+ R11 1
+ P1 3
+ C7 1
+Net 12 "right_in" "right_in"
+ C6 1
+ P1 4
+ R10 2
+Net 13 "" ""
+ Q1 3
+ C2 1
+ U2 VI
+Net 16 "" ""
+ R7 1
+ U1 5
+Net 17 "" ""
+ U1 6
+ R6 1
+Net 18 "" ""
+ U1 7
+ R5 1
+Net 19 "" ""
+ U3 2
+ R14 1
+ R16 1
+Net 20 "" ""
+ U3 3
+ R12 1
+ C6 2
+Net 21 "DataOut" "DataOut"
+ P1 8
+ R7 2
+Net 22 "CLK" "CLK"
+ R5 2
+ P1 10
+Net 23 "DataIn" "DataIn"
+ R6 2
+ P1 9
+Net 24 "" ""
+ R4 1
+ Q1 7
+ Q1 8
+Net 25 "POWER_CTL" "POWER_CTL"
+ Q1 2
+ R2 2
+ C1 1
+ P1 6
+Net 26 "" ""
+ R1 1
+ U1 4
+Net 27 "+5V" "+5V"
+ C3 1
+ U2 VO
+ U1 1
+ R1 2
+}
+#End

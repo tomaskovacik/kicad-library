@@ -1,0 +1,858 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+<netlist sketch="emulator_smd_Bluetooth.fzz" date="Fri Oct 25 13:02:42 2013">
+ <net>
+  <connector id="connector1" name="1">
+   <part title="Ceramic Capacitor" id="2460450" label="C12"/>
+  </connector>
+  <connector id="connector1" name="+">
+   <part title="Electrolytic Capacitor" id="2660970" label="C10"/>
+  </connector>
+  <connector id="connector2" name="IN">
+   <part title="Voltage Regulator" id="3066200" label="U6"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2023770" label="12Vswitched"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2029360" label="12Vswitched"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2016640" label="12Vswitched"/>
+  </connector>
+  <connector id="connector0" name="pin 0">
+   <part title="Inductor" id="2463210" label="L3"/>
+  </connector>
+  <connector id="connector1" name="Pin 1">
+   <part title="10k Ω Resistor" id="2075180" label="R29"/>
+  </connector>
+  <connector id="connector7" name="8">
+   <part title="SO08" id="2077160" label="IC4"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="Pin 0">
+   <part title="10k Ω Resistor" id="2667940" label="R42"/>
+  </connector>
+  <connector id="connector2" name="IN">
+   <part title="Voltage Regulator" id="2883800" label="U5"/>
+  </connector>
+  <connector id="connector1" name="pin2">
+   <part title="Generic longpad header - 5 pins" id="2106210" label="ICSP"/>
+  </connector>
+  <connector id="connector1" name="1">
+   <part title="Ceramic Capacitor" id="2666260" label="C13"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2883780" label="5V"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2879360" label="5V"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2761070" label="5V"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2025150" label="5V"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2105980" label="5V"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2025050" label="5V"/>
+  </connector>
+  <connector id="connector0" name="1">
+   <part title="SO08" id="2174650" label="IC3"/>
+  </connector>
+  <connector id="connector1" name="OUT">
+   <part title="Voltage Regulator" id="3066200" label="U6"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part title="10k Ω Resistor" id="3233640" label="R51"/>
+  </connector>
+  <connector id="connector7" name="8">
+   <part title="SO08" id="3232020" label="IC6"/>
+  </connector>
+  <connector id="connector1" name="Pin 1">
+   <part title="10k Ω Resistor" id="3233940" label="R50"/>
+  </connector>
+  <connector id="connector1" name="Pin 1">
+   <part title="10k Ω Resistor" id="3235340" label="R48"/>
+  </connector>
+  <connector id="connector13" name="14">
+   <part title="SOIC-14" id="3227680" label="IC7"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector15" name="1V8">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+  <connector id="connector1" name="Pin 1">
+   <part title="10k Ω Resistor" id="3315580" label="R49"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector4" name="5">
+   <part title="SOIC-14" id="3227680" label="IC7"/>
+  </connector>
+  <connector id="connector1" name="2">
+   <part title="SO08" id="3232020" label="IC6"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector3" name="4">
+   <part title="SOIC-14" id="3227680" label="IC7"/>
+  </connector>
+  <connector id="connector13" name="PIO[14]">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector24" name="GND">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+  <connector id="connector6" name="7">
+   <part title="SOIC-14" id="3227680" label="IC7"/>
+  </connector>
+  <connector id="connector0" name="GND">
+   <part title="Ground" id="2879550" label="Ground13"/>
+  </connector>
+  <connector id="connector0" name="GND">
+   <part title="Ground" id="1971220" label="Ground2"/>
+  </connector>
+  <connector id="connector0" name="GND">
+   <part title="Ground" id="1982390" label="Ground3"/>
+  </connector>
+  <connector id="connector0" name="GND">
+   <part title="Ground" id="2024330" label="Ground5"/>
+  </connector>
+  <connector id="connector0" name="GND">
+   <part title="Ground" id="2026260" label="Ground7"/>
+  </connector>
+  <connector id="connector0" name="GND">
+   <part title="Ground" id="2034490" label="Ground8"/>
+  </connector>
+  <connector id="connector0" name="GND">
+   <part title="Ground" id="2058690" label="Ground9"/>
+  </connector>
+  <connector id="connector0" name="GND">
+   <part title="Ground" id="2097490" label="Ground10"/>
+  </connector>
+  <connector id="connector0" name="GND">
+   <part title="Ground" id="2105310" label="Ground11"/>
+  </connector>
+  <connector id="connector0" name="GND">
+   <part title="Ground" id="2761130" label="Ground12"/>
+  </connector>
+  <connector id="connector0" name="GND">
+   <part title="Ground" id="2883790" label="Ground15"/>
+  </connector>
+  <connector id="connector0" name="GND">
+   <part title="Ground" id="2903950" label="Ground16"/>
+  </connector>
+  <connector id="connector17" name="GND">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+  <connector id="connector3" name="pin4">
+   <part title="Generic longpad header - 9 pins" id="2095720" label="radio"/>
+  </connector>
+  <connector id="connector1" name="pin2">
+   <part title="Generic longpad header - 3 pins" id="2057800" label="rs232"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part title="10 Ω Resistor" id="2338400" label="R47"/>
+  </connector>
+  <connector id="connector2" name="pin3">
+   <part title="Generic longpad header - 5 pins" id="2106210" label="ICSP"/>
+  </connector>
+  <connector id="connector16" name="GND">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+  <connector id="connector0" name="-">
+   <part title="Electrolytic Capacitor" id="2463530" label="C11"/>
+  </connector>
+  <connector id="connector7" name="8">
+   <part title="SO08" id="2174650" label="IC3"/>
+  </connector>
+  <connector id="connector0" name="0">
+   <part title="Ceramic Capacitor" id="2460450" label="C12"/>
+  </connector>
+  <connector id="connector3" name="4">
+   <part title="SO08" id="3232020" label="IC6"/>
+  </connector>
+  <connector id="connector0" name="ADJ">
+   <part title="Voltage Regulator" id="2883800" label="U5"/>
+  </connector>
+  <connector id="connector0" name="-">
+   <part title="Tantalum Capacitor" id="2467450" label="C19"/>
+  </connector>
+  <connector id="connector0" name="1">
+   <part title="SO08" id="2465070" label="IC5"/>
+  </connector>
+  <connector id="connector0" name="-">
+   <part title="Electrolytic Capacitor" id="2660970" label="C10"/>
+  </connector>
+  <connector id="connector1" name="Pin 1">
+   <part title="1M Ω Resistor" id="2466310" label="R43"/>
+  </connector>
+  <connector id="connector0" name="0">
+   <part title="Ceramic Capacitor" id="2909040" label="C20"/>
+  </connector>
+  <connector id="connector0" name="ADJ">
+   <part title="Voltage Regulator" id="3066200" label="U6"/>
+  </connector>
+  <connector id="connector0" name="0">
+   <part title="Ceramic Capacitor" id="2666260" label="C13"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="Pin 1">
+   <part title="10k Ω Resistor" id="3233640" label="R51"/>
+  </connector>
+  <connector id="connector19" name="RST#">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector34" name="L+">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+  <connector id="connector1" name="Pin 1">
+   <part title="10k Ω Resistor" id="2072540" label="R34"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2878350" label="LeftIn"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2001070" label="LeftIn"/>
+  </connector>
+  <connector id="connector0" name="-">
+   <part title="Electrolytic Capacitor" id="2078700" label="C18"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="OUT">
+   <part title="Voltage Regulator" id="2883800" label="U5"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2883810" label="3.3"/>
+  </connector>
+  <connector id="connector1" name="1">
+   <part title="Ceramic Capacitor" id="2909040" label="C20"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2884880" label="3.3"/>
+  </connector>
+  <connector id="connector28" name="BAT_IN">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector7" name="8">
+   <part title="SOIC-14" id="3227680" label="IC7"/>
+  </connector>
+  <connector id="connector27" name="Vreg">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="1">
+   <part title="SOIC-14" id="3227680" label="IC7"/>
+  </connector>
+  <connector id="connector12" name="PIO[13]">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="Pin 1">
+   <part title="10k Ω Resistor" id="2075720" label="R35"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2001210" label="rightIn"/>
+  </connector>
+  <connector id="connector0" name="-">
+   <part title="Electrolytic Capacitor" id="2742140" label="C14"/>
+  </connector>
+  <connector id="connector36" name="R+">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2878330" label="rightIn"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector10" name="11">
+   <part title="SOIC-14" id="3227680" label="IC7"/>
+  </connector>
+  <connector id="connector14" name="PIO[5]">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="pin2">
+   <part title="Microphone" id="3335680" label="MIC1"/>
+  </connector>
+  <connector id="connector1" name="1">
+   <part title="Ceramic Capacitor" id="3329380" label="C21"/>
+  </connector>
+  <connector id="connector31" name="MIC+">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="pin1">
+   <part title="Microphone" id="3335680" label="MIC1"/>
+  </connector>
+  <connector id="connector0" name="pin 0">
+   <part title="Inductor" id="3328770" label="L4"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="0">
+   <part title="Ceramic Capacitor" id="3329380" label="C21"/>
+  </connector>
+  <connector id="connector1" name="pin 1">
+   <part title="Inductor" id="3328770" label="L4"/>
+  </connector>
+  <connector id="connector30" name="MIC_BIAS">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector5" name="6">
+   <part title="SO08" id="2077160" label="IC4"/>
+  </connector>
+  <connector id="connector1" name="Pin 1">
+   <part title="330k Ω Resistor" id="2072960" label="R30"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part title="7.5M Ω Resistor" id="2076980" label="R27"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="Pin 0">
+   <part title="10k Ω Resistor" id="2075180" label="R29"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part title="330k Ω Resistor" id="2074760" label="R31"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part title="10k Ω Resistor" id="2075720" label="R35"/>
+  </connector>
+  <connector id="connector1" name="Pin 1">
+   <part title="10k Ω Resistor" id="2073800" label="R28"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part title="100k Ω Resistor" id="2074340" label="R32"/>
+  </connector>
+  <connector id="connector1" name="+">
+   <part title="Tantalum Capacitor" id="2079160" label="C15"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part title="330k Ω Resistor" id="2072960" label="R30"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part title="100k Ω Resistor" id="2073380" label="R33"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part title="10k Ω Resistor" id="2072540" label="R34"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector3" name="4">
+   <part title="SO08" id="2077160" label="IC4"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2090490" label="audioGND"/>
+  </connector>
+  <connector id="connector0" name="-">
+   <part title="Tantalum Capacitor" id="2079160" label="C15"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2878550" label="audioGND"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2097470" label="audioGND"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2096690" label="audioGND"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part title="10k Ω Resistor" id="2073800" label="R28"/>
+  </connector>
+  <connector id="connector32" name="AGND">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+  <connector id="connector1" name="Pin 1">
+   <part title="10 Ω Resistor" id="2338400" label="R47"/>
+  </connector>
+  <connector id="connector7" name="pin8">
+   <part title="Generic longpad header - 9 pins" id="2095720" label="radio"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="+">
+   <part title="Electrolytic Capacitor" id="2344770" label="C17"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="1997370" label="rightOut"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="1997340" label="rightOut"/>
+  </connector>
+  <connector id="connector6" name="pin7">
+   <part title="Generic longpad header - 9 pins" id="2095720" label="radio"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="1996910" label="leftOut"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="1996880" label="leftOut"/>
+  </connector>
+  <connector id="connector1" name="+">
+   <part title="Electrolytic Capacitor" id="2078560" label="C16"/>
+  </connector>
+  <connector id="connector8" name="pin9">
+   <part title="Generic longpad header - 9 pins" id="2095720" label="radio"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="Pin 1">
+   <part title="7.5M Ω Resistor" id="2076800" label="R26"/>
+  </connector>
+  <connector id="connector1" name="2">
+   <part title="SO08" id="2077160" label="IC4"/>
+  </connector>
+  <connector id="connector1" name="Pin 1">
+   <part title="330k Ω Resistor" id="2074760" label="R31"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2" name="3">
+   <part title="SO08" id="2174650" label="IC3"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part title="1k Ω Resistor" id="2180180" label="R40*"/>
+  </connector>
+  <connector id="connector1" name="Pin 1">
+   <part title="3.3k Ω Resistor" id="2180620" label="R47**"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="2">
+   <part title="SO08" id="2174650" label="IC3"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part title="1k Ω Resistor" id="2176030" label="R41*"/>
+  </connector>
+  <connector id="connector1" name="Pin 1">
+   <part title="3.3k Ω Resistor" id="2176620" label="R48**"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="Pin 1">
+   <part title="10k Ω Resistor" id="2667940" label="R42"/>
+  </connector>
+  <connector id="connector3" name="4">
+   <part title="SO08" id="2174650" label="IC3"/>
+  </connector>
+  <connector id="connector0" name="pin1">
+   <part title="Generic longpad header - 5 pins" id="2106210" label="ICSP"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector4" name="5">
+   <part title="SO08" id="2077160" label="IC4"/>
+  </connector>
+  <connector id="connector1" name="+">
+   <part title="Electrolytic Capacitor" id="2078700" label="C18"/>
+  </connector>
+  <connector id="connector1" name="Pin 1">
+   <part title="100k Ω Resistor" id="2073380" label="R33"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="+">
+   <part title="Electrolytic Capacitor" id="2742140" label="C14"/>
+  </connector>
+  <connector id="connector1" name="Pin 1">
+   <part title="100k Ω Resistor" id="2074340" label="R32"/>
+  </connector>
+  <connector id="connector2" name="3">
+   <part title="SO08" id="2077160" label="IC4"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="Pin 0">
+   <part title="7.5M Ω Resistor" id="2076800" label="R26"/>
+  </connector>
+  <connector id="connector0" name="-">
+   <part title="Electrolytic Capacitor" id="2344770" label="C17"/>
+  </connector>
+  <connector id="connector0" name="1">
+   <part title="SO08" id="2077160" label="IC4"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="Pin 1">
+   <part title="7.5M Ω Resistor" id="2076980" label="R27"/>
+  </connector>
+  <connector id="connector0" name="-">
+   <part title="Electrolytic Capacitor" id="2078560" label="C16"/>
+  </connector>
+  <connector id="connector6" name="7">
+   <part title="SO08" id="2077160" label="IC4"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="+">
+   <part title="Electrolytic Capacitor" id="2463530" label="C11"/>
+  </connector>
+  <connector id="connector1" name="pin 1">
+   <part title="Inductor" id="2463210" label="L3"/>
+  </connector>
+  <connector id="connector4" name="5">
+   <part title="SO08" id="2465070" label="IC5"/>
+  </connector>
+  <connector id="connector5" name="6">
+   <part title="SO08" id="2465070" label="IC5"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="Pin 0">
+   <part title="1k Ω Resistor" id="2701390" label="R40**"/>
+  </connector>
+  <connector id="connector1" name="Pin 1">
+   <part title="3.3k Ω Resistor" id="2178700" label="R48*"/>
+  </connector>
+  <connector id="connector6" name="7">
+   <part title="SO08" id="2174650" label="IC3"/>
+  </connector>
+  <connector id="connector3" name="pin4">
+   <part title="Generic longpad header - 5 pins" id="2106210" label="ICSP"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="Pin 0">
+   <part title="1k Ω Resistor" id="2178920" label="R41**"/>
+  </connector>
+  <connector id="connector1" name="Pin 1">
+   <part title="3.3k Ω Resistor" id="2179980" label="R47*"/>
+  </connector>
+  <connector id="connector5" name="6">
+   <part title="SO08" id="2174650" label="IC3"/>
+  </connector>
+  <connector id="connector4" name="pin5">
+   <part title="Generic longpad header - 5 pins" id="2106210" label="ICSP"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="Pin 1">
+   <part title="1k Ω Resistor" id="2701390" label="R40**"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2070600" label="19200"/>
+  </connector>
+  <connector id="connector1" name="Pin 1">
+   <part title="1k Ω Resistor" id="2180180" label="R40*"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2057820" label="19200"/>
+  </connector>
+  <connector id="connector0" name="pin1">
+   <part title="Generic longpad header - 3 pins" id="2057800" label="rs232"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="Pin 1">
+   <part title="1k Ω Resistor" id="2178920" label="R41**"/>
+  </connector>
+  <connector id="connector1" name="Pin 1">
+   <part title="1k Ω Resistor" id="2176030" label="R41*"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2070610" label="9600"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2761110" label="9600"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2057850" label="9600"/>
+  </connector>
+  <connector id="connector2" name="3">
+   <part title="SO08" id="3232020" label="IC6"/>
+  </connector>
+  <connector id="connector2" name="pin3">
+   <part title="Generic longpad header - 3 pins" id="2057800" label="rs232"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="Pin 0">
+   <part title="3.3k Ω Resistor" id="2180620" label="R47**"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2059610" label="dataIn"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part title="3.3k Ω Resistor" id="2179980" label="R47*"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2055220" label="dataIn"/>
+  </connector>
+  <connector id="connector0" name="pin1">
+   <part title="Generic longpad header - 9 pins" id="2095720" label="radio"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="Pin 0">
+   <part title="3.3k Ω Resistor" id="2176620" label="R48**"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2059630" label="clock"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part title="3.3k Ω Resistor" id="2178700" label="R48*"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2056130" label="clock"/>
+  </connector>
+  <connector id="connector1" name="pin2">
+   <part title="Generic longpad header - 9 pins" id="2095720" label="radio"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2059790" label="dataOut"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2056190" label="dataOut"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part title="3.3k Ω Resistor" id="2179880" label="R46"/>
+  </connector>
+  <connector id="connector2" name="pin3">
+   <part title="Generic longpad header - 9 pins" id="2095720" label="radio"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="Pin 1">
+   <part title="3.3k Ω Resistor" id="2179880" label="R46"/>
+  </connector>
+  <connector id="connector4" name="5">
+   <part title="SO08" id="2174650" label="IC3"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="Pin 1">
+   <part title="1k Ω Resistor" id="2464470" label="R45"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part title="1.5k Ω Resistor" id="2464230" label="R44"/>
+  </connector>
+  <connector id="connector3" name="4">
+   <part title="SO08" id="2465070" label="IC5"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="Pin 0">
+   <part title="1k Ω Resistor" id="2464470" label="R45"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2032080" label="12Vbat"/>
+  </connector>
+  <connector id="connector2" name="3">
+   <part title="SO08" id="2465070" label="IC5"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2031960" label="12Vbat"/>
+  </connector>
+  <connector id="connector5" name="pin6">
+   <part title="Generic longpad header - 9 pins" id="2095720" label="radio"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector7" name="8">
+   <part title="SO08" id="2465070" label="IC5"/>
+  </connector>
+  <connector id="connector6" name="7">
+   <part title="SO08" id="2465070" label="IC5"/>
+  </connector>
+  <connector id="connector1" name="Pin 1">
+   <part title="1.5k Ω Resistor" id="2464230" label="R44"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="+">
+   <part title="Tantalum Capacitor" id="2467450" label="C19"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part title="1M Ω Resistor" id="2466310" label="R43"/>
+  </connector>
+  <connector id="connector2" name="1">
+   <part title="PNP-Transistor" id="2466990" label="Q1"/>
+  </connector>
+  <connector id="connector1" name="2">
+   <part title="SO08" id="2465070" label="IC5"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2032090" label="switch"/>
+  </connector>
+  <connector id="connector0" name="pin one">
+   <part title="Net Label" id="2032020" label="switch"/>
+  </connector>
+  <connector id="connector1" name="0">
+   <part title="PNP-Transistor" id="2466990" label="Q1"/>
+  </connector>
+  <connector id="connector4" name="pin5">
+   <part title="Generic longpad header - 9 pins" id="2095720" label="radio"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector4" name="5">
+   <part title="SO08" id="3232020" label="IC6"/>
+  </connector>
+  <connector id="connector12" name="13">
+   <part title="SOIC-14" id="3227680" label="IC7"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector5" name="6">
+   <part title="SO08" id="3232020" label="IC6"/>
+  </connector>
+  <connector id="connector11" name="12">
+   <part title="SOIC-14" id="3227680" label="IC7"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector6" name="7">
+   <part title="SO08" id="3232020" label="IC6"/>
+  </connector>
+  <connector id="connector5" name="6">
+   <part title="SOIC-14" id="3227680" label="IC7"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="1">
+   <part title="SO08" id="3232020" label="IC6"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part title="10k Ω Resistor" id="3233940" label="R50"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2" name="3">
+   <part title="SOIC-14" id="3227680" label="IC7"/>
+  </connector>
+  <connector id="connector1" name="2">
+   <part title="SOIC-14" id="3227680" label="IC7"/>
+  </connector>
+  <connector id="connector9" name="10">
+   <part title="SOIC-14" id="3227680" label="IC7"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part title="10k Ω Resistor" id="3315580" label="R49"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector8" name="9">
+   <part title="SOIC-14" id="3227680" label="IC7"/>
+  </connector>
+  <connector id="connector0" name="Pin 0">
+   <part title="10k Ω Resistor" id="3235340" label="R48"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="2">
+   <part title="PNP-Transistor" id="2466990" label="Q1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector5" name="PIO[9]">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector4" name="PIO[3]">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector11" name="PIO[12]">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector35" name="R-">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector2" name="PIO[2]">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector10" name="PIO[11]">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector1" name="PIO[1]">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector33" name="L-">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector0" name="PIO[0]">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector29" name="5V+">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector26" name="LED[1]">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector25" name="LED[0]">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector23" name="MISO">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector22" name="CSB">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector21" name="CLK">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector20" name="MOSI">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+ </net>
+ <net>
+  <connector id="connector18" name="PIO[4]">
+   <part title="Bluetooth Audio Module" id="2911680" label="CM-15113 (BTM-68D)1"/>
+  </connector>
+ </net>
+</netlist>
