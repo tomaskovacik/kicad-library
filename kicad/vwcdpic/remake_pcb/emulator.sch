@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 30 Jan 2014 06:18:36 PM CET
+EESchema Schematic File Version 2  date Thu 03 Jul 2014 14:20:35 CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "30 jan 2014"
+Date "3 jul 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -44,6 +44,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 10650 7650 0    60   ~ 0
+3
+Text Notes 7400 7550 0    60   ~ 0
+redraw of vwcdpic project v3 to kicad
+Text Notes 2000 2750 0    60   ~ 0
+for firmware version 3.x
 Wire Wire Line
 	3200 1450 3200 1550
 Wire Wire Line
