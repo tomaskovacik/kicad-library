@@ -2,4 +2,6 @@ code for pic v2: https://github.com/tomaskovacik/soft/blob/master/vwcdpic/vwcdpi
 
 hex for pic v3: https://github.com/tomaskovacik/soft/tree/master/vwcdpic
 
-one of "vwcdpic-3.x" I really do not remembre which one is right one.
+one of "vwcdpic-3.x"
+
+I use http://rweather.github.io/ardpicprog/index.html to burn pics
