@@ -1,3 +1,5 @@
+talk about this is here http://kovo-blog.blogspot.sk/2014/02/cd-changer-emulator.html
+
 hex for PIC: https://github.com/tomaskovacik/soft/tree/master/vwcdpic
 
 one of "vwcdpic-3.x" I really do not remembre which one is right one.
