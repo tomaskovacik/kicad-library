@@ -1,0 +1,157 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Fri 28 Mar 2014 06:35:06 PM CET
+
+BeginCmp
+TimeStamp = /5331718F;
+Reference = C1;
+ValeurCmp = 0.1m;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53316C9B;
+Reference = C2;
+ValeurCmp = 22;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53316DBF;
+Reference = C3;
+ValeurCmp = 0.1m;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53316C9F;
+Reference = C4;
+ValeurCmp = 22;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5335A581;
+Reference = C5;
+ValeurCmp = C;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /5335A584;
+Reference = C6;
+ValeurCmp = C;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /53317FC2;
+Reference = D1;
+ValeurCmp = Green_LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /53318026;
+Reference = D2;
+ValeurCmp = Green_RED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5335B1E9;
+Reference = D3;
+ValeurCmp = 1N4148;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5335A8D7;
+Reference = D4;
+ValeurCmp = 1N4148;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /53316A2F;
+Reference = IC1;
+ValeurCmp = ATMEGA88A-A;
+IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /53318F84;
+Reference = P1;
+ValeurCmp = CONN_6;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53317E59;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = SIL-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53317E62;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = SIL-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /533174DE;
+Reference = P4;
+ValeurCmp = CONN_7;
+IdModule  = SIL-7;
+EndCmp
+
+BeginCmp
+TimeStamp = /53317FCD;
+Reference = R1;
+ValeurCmp = 330;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53318025;
+Reference = R2;
+ValeurCmp = 330;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /53316DE9;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5331693A;
+Reference = SHIELD1;
+ValeurCmp = ARDUINO_SHIELD;
+IdModule  = ARDUINO_SHIELD;
+EndCmp
+
+BeginCmp
+TimeStamp = /53316EFA;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = SW_PUSH_SMALL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5335A58C;
+Reference = U1;
+ValeurCmp = 78L05;
+IdModule  = SOT223;
+EndCmp
+
+BeginCmp
+TimeStamp = /53316C89;
+Reference = X1;
+ValeurCmp = 16MHz;
+IdModule  = xtal2-11.5mmx4.83mm;
+EndCmp
+
+EndListe

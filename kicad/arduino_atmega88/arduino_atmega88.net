@@ -1,0 +1,237 @@
+# EESchema Netlist Version 1.1 created  Fri 28 Mar 2014 06:35:06 PM CET
+(
+ ( /5331718F SM1206 C1 0.1m
+  ( 1 GND )
+  ( 2 /AREF )
+ )
+ ( /53316C9B SM1206 C2 22
+  ( 1 GND )
+  ( 2 N-000029 )
+ )
+ ( /53316DBF SM1206 C3 0.1m
+  ( 1 /RESET )
+  ( 2 /DTR )
+ )
+ ( /53316C9F SM1206 C4 22
+  ( 1 GND )
+  ( 2 N-000028 )
+ )
+ ( /5335A581 SM1210 C5 C
+  ( 1 /Vin )
+  ( 2 GND )
+ )
+ ( /5335A584 SM1210 C6 C
+  ( 1 N-000033 )
+  ( 2 GND )
+ )
+ ( /53317FC2 LED-3MM D1 Green_LED
+  ( 1 N-000032 )
+  ( 2 GND )
+ )
+ ( /53318026 LED-3MM D2 Green_RED
+  ( 1 N-000035 )
+  ( 2 GND )
+ )
+ ( /5335B1E9 SM1206POL D3 1N4148
+  ( 1 N-000033 )
+  ( 2 +5V )
+ )
+ ( /5335A8D7 SM1206POL D4 1N4148
+  ( 1 N-000005 )
+  ( 2 +5V )
+ )
+ ( /53316A2F TQFP32 IC1 ATMEGA88A-A
+  ( 1 /D3 )
+  ( 2 /D4 )
+  ( 3 GND )
+  ( 4 +5V )
+  ( 5 GND )
+  ( 6 +5V )
+  ( 7 N-000029 )
+  ( 8 N-000028 )
+  ( 9 /D5 )
+  ( 10 /D6 )
+  ( 11 /D7 )
+  ( 12 /D8 )
+  ( 13 /D9 )
+  ( 14 /D10 )
+  ( 15 /MOSI )
+  ( 16 /MISO )
+  ( 17 /SCK )
+  ( 18 +5V )
+  ( 19 /A6 )
+  ( 20 /AREF )
+  ( 21 GND )
+  ( 22 /A7 )
+  ( 23 /A0 )
+  ( 24 /A1 )
+  ( 25 /A2 )
+  ( 26 /A3 )
+  ( 27 /A4 )
+  ( 28 /A5 )
+  ( 29 /RESET )
+  ( 30 /RX )
+  ( 31 /TX )
+  ( 32 /D2 )
+ )
+ ( /53318F84 pin_array_3x2 P1 CONN_6
+  ( 1 /MISO )
+  ( 2 +5V )
+  ( 3 /SCK )
+  ( 4 /MOSI )
+  ( 5 /RESET )
+  ( 6 GND )
+ )
+ ( /53317E59 SIL-1 P2 CONN_1
+  ( 1 /A6 )
+ )
+ ( /53317E62 SIL-1 P3 CONN_1
+  ( 1 /A7 )
+ )
+ ( /533174DE SIL-7 P4 CONN_7
+  ( 1 /DTR )
+  ( 2 ? )
+  ( 3 +3.3V )
+  ( 4 N-000005 )
+  ( 5 /TX )
+  ( 6 /RX )
+  ( 7 GND )
+ )
+ ( /53317FCD SM1206 R1 330
+  ( 1 /SCK )
+  ( 2 N-000032 )
+ )
+ ( /53318025 SM1206 R2 330
+  ( 1 +5V )
+  ( 2 N-000035 )
+ )
+ ( /53316DE9 SM1206 R3 10k
+  ( 1 +5V )
+  ( 2 /RESET )
+ )
+ ( /5331693A ARDUINO_SHIELD SHIELD1 ARDUINO_SHIELD
+  ( 0 /RX )
+  ( 1 /TX )
+  ( 2 /D2 )
+  ( 3 /D3 )
+  ( 3V3 +3.3V )
+  ( 4 /D4 )
+  ( 5 /D5 )
+  ( 5V +5V )
+  ( 6 /D6 )
+  ( 7 /D7 )
+  ( 8 /D8 )
+  ( 9 /D9 )
+  ( 10 /D10 )
+  ( 11 /MOSI )
+  ( 12 /MISO )
+  ( 13 /SCK )
+  ( AD0 /A0 )
+  ( AD1 /A1 )
+  ( AD2 /A2 )
+  ( AD3 /A3 )
+  ( AD4 /A4 )
+  ( AD5 /A5 )
+  ( AREF /AREF )
+  ( GND1 GND )
+  ( GND2 GND )
+  ( GND3 GND )
+  ( RST /RESET )
+  ( V_IN /Vin )
+ )
+ ( /53316EFA SW_PUSH_SMALL SW1 SW_PUSH
+  ( 1 /RESET )
+  ( 2 GND )
+ )
+ ( /5335A58C SOT223 U1 78L05
+  ( 1 N-000033 )
+  ( 2 GND )
+  ( 3 /Vin )
+  ( 4 N-000033 )
+ )
+ ( /53316C89 xtal2-11.5mmx4.83mm X1 16MHz
+  ( 1 N-000029 )
+  ( 2 N-000028 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component D4
+ D?
+ S*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
