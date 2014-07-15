@@ -1,0 +1,546 @@
+# EESchema Netlist Version 1.1 created  Thu 13 Mar 2014 06:37:27 PM CET
+(
+ ( /5320822A $noname  R9 3k3 {Lib=R}
+  (    1 N-000021 )
+  (    2 /NEXT )
+ )
+ ( /53208228 $noname  R8 3k3 {Lib=R}
+  (    1 N-000022 )
+  (    2 /PLAY )
+ )
+ ( /53208224 $noname  R7 3k3 {Lib=R}
+  (    1 N-000046 )
+  (    2 /PREV )
+ )
+ ( /5321A235 $noname  C10 47m {Lib=C}
+  (    1 +BATT )
+  (    2 GNDA )
+ )
+ ( /5321A218 $noname  L1 330u {Lib=INDUCTOR}
+  (    1 +BATT )
+  (    2 N-000047 )
+ )
+ ( /53219F99 $noname  P3 CONN_5 {Lib=CONN_5}
+  (    1 GNDA )
+  (    2 N-000047 )
+  (    3 /RIGHT_OUT )
+  (    4 GNDA )
+  (    5 /LEFT_OUT )
+ )
+ ( /53219EF9 $noname  C5 2m2 {Lib=C}
+  (    1 GNDA )
+  (    2 N-000049 )
+ )
+ ( /53219ED0 $noname  C9 47m {Lib=C}
+  (    1 N-000010 )
+  (    2 /LEFT_OUT )
+ )
+ ( /53219EC3 $noname  C8 47m {Lib=C}
+  (    1 N-000008 )
+  (    2 /RIGHT_OUT )
+ )
+ ( /53219EBD $noname  R11 10k {Lib=R}
+  (    1 N-000049 )
+  (    2 GNDA )
+ )
+ ( /53219EB7 $noname  R10 10k {Lib=R}
+  (    1 +BATT )
+  (    2 N-000049 )
+ )
+ ( /53219EAF $noname  R13 10k {Lib=R}
+  (    1 GNDA )
+  (    2 /LEFT_IN )
+ )
+ ( /53219EA6 $noname  R12 10k {Lib=R}
+  (    1 /RIGHT_IN )
+  (    2 GNDA )
+ )
+ ( /53219E76 $noname  R19 7M5 {Lib=R}
+  (    1 N-000015 )
+  (    2 N-000010 )
+ )
+ ( /53219E64 $noname  R18 7M5 {Lib=R}
+  (    1 N-000014 )
+  (    2 N-000008 )
+ )
+ ( /53219D37 $noname  R17 330k {Lib=R}
+  (    1 N-000049 )
+  (    2 N-000015 )
+ )
+ ( /53219D2D $noname  R16 330k {Lib=R}
+  (    1 N-000014 )
+  (    2 N-000049 )
+ )
+ ( /53219D1F $noname  R15 100k {Lib=R}
+  (    1 N-000049 )
+  (    2 N-000048 )
+ )
+ ( /53219D12 $noname  R14 100k {Lib=R}
+  (    1 N-000013 )
+  (    2 N-000049 )
+ )
+ ( /53219B9A $noname  C7 10m {Lib=C}
+  (    1 /LEFT_IN )
+  (    2 N-000048 )
+ )
+ ( /53219B8A $noname  C6 10m {Lib=C}
+  (    1 /RIGHT_IN )
+  (    2 N-000013 )
+ )
+ ( /53219AEC $noname  U3 TL072 {Lib=TL072}
+  (    1 N-000008 )
+  (    2 N-000014 )
+  (    3 N-000013 )
+  (    4 GNDA )
+  (    5 N-000048 )
+  (    6 N-000015 )
+  (    7 N-000010 )
+  (    8 +BATT )
+ )
+ ( /5320858C $noname  R5 560 {Lib=R}
+  (    1 /MIC+ )
+  (    2 N-000030 )
+ )
+ ( /5320857B $noname  R6 220 {Lib=R}
+  (    1 /MIC+ )
+  (    2 N-000003 )
+ )
+ ( /532084FA $noname  P2 CONN_4 {Lib=CONN_4}
+  (    1 /LEFT_IN )
+  (    2 GNDA )
+  (    3 /RIGHT_IN )
+  (    4 /MIC+ )
+ )
+ ( /53207AF5 $noname  U2 4066 {Lib=4066}
+  (    1 N-000030 )
+  (    2 GNDA )
+  (    3 GNDA )
+  (    4 /MIC+ )
+  (    5 /PLAY )
+  (    6 /NEXT )
+  (    7 GND )
+  (    8 N-000003 )
+  (    9 GNDA )
+  (   13 /PREV )
+  (   14 +5V )
+ )
+ ( /5320722B DIL28  IC1 ATMEGA328-P {Lib=ATMEGA328-P}
+  (    1 N-000035 )
+  (    2 ? )
+  (    3 ? )
+  (    4 N-000026 )
+  (    5 ? )
+  (    6 ? )
+  (    7 +5V )
+  (    8 GND )
+  (    9 N-000017 )
+  (   10 N-000023 )
+  (   11 N-000022 )
+  (   12 N-000021 )
+  (   13 ? )
+  (   14 ? )
+  (   15 N-000046 )
+  (   16 ? )
+  (   17 N-000039 )
+  (   18 ? )
+  (   19 N-000036 )
+  (   20 +5V )
+  (   21 +5V )
+  (   22 GND )
+  (   23 ? )
+  (   24 ? )
+  (   25 ? )
+  (   26 ? )
+  (   27 ? )
+  (   28 ? )
+ )
+ ( /5320728C $noname  R3 3k3 {Lib=R}
+  (    1 N-000035 )
+  (    2 +5V )
+ )
+ ( /530C9435 $noname  P1 CONN_5 {Lib=CONN_5}
+  (    1 /DataIn )
+  (    2 /Clock )
+  (    3 +12V )
+  (    4 GND )
+  (    5 /DataOut )
+ )
+ ( /530C7FFF $noname  U1 78L05 {Lib=78L05}
+  (  2 GND )
+  (   1 +12V )
+  (   3 +5V )
+ )
+ ( /530C7FE2 $noname  C4 100n {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /530C7FD9 $noname  C3 100n {Lib=C}
+  (    1 +12V )
+  (    2 GND )
+ )
+ ( /530C78F0 $noname  R2 3k3 {Lib=R}
+  (    1 N-000036 )
+  (    2 /Clock )
+ )
+ ( /530C77F4 $noname  R1 3k3 {Lib=R}
+  (    1 N-000039 )
+  (    2 /DataIn )
+ )
+ ( /530C77E3 $noname  R4 3k3 {Lib=R}
+  (    1 N-000026 )
+  (    2 /DataOut )
+ )
+ ( /530C7707 $noname  C2 22p {Lib=C}
+  (    1 GND )
+  (    2 N-000023 )
+ )
+ ( /530C7703 $noname  C1 22p {Lib=C}
+  (    1 GND )
+  (    2 N-000017 )
+ )
+ ( /530C76D9 $noname  X1 16MHz {Lib=CRYSTAL}
+  (    1 N-000023 )
+  (    2 N-000017 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R19
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component IC1
+ 28DIP-ELL600
+ 28dip600
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/MIC+" "MIC+"
+ P2 4
+ U2 4
+ R6 1
+ R5 1
+Net 2 "+BATT" "+BATT"
+ U3 8
+ C10 1
+ L1 1
+ R10 1
+Net 3 "" ""
+ R6 2
+ U2 8
+Net 4 "/NEXT" "NEXT"
+ U2 6
+ R9 2
+Net 5 "+5V" "+5V"
+ C4 1
+ IC1 20
+ IC1 7
+ U1 VO
+ R3 2
+ U2 14
+ IC1 21
+Net 6 "/PLAY" "PLAY"
+ R8 2
+ U2 5
+Net 7 "/RIGHT OUT" "RIGHT OUT"
+ C8 2
+ P3 3
+Net 8 "" ""
+ R18 2
+ C8 1
+ U3 1
+Net 9 "/LEFT OUT" "LEFT OUT"
+ C9 2
+ P3 5
+Net 10 "" ""
+ U3 7
+ C9 1
+ R19 2
+Net 11 "/LEFT IN" "LEFT IN"
+ P2 1
+ R13 2
+ C7 1
+Net 12 "/RIGHT IN" "RIGHT IN"
+ R12 1
+ C6 1
+ P2 3
+Net 13 "" ""
+ U3 3
+ C6 2
+ R14 1
+Net 14 "" ""
+ R18 1
+ R16 1
+ U3 2
+Net 15 "" ""
+ R19 1
+ U3 6
+ R17 2
+Net 16 "+12V" "+12V"
+ P1 3
+ C3 1
+ U1 VI
+Net 17 "" ""
+ C1 2
+ X1 2
+ IC1 9
+Net 18 "/DataOut" "DataOut"
+ P1 5
+ R4 2
+Net 21 "" ""
+ R9 1
+ IC1 12
+Net 22 "" ""
+ R8 1
+ IC1 11
+Net 23 "" ""
+ X1 1
+ C2 2
+ IC1 10
+Net 26 "" ""
+ IC1 4
+ R4 1
+Net 29 "/PREV" "PREV"
+ R7 2
+ U2 13
+Net 30 "" ""
+ U2 1
+ R5 2
+Net 31 "GND" "GND"
+ P1 4
+ C4 2
+ U1 GND
+ U2 7
+ IC1 22
+ IC1 8
+ C3 2
+ C2 1
+ C1 1
+Net 33 "/DataIn" "DataIn"
+ R1 2
+ P1 1
+Net 34 "/Clock" "Clock"
+ R2 2
+ P1 2
+Net 35 "" ""
+ R3 1
+ IC1 1
+Net 36 "" ""
+ R2 1
+ IC1 19
+Net 39 "" ""
+ IC1 17
+ R1 1
+Net 45 "GNDA" "GNDA"
+ C5 1
+ U3 4
+ U2 9
+ C10 2
+ R12 2
+ P2 2
+ U2 3
+ R11 2
+ U2 2
+ R13 1
+ P3 1
+ P3 4
+Net 46 "" ""
+ R7 1
+ IC1 15
+Net 47 "" ""
+ P3 2
+ L1 2
+Net 48 "" ""
+ U3 5
+ C7 2
+ R15 2
+Net 49 "" ""
+ R16 2
+ R10 2
+ R17 1
+ R15 1
+ R11 1
+ C5 2
+ R14 2
+}
+#End

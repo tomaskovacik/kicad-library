@@ -1,0 +1,131 @@
+# EESchema Netlist Version 1.1 created  Tue 04 Mar 2014 02:18:36 PM CET
+(
+ ( /531578B2 $noname  P1 CONN_5 {Lib=CONN_5}
+  (    1 /DataOut )
+  (    2 /DataIn )
+  (    3 /CLK )
+  (    4 GND )
+  (    5 +12V )
+ )
+ ( /53148A27 $noname  C2 100n {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /53148A21 $noname  C1 100n {Lib=C}
+  (    1 +12V )
+  (    2 GND )
+ )
+ ( /53148A1A $noname  U1 78L05 {Lib=78L05}
+   ( 1 GND )
+  ( 3 +12V )
+  ( 2 +5V )
+  ( 4 +5V )
+)
+ ( /531489A2 $noname  R3 3k3 {Lib=R}
+  (    1 /DataOut )
+  (    2 N-000009 )
+ )
+ ( /5314899E $noname  R2 3k3 {Lib=R}
+  (    1 /CLK )
+  (    2 N-000007 )
+ )
+ ( /53148999 $noname  R1 3k3 {Lib=R}
+  (    1 /DataIn )
+  (    2 N-000006 )
+ )
+ ( /53148995 $noname  R4 10k {Lib=R}
+  (    1 +5V )
+  (    2 N-000005 )
+ )
+ ( /53148881 DIP8  IC1 ATTINY85-S {Lib=ATTINY85-S}
+  (    1 N-000005 )
+  (    2 ? )
+  (    3 N-000009 )
+  (    4 GND )
+  (    5 ? )
+  (    6 N-000006 )
+  (    7 N-000007 )
+  (    8 +5V )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "+12V" "+12V"
+ P1 5
+ U1 VI
+ C1 1
+Net 2 "GND" "GND"
+ IC1 4
+ P1 4
+ U1 GND
+ C2 2
+ C1 2
+Net 5 "" ""
+ IC1 1
+ R4 2
+Net 6 "" ""
+ R1 2
+ IC1 6
+Net 7 "" ""
+ IC1 7
+ R2 2
+Net 8 "/CLK" "CLK"
+ P1 3
+ R2 1
+Net 9 "" ""
+ R3 2
+ IC1 3
+Net 10 "/DataOut" "DataOut"
+ P1 1
+ R3 1
+Net 11 "/DataIn" "DataIn"
+ R1 1
+ P1 2
+Net 12 "+5V" "+5V"
+ IC1 8
+ R4 1
+ U1 VO
+ C2 1
+}
+#End

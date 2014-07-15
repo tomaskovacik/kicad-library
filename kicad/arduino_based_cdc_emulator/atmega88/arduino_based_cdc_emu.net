@@ -1,0 +1,192 @@
+# EESchema Netlist Version 1.1 created  Wed 12 Mar 2014 03:47:38 PM CET
+(
+ ( /532072FD $noname  R3 3k3 {Lib=R}
+  (    1 N-000031 )
+  (    2 +5V )
+ )
+ ( /530C9435 $noname  P1 CONN_5 {Lib=CONN_5}
+  (    1 /DataOut )
+  (    2 /DataIn )
+  (    3 /Clock )
+  (    4 +5V )
+  (    5 GND )
+ )
+ ( /530C7FFF $noname  U1 78L05 {Lib=78L05}
+   ( 1 GND )
+  ( 3 +12V )
+  ( 2 +5V )
+  ( 4 +5V )
+)
+ ( /530C7FE2 $noname  C4 100n {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /530C7FD9 $noname  C3 100n {Lib=C}
+  (    1 +12V )
+  (    2 GND )
+ )
+ ( /530C78F0 $noname  R2 3k3 {Lib=R}
+  (    1 N-000010 )
+  (    2 /Clock )
+ )
+ ( /530C77F4 $noname  R1 3k3 {Lib=R}
+  (    1 N-000014 )
+  (    2 /DataIn )
+ )
+ ( /530C77E3 $noname  R4 3k3 {Lib=R}
+  (    1 N-000019 )
+  (    2 /DataOut )
+ )
+ ( /530C7707 $noname  C2 22p {Lib=C}
+  (    1 GND )
+  (    2 N-000003 )
+ )
+ ( /530C7703 $noname  C1 22p {Lib=C}
+  (    1 GND )
+  (    2 N-000002 )
+ )
+ ( /530C76D9 $noname  X1 20MHz {Lib=CRYSTAL}
+  (    1 N-000003 )
+  (    2 N-000002 )
+ )
+ ( /530C76C5 TQFP32  IC1 ATMEGA88-A {Lib=ATMEGA88-A}
+  (    1 ? )
+  (    2 ? )
+  (    3 GND )
+  (    4 +5V )
+  (    5 GND )
+  (    6 +5V )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 N-000014 )
+  (   16 ? )
+  (   17 N-000010 )
+  (   18 +5V )
+  (   19 N-000002 )
+  (   20 +5V )
+  (   21 GND )
+  (   22 N-000003 )
+  (   23 ? )
+  (   24 ? )
+  (   25 ? )
+  (   26 ? )
+  (   27 ? )
+  (   28 ? )
+  (   29 N-000031 )
+  (   30 ? )
+  (   31 ? )
+  (   32 N-000019 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 2 "" ""
+ X1 2
+ IC1 19
+ C1 2
+Net 3 "" ""
+ IC1 22
+ X1 1
+ C2 2
+Net 4 "GND" "GND"
+ IC1 3
+ IC1 21
+ IC1 5
+ P1 5
+ C3 2
+ U1 GND
+ C4 2
+ C2 1
+ C1 1
+Net 6 "+12V" "+12V"
+ U1 VI
+ C3 1
+Net 8 "+5V" "+5V"
+ U1 VO
+ IC1 18
+ P1 4
+ C4 1
+ IC1 4
+ IC1 20
+ R3 2
+ IC1 6
+Net 10 "" ""
+ IC1 17
+ R2 1
+Net 14 "" ""
+ R1 1
+ IC1 15
+Net 19 "" ""
+ R4 1
+ IC1 32
+Net 28 "/Clock" "Clock"
+ P1 3
+ R2 2
+Net 29 "/DataOut" "DataOut"
+ R4 2
+ P1 1
+Net 30 "/DataIn" "DataIn"
+ R1 2
+ P1 2
+Net 31 "" ""
+ R3 1
+ IC1 29
+}
+#End

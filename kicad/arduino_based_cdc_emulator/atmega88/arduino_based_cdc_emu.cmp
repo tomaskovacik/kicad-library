@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Tue 25 Feb 2014 03:11:18 PM CET
+
+BeginCmp
+TimeStamp = /530C7703;
+Reference = C1;
+ValeurCmp = 22p;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C7707;
+Reference = C2;
+ValeurCmp = 22p;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C7FD9;
+Reference = C3;
+ValeurCmp = 100n;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C7FE2;
+Reference = C4;
+ValeurCmp = 100n;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C76C5;
+Reference = IC1;
+ValeurCmp = ATMEGA88-A;
+IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C9435;
+Reference = P1;
+ValeurCmp = CONN_5;
+IdModule  = PIN_ARRAY_5x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C77F4;
+Reference = R1;
+ValeurCmp = 3k3;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C78F0;
+Reference = R2;
+ValeurCmp = 3k3;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C77E3;
+Reference = R4;
+ValeurCmp = 3k3;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C7FFF;
+Reference = U1;
+ValeurCmp = 78L05;
+IdModule  = SOT223;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C76D9;
+Reference = X1;
+ValeurCmp = 20MHz;
+IdModule  = Q_49U3HMS;
+EndCmp
+
+EndListe
