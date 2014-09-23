@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0  Date: Mon 22 Sep 2014 10:50:06 CEST
+#
+$CMP BLK-MD-SPK-B
+D 
+K BLUETOOTH A2DP
+F 
+$ENDCMP
+#
+#End Doc Library

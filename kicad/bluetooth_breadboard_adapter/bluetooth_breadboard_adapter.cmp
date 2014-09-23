@@ -1,0 +1,17 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Mon 22 Sep 2014 13:11:14 CEST
+
+BeginCmp
+TimeStamp = /54200046;
+Reference = P1;
+ValeurCmp = CONNECTOR;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54200037;
+Reference = U1;
+ValeurCmp = BLK-MD-SPK-B;
+IdModule  = BLK-MD-SPK-B;
+EndCmp
+
+EndListe

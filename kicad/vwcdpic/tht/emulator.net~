@@ -1,0 +1,556 @@
+# EESchema Netlist Version 1.1 created  Tue 08 Jul 2014 18:54:34 CEST
+(
+ ( /53B6B041 $noname  RV2 100k {Lib=POT}
+  (    1 AGND )
+  (    2 left_in )
+  (    3 N-000009 )
+ )
+ ( /53B6B01B $noname  RV1 100k {Lib=POT}
+  (    1 AGND )
+  (    2 right_in )
+  (    3 N-000006 )
+ )
+ ( /53B6A1EC $noname  P3 Aout {Lib=CONN_4}
+  (    1 left_out )
+  (    2 AGND )
+  (    3 right_out )
+  (    4 +12V )
+ )
+ ( /53B69E99 $noname  R20 100 {Lib=R}
+  (    1 left_out )
+  (    2 N-000007 )
+ )
+ ( /53B69E82 $noname  R19 100 {Lib=R}
+  (    1 right_out )
+  (    2 N-000031 )
+ )
+ ( /53B69B87 $noname  R4 10 {Lib=R}
+  (    1 filtered_12V )
+  (    2 +12V )
+ )
+ ( /53B69AE4 $noname  C18 100m {Lib=CAPAPOL}
+  (    1 +12V )
+  (    2 AGND )
+ )
+ ( /53B69AE3 $noname  C17 100n {Lib=C}
+  (    1 +12V )
+  (    2 AGND )
+ )
+ ( /53B69ADF $noname  C15 100n {Lib=C}
+  (    1 +6V )
+  (    2 AGND )
+ )
+ ( /53B69ADE $noname  C16 100m {Lib=CAPAPOL}
+  (    1 +6V )
+  (    2 AGND )
+ )
+ ( /53B69ABC $noname  C6 100m {Lib=CAPAPOL}
+  (    1 filtered_12V )
+  (    2 AGND )
+ )
+ ( /53B69ABB $noname  C5 100n {Lib=C}
+  (    1 filtered_12V )
+  (    2 AGND )
+ )
+ ( /53B699C0 $noname  C9 100n {Lib=C}
+  (    1 N-000028 )
+  (    2 AGND )
+ )
+ ( /53B699B9 $noname  C10 100m {Lib=CAPAPOL}
+  (    1 N-000028 )
+  (    2 AGND )
+ )
+ ( /53B69981 $noname  R3 22k {Lib=R}
+  (    1 N-000028 )
+  (    2 AGND )
+ )
+ ( /53B69979 $noname  R2 22k {Lib=R}
+  (    1 filtered_12V )
+  (    2 N-000028 )
+ )
+ ( /53B6991F $noname  U4 TL071 {Lib=TL071}
+  (    2 +6V )
+  (    3 N-000028 )
+  (    4 AGND )
+  (    6 +6V )
+  (    7 filtered_12V )
+ )
+ ( /53B69533 $noname  R8 100k {Lib=R}
+  (    1 AGND )
+  (    2 N-000031 )
+ )
+ ( /53B6952D $noname  R9 100k {Lib=R}
+  (    1 AGND )
+  (    2 N-000007 )
+ )
+ ( /53B69379 $noname  C7 10m {Lib=CAPAPOL}
+  (    1 N-000001 )
+  (    2 N-000006 )
+ )
+ ( /53B6936E $noname  C8 10m {Lib=CAPAPOL}
+  (    1 N-000002 )
+  (    2 N-000009 )
+ )
+ ( /53B692ED $noname  C11 100m {Lib=CAPAPOL}
+  (    1 N-000010 )
+  (    2 AGND )
+ )
+ ( /53B692EA $noname  C12 100m {Lib=CAPAPOL}
+  (    1 N-000005 )
+  (    2 AGND )
+ )
+ ( /53B692C6 $noname  C14 100m {Lib=CAPAPOL}
+  (    1 N-000012 )
+  (    2 N-000007 )
+ )
+ ( /53B69175 $noname  C13 100m {Lib=CAPAPOL}
+  (    1 N-000027 )
+  (    2 N-000031 )
+ )
+ ( /52D3CF91 $noname  R13 100k {Lib=R}
+  (    1 +6V )
+  (    2 N-000002 )
+ )
+ ( /52D3CF88 $noname  R12 100k {Lib=R}
+  (    1 N-000001 )
+  (    2 +6V )
+ )
+ ( /52D3CE54 $noname  R15 2k2 {Lib=R}
+  (    1 N-000010 )
+  (    2 N-000024 )
+ )
+ ( /52D3CE47 $noname  R14 2k2 {Lib=R}
+  (    1 N-000011 )
+  (    2 N-000005 )
+ )
+ ( /52D3B907 $noname  U3 TL072 {Lib=TL072}
+  (    1 N-000027 )
+  (    2 N-000011 )
+  (    3 N-000001 )
+  (    4 AGND )
+  (    5 N-000002 )
+  (    6 N-000024 )
+  (    7 N-000012 )
+  (    8 filtered_12V )
+ )
+ ( /52E56B09 $noname  C4 1m {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /52D0328F $noname  C1 1m {Lib=C}
+  (    1 POWER_CTL )
+  (    2 GND )
+ )
+ ( /52D02F45 $noname  C3 100n {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /52D02F40 $noname  C2 100n {Lib=C}
+  (    1 POWER_CTL )
+  (    2 GND )
+ )
+ ( /52D02F38 to92  U2 78L05 {Lib=78L05}
+  (  GND GND )
+  (   VI POWER_CTL )
+  (   VO +5V )
+ )
+ ( /52D52591 $noname  P2 Ain {Lib=CONN_3}
+  (    1 left_in )
+  (    2 AGND )
+  (    3 right_in )
+ )
+ ( /52D3D325 $noname  P1 digi {Lib=CONN_7}
+  (    1 POWER_CTL )
+  (    2 GND )
+  (    3 CLK )
+  (    4 GND )
+  (    5 DataIn )
+  (    6 GND )
+  (    7 DataOut )
+ )
+ ( /52D3CE44 $noname  R17 22k {Lib=R}
+  (    1 N-000024 )
+  (    2 N-000012 )
+ )
+ ( /52D3CE2F $noname  R16 22k {Lib=R}
+  (    1 N-000011 )
+  (    2 N-000027 )
+ )
+ ( /52D03054 $noname  R1 10k {Lib=R}
+  (    1 N-000030 )
+  (    2 +5V )
+ )
+ ( /52D02B05 $noname  R7 3k3 {Lib=R}
+  (    1 N-000020 )
+  (    2 DataOut )
+ )
+ ( /52D02AC2 $noname  R5 3k3 {Lib=R}
+  (    1 N-000018 )
+  (    2 CLK )
+ )
+ ( /52D02ABB $noname  R6 3k3 {Lib=R}
+  (    1 N-000017 )
+  (    2 DataIn )
+ )
+ ( /52D02953 SOIC  U1 PIC12F629 {Lib=PIC12F629}
+  (    1 +5V )
+  (    2 N-000030 )
+  (    3 N-000030 )
+  (    4 N-000030 )
+  (    5 N-000020 )
+  (    6 N-000017 )
+  (    7 N-000018 )
+  (    8 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R20
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R19
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C18
+ CP*
+ SM*
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C16
+ CP*
+ SM*
+$endlist
+$component C6
+ CP*
+ SM*
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ CP*
+ SM*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C7
+ CP*
+ SM*
+$endlist
+$component C8
+ CP*
+ SM*
+$endlist
+$component C11
+ CP*
+ SM*
+$endlist
+$component C12
+ CP*
+ SM*
+$endlist
+$component C14
+ CP*
+ SM*
+$endlist
+$component C13
+ CP*
+ SM*
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ R12 1
+ U3 3
+ C7 1
+Net 2 "" ""
+ U3 5
+ R13 2
+ C8 1
+Net 3 "right_in" "right_in"
+ RV1 2
+ P2 3
+Net 4 "left_in" "left_in"
+ P2 1
+ RV2 2
+Net 5 "" ""
+ R14 2
+ C12 1
+Net 6 "" ""
+ RV1 3
+ C7 2
+Net 7 "" ""
+ R9 2
+ C14 2
+ R20 2
+Net 8 "AGND" "AGND"
+ P3 2
+ U3 4
+ P2 2
+ RV2 1
+ RV1 1
+ C11 2
+ C12 2
+ C6 2
+ R9 1
+ C5 2
+ C9 2
+ C10 2
+ R3 2
+ C18 2
+ R8 1
+ C17 2
+ C15 2
+ C16 2
+ U4 4
+Net 9 "" ""
+ C8 2
+ RV2 3
+Net 10 "" ""
+ C11 1
+ R15 1
+Net 11 "" ""
+ U3 2
+ R16 1
+ R14 1
+Net 12 "" ""
+ U3 7
+ R17 2
+ C14 1
+Net 13 "left_out" "left_out"
+ R20 1
+ P3 1
+Net 14 "right_out" "right_out"
+ R19 1
+ P3 3
+Net 15 "CLK" "CLK"
+ P1 3
+ R5 2
+Net 16 "DataIn" "DataIn"
+ P1 5
+ R6 2
+Net 17 "" ""
+ R6 1
+ U1 6
+Net 18 "" ""
+ R5 1
+ U1 7
+Net 19 "DataOut" "DataOut"
+ P1 7
+ R7 2
+Net 20 "" ""
+ R7 1
+ U1 5
+Net 21 "GND" "GND"
+ C4 2
+ U2 GND
+ C2 2
+ C3 2
+ P1 2
+ P1 4
+ C1 2
+ P1 6
+ U1 8
+Net 22 "POWER_CTL" "POWER_CTL"
+ P1 1
+ C2 1
+ U2 VI
+ C1 1
+Net 23 "+6V" "+6V"
+ C15 1
+ C16 1
+ R13 1
+ R12 2
+ U4 2
+ U4 6
+Net 24 "" ""
+ R17 1
+ U3 6
+ R15 2
+Net 25 "+5V" "+5V"
+ U1 1
+ C3 1
+ R1 2
+ U2 VO
+ C4 1
+Net 26 "+12V" "+12V"
+ P3 4
+ R4 2
+ C18 1
+ C17 1
+Net 27 "" ""
+ U3 1
+ C13 1
+ R16 2
+Net 28 "" ""
+ C9 1
+ C10 1
+ R3 1
+ R2 2
+ U4 3
+Net 29 "filtered_12V" "filtered_12V"
+ C5 1
+ U4 7
+ U3 8
+ C6 1
+ R2 1
+ R4 1
+Net 30 "" ""
+ R1 1
+ U1 2
+ U1 3
+ U1 4
+Net 31 "" ""
+ R8 2
+ C13 2
+ R19 2
+}
+#End
