@@ -1,17 +1,31 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Mon 22 Sep 2014 13:11:14 CEST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Tue 23 Sep 2014 13:06:26 CEST
+
+BeginCmp
+TimeStamp = /542131F5;
+Reference = J1;
+ValeurCmp = SCJ368R1NUS0B00G;
+IdModule  = 3.5mm stereo jack:3.5mm_stereo_jack;
+EndCmp
 
 BeginCmp
 TimeStamp = /54200046;
 Reference = P1;
 ValeurCmp = CONNECTOR;
-IdModule  = ;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x10;
+EndCmp
+
+BeginCmp
+TimeStamp = /542152BE;
+Reference = P2;
+ValeurCmp = CONNECTOR;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x10;
 EndCmp
 
 BeginCmp
 TimeStamp = /54200037;
 Reference = U1;
 ValeurCmp = BLK-MD-SPK-B;
-IdModule  = BLK-MD-SPK-B;
+IdModule  = BLK-MD-SPK-B.mod:BLK-MD-SPK-B;
 EndCmp
 
 EndListe
