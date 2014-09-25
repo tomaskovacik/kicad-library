@@ -1,8 +1,6 @@
-update=Tue 23 Sep 2014 10:39:17 CEST
+update=Thu 25 Sep 2014 14:03:55 CEST
 version=1
 last_client=kicad
-[general]
-version=1
 [pcbnew]
 version=1
 LastNetListRead=
@@ -175,3 +173,5 @@ LibName122=xlr-3
 LibName123=xtal-4
 LibName124=zener
 LibName125=BLK-MD-SPK-B
+[general]
+version=1

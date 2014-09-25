@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Tue 23 Sep 2014 13:06:26 CEST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Thu 25 Sep 2014 13:43:12 CEST
 
 BeginCmp
 TimeStamp = /542131F5;
@@ -11,14 +11,14 @@ BeginCmp
 TimeStamp = /54200046;
 Reference = P1;
 ValeurCmp = CONNECTOR;
-IdModule  = Socket_Strips:Socket_Strip_Straight_1x10;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x10;
 EndCmp
 
 BeginCmp
 TimeStamp = /542152BE;
 Reference = P2;
 ValeurCmp = CONNECTOR;
-IdModule  = Socket_Strips:Socket_Strip_Straight_1x10;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x10;
 EndCmp
 
 BeginCmp
