@@ -1,0 +1,39 @@
+eeschema (2012-apr-16-27)-stable  >> Creation date: Mon 03 Feb 2014 10:22:00 PM CET
+
+#Cmp ( order = Reference )
+| C1         100m        
+| C2         100n        
+| C3         100n        
+| C4         47m         
+| C5         2m2         
+| C6         10m         
+| C7         10m         
+| C8         47m         
+| C9         47m         
+| C10        100n        
+| C11        100n        
+| L1         330uH       
+| P1         CONN_6      
+| P2         IN          
+| P3         OUT         
+| P4         POWER       
+| R1         10k         
+| R5         3k3         
+| R6         3k3         
+| R7         3k3         
+| R8         10k         
+| R9         10k         
+| R10        10k         
+| R11        10k         
+| R12        100k        
+| R13        100k        
+| R14        330k        
+| R15        330k        
+| R16        7M5         
+| R17        7M5         
+| U1         PIC12F629   
+| U2         78L05       
+| U3         TL072       
+#End Cmp
+
+#End List
