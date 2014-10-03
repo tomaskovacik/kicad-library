@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Thu 02 Oct 2014 16:02:50 CEST
+
+BeginCmp
+TimeStamp = /52D02F40;
+Reference = C2;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D02F45;
+Reference = C3;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E79ABE;
+Reference = C10;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /542D55A4;
+Reference = P1;
+ValeurCmp = CONN_01X05;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x05;
+EndCmp
+
+BeginCmp
+TimeStamp = /542D83A2;
+Reference = P2;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D03054;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D02AC2;
+Reference = R5;
+ValeurCmp = 3k3;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D02ABB;
+Reference = R6;
+ValeurCmp = 3k3;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D02B05;
+Reference = R7;
+ValeurCmp = 3k3;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D02953;
+Reference = U1;
+ValeurCmp = PIC12F629;
+IdModule  = SMD_Packages:SOIC-8-W;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D02F38;
+Reference = U2;
+ValeurCmp = 78L05;
+IdModule  = my_modules:SOT-223-REGULATOR;
+EndCmp
+
+EndListe
