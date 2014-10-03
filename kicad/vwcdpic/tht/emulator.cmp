@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Fri 26 Sep 2014 17:49:25 CEST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Thu 02 Oct 2014 18:51:03 CEST
 
 BeginCmp
 TimeStamp = /52D0328F;
@@ -130,7 +130,7 @@ BeginCmp
 TimeStamp = /52D3D325;
 Reference = P1;
 ValeurCmp = digi;
-IdModule  = Connect:SIL-7;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x07;
 EndCmp
 
 BeginCmp
