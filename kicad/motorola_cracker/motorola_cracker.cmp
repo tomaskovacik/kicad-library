@@ -1,192 +1,199 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Wed 25 Jun 2014 03:52:58 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Fri 03 Oct 2014 16:51:38 CEST
 
 BeginCmp
 TimeStamp = /52DAF214;
 Reference = C1;
 ValeurCmp = 100n;
-IdModule  = C1;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /52DC2429;
 Reference = C2;
 ValeurCmp = 22p;
-IdModule  = C1;
+IdModule  = Capacitors_ThroughHole:Capacitor6MMDiscRM5;
 EndCmp
 
 BeginCmp
 TimeStamp = /52DC2436;
 Reference = C3;
 ValeurCmp = 22p;
-IdModule  = C1;
+IdModule  = Capacitors_ThroughHole:Capacitor6MMDiscRM5;
 EndCmp
 
 BeginCmp
 TimeStamp = /52DC255A;
 Reference = C4;
 ValeurCmp = 100n;
-IdModule  = C1;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AACD87;
 Reference = C5;
 ValeurCmp = 10m;
-IdModule  = C2V8;
+IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_DM10_RM5;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AACDB0;
 Reference = C6;
 ValeurCmp = 10m;
-IdModule  = C2V8;
+IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_DM10_RM5;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AACF78;
 Reference = C7;
 ValeurCmp = 100n;
-IdModule  = C2;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AACDB4;
 Reference = C8;
 ValeurCmp = 10m;
-IdModule  = C2V8;
+IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_DM10_RM5;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AACF75;
 Reference = C9;
 ValeurCmp = 100n;
-IdModule  = C2;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AACDBD;
 Reference = C10;
 ValeurCmp = 10m;
-IdModule  = C2V8;
+IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_DM10_RM5;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AACF20;
 Reference = D1;
 ValeurCmp = LED;
-IdModule  = LED-5MM;
+IdModule  = LEDs:LED-5MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AACF44;
 Reference = D2;
 ValeurCmp = LED;
-IdModule  = LED-5MM;
+IdModule  = LEDs:LED-5MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AAC831;
 Reference = J1;
 ValeurCmp = DB9;
-IdModule  = DB9FC;
+IdModule  = Connect:DB9FC;
 EndCmp
 
 BeginCmp
 TimeStamp = /52DBC7F5;
 Reference = P1;
 ValeurCmp = CONN_6;
-IdModule  = PINHEAD1-6;
+IdModule  = Socket_Strips:Socket_Strip_Angled_1x06;
 EndCmp
 
 BeginCmp
 TimeStamp = /52DBDB8E;
 Reference = P2;
 ValeurCmp = CONN_2;
-IdModule  = C2;
+IdModule  = Connect:AK300-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /542F34C1;
+Reference = P3;
+ValeurCmp = CONN_6;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x06;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AACF2F;
 Reference = R1;
 ValeurCmp = 1k;
-IdModule  = R4;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /52DAF78A;
 Reference = R2;
 ValeurCmp = 4k7;
-IdModule  = R4;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AACF3E;
 Reference = R3;
 ValeurCmp = 1k;
-IdModule  = R4;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /52DAF9A3;
 Reference = R7;
 ValeurCmp = 10k;
-IdModule  = R4;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /52DAF95D;
 Reference = R8;
 ValeurCmp = 2k;
-IdModule  = R4;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /52DAF927;
 Reference = R9;
 ValeurCmp = 2k;
-IdModule  = R4;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /52DAF3B7;
 Reference = U1;
 ValeurCmp = 78L10;
-IdModule  = TO92-123;
+IdModule  = my_modules:TO92-STABIL;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AACE36;
 Reference = U2;
 ValeurCmp = 74LS245;
-IdModule  = DIP-20__300;
+IdModule  = Sockets_DIP:DIP-20__300_ELL;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AAC80D;
 Reference = U3;
 ValeurCmp = MAX232;
-IdModule  = DIP-16__300;
+IdModule  = Sockets_DIP:DIP-16__300_ELL;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AACF77;
 Reference = U4;
 ValeurCmp = 78L05;
-IdModule  = TO92-123;
+IdModule  = my_modules:TO92-STABIL;
 EndCmp
 
 BeginCmp
 TimeStamp = /52DAF363;
 Reference = U5;
-ValeurCmp = 68HC11_PLCC;
-IdModule  = PLCC52;
+ValeurCmp = 68HC05_PLCC;
+IdModule  = Sockets:PLCC52;
 EndCmp
 
 BeginCmp
 TimeStamp = /52DC241C;
 Reference = X1;
 ValeurCmp = 4Mhz;
-IdModule  = C2;
+IdModule  = Crystals:Crystal_HC49-U_Vertical;
 EndCmp
 
 EndListe
