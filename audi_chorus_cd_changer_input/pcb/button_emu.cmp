@@ -1,52 +1,59 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Wed 19 Feb 2014 05:15:31 PM CET
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Mon 06 Oct 2014 12:27:19 CEST
+
+BeginCmp
+TimeStamp = /54326E19;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
 
 BeginCmp
 TimeStamp = /53049CE1;
 Reference = IC1;
 ValeurCmp = ATTINY85-P;
-IdModule  = SO8E;
+IdModule  = my_modules:SOIC-8-N_wide_pads;
 EndCmp
 
 BeginCmp
 TimeStamp = /5304C9F0;
 Reference = P1;
 ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
+IdModule  = SMD_Packages:1Pin;
 EndCmp
 
 BeginCmp
 TimeStamp = /5304C9F6;
 Reference = P2;
 ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
+IdModule  = SMD_Packages:1Pin;
 EndCmp
 
 BeginCmp
 TimeStamp = /5304C9F7;
 Reference = P3;
 ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
+IdModule  = SMD_Packages:1Pin;
 EndCmp
 
 BeginCmp
 TimeStamp = /5304C9F9;
 Reference = P4;
 ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
+IdModule  = SMD_Packages:1Pin;
 EndCmp
 
 BeginCmp
 TimeStamp = /5304C9FB;
 Reference = P5;
 ValeurCmp = CONN_1;
-IdModule  = PIN_ARRAY_1;
+IdModule  = SMD_Packages:1Pin;
 EndCmp
 
 BeginCmp
 TimeStamp = /5304AC78;
 Reference = R1;
 ValeurCmp = 4k7;
-IdModule  = SM0805;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
 EndCmp
 
 EndListe

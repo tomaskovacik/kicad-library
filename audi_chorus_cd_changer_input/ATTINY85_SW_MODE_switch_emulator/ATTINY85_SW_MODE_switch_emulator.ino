@@ -14,7 +14,7 @@ void setup() {
 
 void loop() {
    if (digitalRead(BUTTON)==LOW){
-     delay(50);//debounce dela
+     delay(50);//debounce delay
      if (digitalRead(BUTTON)==LOW){ //still down, we are ok to go
         int cmd[32]={0,1,0,0,0,0,0,1,1,1,1,0,1,0,0,0,1,0,1,0,0,0,0,0,0,1,0,1,1,1,1,1};
         digitalWrite(REMOTEOUT,LOW);
