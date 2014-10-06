@@ -1,24 +1,24 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Thu 02 Oct 2014 16:02:50 CEST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Mon 06 Oct 2014 10:40:26 CEST
+
+BeginCmp
+TimeStamp = /54325C4C;
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
 
 BeginCmp
 TimeStamp = /52D02F40;
 Reference = C2;
 ValeurCmp = 100n;
-IdModule  = Capacitors_SMD:C_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /52D02F45;
-Reference = C3;
-ValeurCmp = 100n;
-IdModule  = Capacitors_SMD:C_1206;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E79ABE;
 Reference = C10;
 ValeurCmp = 100n;
-IdModule  = Capacitors_SMD:C_1206;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
 EndCmp
 
 BeginCmp
@@ -67,7 +67,7 @@ BeginCmp
 TimeStamp = /52D02953;
 Reference = U1;
 ValeurCmp = PIC12F629;
-IdModule  = SMD_Packages:SOIC-8-W;
+IdModule  = my_modules:SOIC-8-W_long_pads;
 EndCmp
 
 BeginCmp
