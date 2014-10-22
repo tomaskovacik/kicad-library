@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Fri 17 Oct 2014 08:15:44 CEST
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Wed 22 Oct 2014 16:20:39 CEST
 
 BeginCmp
 TimeStamp = /543FBBF4;
@@ -10,8 +10,8 @@ EndCmp
 BeginCmp
 TimeStamp = /54408434;
 Reference = C2;
-ValeurCmp = 10m/35V;
-IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_HandSoldering;
+ValeurCmp = 10m/6,3V;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_HandSoldering;
 EndCmp
 
 BeginCmp
