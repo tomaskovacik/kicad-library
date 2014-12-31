@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AM1D
+D AIMTEC, 1 watt dc-dc converter, dual output
+K DC-DC converter
+F http://www.aimtec.com/site/Aimtec/files/Datasheet/HighResolution/AM1D-Z.pdf
+$ENDCMP
+#
+#End Doc Library
