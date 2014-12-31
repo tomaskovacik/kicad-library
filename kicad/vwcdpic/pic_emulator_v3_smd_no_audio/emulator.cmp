@@ -1,11 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Mon 06 Oct 2014 11:01:37 CEST
-
-BeginCmp
-TimeStamp = /54325A51;
-Reference = C1;
-ValeurCmp = 100n;
-IdModule  = Capacitors_SMD:C_1206_HandSoldering;
-EndCmp
+Cmp-Mod V01 Created by Cvpcb 0.201411271501+5304~19~ubuntu14.04.1-product   date = Fri 28 Nov 2014 08:46:48 CET
 
 BeginCmp
 TimeStamp = /52D02F40;
@@ -71,9 +64,9 @@ IdModule  = my_modules:SOIC-8-W_long_pads;
 EndCmp
 
 BeginCmp
-TimeStamp = /52D02F38;
+TimeStamp = /546C9D74;
 Reference = U2;
-ValeurCmp = 78L05;
+ValeurCmp = LM78L05ACZ;
 IdModule  = my_modules:SOT-223-REGULATOR;
 EndCmp
 

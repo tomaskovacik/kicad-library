@@ -1,4 +1,4 @@
-update=Fri 26 Sep 2014 17:44:48 CEST
+update=Thu 04 Dec 2014 16:33:39 CET
 last_client=kicad
 [general]
 version=1
@@ -75,3 +75,5 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+LibName31=/home/nail/src/hw/kicad/library/aimtec
+LibName32=/home/nail/src/hw/kicad/library/BLK-MD-SPK-B
