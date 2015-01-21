@@ -4,4 +4,4 @@ video: https://www.youtube.com/watch?v=mN-LFUUrpa8
 
 blog: http://kovo-blog.blogspot.sk/2015/01/blk-md-spk-b-breadboard-adapter.html
 
-boards are for sale, symbolic 1Euro/dolar+shipping, conntact me if you are interested 
+boards are for sale, symbolic 1Euro+shipping, conntact me if you are interested 
