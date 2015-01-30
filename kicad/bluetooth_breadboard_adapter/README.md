@@ -2,6 +2,6 @@ simple breadboard adapter for cheap BLK-MD-SPK-B module from ebay based on OVC38
 
 video: https://www.youtube.com/watch?v=mN-LFUUrpa8
 
-blog: http://kovo-blog.blogspot.sk/2015/01/blk-md-spk-b-breadboard-adapter.html
+blog: http://kovo-blog.blogspot.sk/2015/01/breadboard-adapter-for-blk-md-spk-b.html
 
 boards are for sale, symbolic 1Euro+shipping, conntact me if you are interested 
