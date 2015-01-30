@@ -1,4 +1,4 @@
-update=Wed 19 Nov 2014 16:10:04 CET
+update=Wed 21 Jan 2015 16:39:33 CET
 last_client=kicad
 [pcbnew]
 version=1
@@ -138,3 +138,16 @@ LibName31=phonejack
 LibName32=device_sot
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
