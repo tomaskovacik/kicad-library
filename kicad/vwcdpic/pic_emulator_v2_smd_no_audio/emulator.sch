@@ -55,11 +55,11 @@ Connection ~ 4200 5050
 Wire Wire Line
 	5050 5050 5100 5050
 Wire Wire Line
-	8050 4000 8850 4000
+	7050 4600 7850 4600
 Wire Wire Line
-	8800 4100 8850 4100
+	7800 4700 7850 4700
 Wire Wire Line
-	8800 4300 8850 4300
+	7800 4900 7850 4900
 Wire Wire Line
 	5550 4300 5450 4300
 Wire Wire Line
@@ -71,49 +71,33 @@ Wire Wire Line
 Wire Wire Line
 	2200 3600 2300 3600
 Wire Wire Line
-	8800 4200 8850 4200
+	7800 4800 7850 4800
 Wire Wire Line
-	8800 3900 8850 3900
+	7800 4500 7850 4500
 Wire Wire Line
 	4650 5350 4650 5850
-Wire Wire Line
-	4200 2850 4750 2850
-Wire Wire Line
-	4750 2850 4750 3400
-Connection ~ 4750 3300
 Wire Wire Line
 	4150 5050 4250 5050
 Text GLabel 4150 5050 0    60   Input ~ 0
 POWER_CTL
-$Comp
-L C C10
-U 1 1 52E79ABE
-P 4000 2850
-F 0 "C10" H 4050 2950 50  0000 L CNN
-F 1 "100n" H 4050 2750 50  0000 L CNN
-F 2 "" H 4000 2850 60  0001 C CNN
-F 3 "" H 4000 2850 60  0001 C CNN
-	1    4000 2850
-	0    -1   -1   0   
-$EndComp
-Text GLabel 8800 3900 0    60   Input ~ 0
+Text GLabel 7800 4500 0    60   Input ~ 0
 POWER_CTL
 $Comp
 L GND #PWR01
 U 1 1 52D3D3F9
-P 8050 4050
-F 0 "#PWR01" H 8050 4050 30  0001 C CNN
-F 1 "GND" H 8050 3980 30  0001 C CNN
-F 2 "" H 8050 4050 60  0001 C CNN
-F 3 "" H 8050 4050 60  0001 C CNN
-	1    8050 4050
+P 7050 4650
+F 0 "#PWR01" H 7050 4650 30  0001 C CNN
+F 1 "GND" H 7050 4580 30  0001 C CNN
+F 2 "" H 7050 4650 60  0001 C CNN
+F 3 "" H 7050 4650 60  0001 C CNN
+	1    7050 4650
 	1    0    0    -1  
 $EndComp
-Text GLabel 8800 4200 0    60   Input ~ 0
+Text GLabel 7800 4800 0    60   Input ~ 0
 CLK
-Text GLabel 8800 4300 0    60   Input ~ 0
+Text GLabel 7800 4900 0    60   Input ~ 0
 DataIn
-Text GLabel 8800 4100 0    60   Input ~ 0
+Text GLabel 7800 4700 0    60   Input ~ 0
 DataOut
 Text GLabel 5550 4300 2    60   Input ~ 0
 DataOut
@@ -245,16 +229,16 @@ $EndComp
 $Comp
 L CONN_01X05 P1
 U 1 1 542D55A4
-P 9050 4100
-F 0 "P1" H 9050 4400 50  0000 C CNN
-F 1 "CONN_01X05" V 9150 4100 50  0000 C CNN
-F 2 "" H 9050 4100 60  0000 C CNN
-F 3 "" H 9050 4100 60  0000 C CNN
-	1    9050 4100
+P 8050 4700
+F 0 "P1" H 8050 5000 50  0000 C CNN
+F 1 "CONN_01X05" V 8150 4700 50  0000 C CNN
+F 2 "" H 8050 4700 60  0000 C CNN
+F 3 "" H 8050 4700 60  0000 C CNN
+	1    8050 4700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8050 4000 8050 4050
+	7050 4600 7050 4650
 $Comp
 L R R1
 U 1 1 52D03054
@@ -266,8 +250,6 @@ F 3 "" H 3050 3150 60  0001 C CNN
 	1    3050 3150
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3050 2850 3800 2850
 Wire Wire Line
 	3300 2700 3300 3300
 Wire Wire Line
@@ -324,4 +306,10 @@ $EndComp
 Wire Wire Line
 	5100 5600 5100 5850
 Connection ~ 5100 5050
+Wire Wire Line
+	3050 2850 3300 2850
+Wire Wire Line
+	4750 3300 4750 3400
+Text Notes 5850 3800 0    60   ~ 0
+PJRC MP3 Player RX (19.2Kbps serial)\nArchos Jukebox RX (9600bps serial with weak pull-up,8bits, 1stop bit, no parity)\n
 $EndSCHEMATC

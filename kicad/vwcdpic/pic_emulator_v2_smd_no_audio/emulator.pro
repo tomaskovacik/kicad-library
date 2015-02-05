@@ -1,7 +1,5 @@
-update=Thu 02 Oct 2014 15:03:51 CEST
+update=Thu 05 Feb 2015 14:04:05 CET
 last_client=kicad
-[general]
-version=1
 [pcbnew]
 version=1
 PadDrlX=320
@@ -138,3 +136,5 @@ LibName29=contrib
 LibName30=valves
 LibName31=phonejack
 LibName32=device_sot
+[general]
+version=1
