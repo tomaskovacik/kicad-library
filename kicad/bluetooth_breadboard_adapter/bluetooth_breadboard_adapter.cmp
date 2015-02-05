@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Fri 26 Sep 2014 18:02:27 CEST
+Cmp-Mod V01 Created by Cvpcb 0.201502050101+5404~21~ubuntu14.04.1-product   date = Thu 05 Feb 2015 13:00:06 CET
 
 BeginCmp
 TimeStamp = /542131F5;
 Reference = J1;
 ValeurCmp = SCJ368R1NUS0B00G;
-IdModule  = my_modules:3.5mm_stereo_jack;
+IdModule  = jacks:SCJ-0354-5PU;
 EndCmp
 
 BeginCmp

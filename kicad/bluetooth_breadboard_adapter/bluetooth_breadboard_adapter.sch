@@ -125,7 +125,7 @@ LIBS:xtal-4
 LIBS:zener
 LIBS:BLK-MD-SPK-B
 LIBS:bluetooth_breadboard_adapter-cache
-EELAYER 24 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -326,9 +326,9 @@ Wire Wire Line
 	1950 5550 2850 5550
 Connection ~ 2850 5550
 Wire Wire Line
-	1950 5250 2050 5250
+	2050 5250 1950 5250
 Wire Wire Line
-	2050 5250 2050 5150
+	2050 4950 2050 5250
 Connection ~ 2050 5150
 Wire Wire Line
 	1950 5350 2050 5350
@@ -349,15 +349,8 @@ F 3 "~" H 7250 3900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1950 5450 2650 5450
-Wire Wire Line
-	2650 5450 2650 4950
-Wire Wire Line
-	2650 4950 3250 4950
+	2050 4950 3250 4950
 Connection ~ 3250 4950
-Wire Wire Line
-	1950 5150 3050 5150
-Connection ~ 3050 5150
 $Comp
 L GND #PWR?
 U 1 1 542158DB
@@ -448,4 +441,9 @@ Wire Wire Line
 Wire Wire Line
 	2650 1900 2650 2000
 Connection ~ 2450 1900
+Wire Wire Line
+	2050 5150 1950 5150
+Wire Wire Line
+	1950 5450 3050 5450
+Connection ~ 3050 5450
 $EndSCHEMATC
