@@ -48,17 +48,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	6250 1950 5500 1950
-Wire Wire Line
 	6200 2350 6150 2350
 Wire Wire Line
 	6250 1850 6150 1850
 Wire Wire Line
-	6150 2550 6200 2550
-Wire Wire Line
-	6150 2050 6250 2050
-Wire Wire Line
-	5500 1950 5500 2100
+	5400 2550 6200 2550
 $Comp
 L AGND #PWR01
 U 1 1 52E56AD2
@@ -83,9 +77,9 @@ F 3 "" H 5500 2100 60  0001 C CNN
 $EndComp
 Text GLabel 6150 1850 0    60   Input ~ 0
 CD_left_in
-Text GLabel 6150 2050 0    60   Input ~ 0
+Text GLabel 6150 1950 0    60   Input ~ 0
 CD_right_in
-Text GLabel 6150 2550 0    60   Input ~ 0
+Text GLabel 6150 2450 0    60   Input ~ 0
 RADIO_left_out
 Text GLabel 6150 2350 0    60   Input ~ 0
 RADIO_right_out
@@ -100,10 +94,6 @@ F 3 "" H 3900 2600 60  0000 C CNN
 	1    3900 2600
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5250 2450 6200 2450
-Wire Wire Line
-	5250 2450 5250 2500
 Text GLabel 4350 2450 2    60   Input ~ 0
 RADIO_left_out
 Text GLabel 4350 2650 2    60   Input ~ 0
@@ -155,4 +145,18 @@ F 3 "" H 6450 1950 60  0000 C CNN
 	1    6450 1950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5400 2550 5400 2450
+Wire Wire Line
+	5400 2450 5250 2450
+Wire Wire Line
+	5250 2450 5250 2500
+Wire Wire Line
+	6200 2450 6150 2450
+Wire Wire Line
+	5500 2050 6250 2050
+Wire Wire Line
+	5500 2050 5500 2100
+Wire Wire Line
+	6250 1950 6150 1950
 $EndSCHEMATC
