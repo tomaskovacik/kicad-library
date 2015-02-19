@@ -53,7 +53,7 @@ Wire Wire Line
 Connection ~ 3300 2850
 Connection ~ 4200 5050
 Wire Wire Line
-	5050 5050 5100 5050
+	5050 5050 5500 5050
 Wire Wire Line
 	7050 4600 7850 4600
 Wire Wire Line
@@ -254,17 +254,6 @@ Wire Wire Line
 	3300 2700 3300 3300
 Wire Wire Line
 	3050 3400 3050 4300
-$Comp
-L CONN_01X02 P2
-U 1 1 542D83A2
-P 5650 3750
-F 0 "P2" H 5650 4050 50  0000 C CNN
-F 1 "CONN_01X02" V 5750 3750 50  0000 C CNN
-F 2 "" H 5650 3750 60  0000 C CNN
-F 3 "" H 5650 3750 60  0000 C CNN
-	1    5650 3750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3050 2900 3050 2850
 Wire Wire Line
@@ -310,6 +299,44 @@ Wire Wire Line
 	3050 2850 3300 2850
 Wire Wire Line
 	4750 3300 4750 3400
-Text Notes 5850 3800 0    60   ~ 0
-PJRC MP3 Player RX (19.2Kbps serial)\nArchos Jukebox RX (9600bps serial with weak pull-up,8bits, 1stop bit, no parity)\n
+Text Notes 6700 5900 0    60   ~ 0
+ICSP_DATA also PJRC MP3 Player RX (19.2Kbps serial)\nICSP_CLK also Archos Jukebox RX (9600bps serial with weak pull-up,8bits, 1stop bit, no parity)\n
+$Comp
+L CONN_01X06 P3
+U 1 1 54E5FBE4
+P 6500 5700
+F 0 "P3" H 6500 6050 50  0000 C CNN
+F 1 "CONN_01X06" V 6600 5700 50  0000 C CNN
+F 2 "" H 6500 5700 60  0000 C CNN
+F 3 "" H 6500 5700 60  0000 C CNN
+	1    6500 5700
+	1    0    0    -1  
+$EndComp
+Text Notes 6400 6150 0    60   ~ 0
+ICSP
+Wire Wire Line
+	6300 5450 5700 5450
+Wire Wire Line
+	5500 5550 6300 5550
+Wire Wire Line
+	5100 5650 6300 5650
+Connection ~ 5100 5650
+Wire Wire Line
+	6300 5750 5700 5750
+Wire Wire Line
+	6300 5850 5700 5850
+Text Label 5700 5450 0    60   ~ 0
+ICSP_VPP
+Text Label 3050 4300 0    60   ~ 0
+ICSP_VPP
+Wire Wire Line
+	5500 5050 5500 5550
+Text Label 5700 5750 0    60   ~ 0
+ICSP_DATA
+Text Label 5700 5850 0    60   ~ 0
+ICSP_CLK
+Text Label 4950 3700 0    60   ~ 0
+ICSP_DATA
+Text Label 4950 3800 0    60   ~ 0
+ICSP_CLK
 $EndSCHEMATC

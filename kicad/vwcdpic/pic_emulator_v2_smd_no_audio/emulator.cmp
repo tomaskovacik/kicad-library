@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Mon 06 Oct 2014 10:40:26 CEST
+Cmp-Mod V01 Created by Cvpcb 0.201502181246+5430~21~ubuntu14.04.1-product   date = Thu 19 Feb 2015 14:05:11 CET
 
 BeginCmp
 TimeStamp = /54325C4C;
@@ -15,13 +15,6 @@ IdModule  = Capacitors_SMD:C_1206_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E79ABE;
-Reference = C10;
-ValeurCmp = 100n;
-IdModule  = Capacitors_SMD:C_1206_HandSoldering;
-EndCmp
-
-BeginCmp
 TimeStamp = /542D55A4;
 Reference = P1;
 ValeurCmp = CONN_01X05;
@@ -33,6 +26,13 @@ TimeStamp = /542D83A2;
 Reference = P2;
 ValeurCmp = CONN_01X02;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /54E5FBE4;
+Reference = P3;
+ValeurCmp = CONN_01X06;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
 EndCmp
 
 BeginCmp
