@@ -745,7 +745,6 @@ Wire Wire Line
 	1400 5350 1600 5350
 Wire Wire Line
 	1300 5150 1600 5150
-Connection ~ 1550 5150
 Wire Wire Line
 	1050 5050 1600 5050
 Wire Wire Line
@@ -792,9 +791,7 @@ Wire Wire Line
 	5100 7150 5100 7100
 Connection ~ 4600 7150
 Wire Wire Line
-	1550 5150 1550 5250
-Wire Wire Line
-	1550 5250 1600 5250
+	1500 5250 1600 5250
 Wire Wire Line
 	3250 3050 3100 3050
 Connection ~ 10800 4600
@@ -826,4 +823,7 @@ Text Notes 1750 2550 0    60   ~ 0
 rx
 Text Notes 2200 2350 0    60   ~ 0
 rts
+Wire Wire Line
+	1500 5250 1500 5050
+Connection ~ 1500 5050
 $EndSCHEMATC
