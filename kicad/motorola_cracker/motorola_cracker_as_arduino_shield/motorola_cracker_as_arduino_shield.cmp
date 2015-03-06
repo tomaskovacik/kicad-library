@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201503020946+5465~21~ubuntu14.04.1-product   date = Thu 05 Mar 2015 15:24:53 CET
+Cmp-Mod V01 Created by Cvpcb 0.201503020946+5465~21~ubuntu14.04.1-product   date = Thu 05 Mar 2015 16:26:21 CET
 
 BeginCmp
 TimeStamp = /52DAF214;
@@ -29,38 +29,10 @@ IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
-TimeStamp = /53AACD87;
-Reference = C5;
-ValeurCmp = 10m;
-IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_DM10_RM5;
-EndCmp
-
-BeginCmp
-TimeStamp = /53AACDB0;
-Reference = C6;
-ValeurCmp = 10m;
-IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_DM10_RM5;
-EndCmp
-
-BeginCmp
-TimeStamp = /53AACDB4;
-Reference = C8;
-ValeurCmp = 10m;
-IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_DM10_RM5;
-EndCmp
-
-BeginCmp
 TimeStamp = /53AACF75;
 Reference = C9;
 ValeurCmp = 100n;
 IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
-EndCmp
-
-BeginCmp
-TimeStamp = /53AACDBD;
-Reference = C10;
-ValeurCmp = 10m;
-IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_DM10_RM5;
 EndCmp
 
 BeginCmp
@@ -78,17 +50,10 @@ IdModule  = LEDs:LED-5MM;
 EndCmp
 
 BeginCmp
-TimeStamp = /53AAC831;
-Reference = J1;
-ValeurCmp = DB9;
-IdModule  = Connect:DB9FC;
-EndCmp
-
-BeginCmp
-TimeStamp = /52DBC7F5;
+TimeStamp = /54F89CD6;
 Reference = P1;
-ValeurCmp = CONN_6;
-IdModule  = Socket_Strips:Socket_Strip_Angled_1x06;
+ValeurCmp = CONN_01X01;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x01;
 EndCmp
 
 BeginCmp
@@ -96,13 +61,6 @@ TimeStamp = /52DBDB8E;
 Reference = P2;
 ValeurCmp = CONN_2;
 IdModule  = Connect:AK300-2;
-EndCmp
-
-BeginCmp
-TimeStamp = /542F34C1;
-Reference = P3;
-ValeurCmp = CONN_6;
-IdModule  = Pin_Headers:Pin_Header_Angled_1x06;
 EndCmp
 
 BeginCmp
@@ -148,8 +106,22 @@ IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
 EndCmp
 
 BeginCmp
+TimeStamp = /54F8785B;
+Reference = SHIELD1;
+ValeurCmp = ARDUINO_SHIELD;
+IdModule  = arduino_shields.mod:ARDUINO_SHIELD;
+EndCmp
+
+BeginCmp
 TimeStamp = /54F8780C;
 Reference = SW1;
+ValeurCmp = SWITCH_INV;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F898C0;
+Reference = SW2;
 ValeurCmp = SWITCH_INV;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
@@ -166,13 +138,6 @@ TimeStamp = /53AACE36;
 Reference = U2;
 ValeurCmp = 74LS245;
 IdModule  = Sockets_DIP:DIP-20__300_ELL;
-EndCmp
-
-BeginCmp
-TimeStamp = /53AAC80D;
-Reference = U3;
-ValeurCmp = MAX232;
-IdModule  = Sockets_DIP:DIP-16__300_ELL;
 EndCmp
 
 BeginCmp
