@@ -18,7 +18,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=emulator.net
+LastNetListRead=separated_audio_board.net
 [pcbnew/libraries]
 LibName1=sockets
 LibName2=connect
