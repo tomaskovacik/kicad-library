@@ -1,7 +1,5 @@
-update=Mon 24 Mar 2014 02:28:45 PM CET
-last_client=eeschema
-[general]
-version=1
+update=Fri 06 Mar 2015 14:21:37 CET
+last_client=kicad
 [pcbnew]
 version=1
 PadDrlX=320
@@ -164,3 +162,5 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+[general]
+version=1
