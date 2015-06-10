@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XS3860
+D Bluetooth a2dp receiver module based on OVC3860 chip
+K bluetooth, a2dp, hsp, hfp avrcp
+$ENDCMP
+#
+#End Doc Library
