@@ -1,0 +1,31 @@
+Cmp-Mod V01 Created by Cvpcb 0.201506042310+5708~23~ubuntu14.04.1-product   date = Wed 10 Jun 2015 16:24:58 CEST
+
+BeginCmp
+TimeStamp = /5576DC76;
+Reference = J1;
+ValeurCmp = SCJ368R1NUS0B00G;
+IdModule  = my_modules:3.5mm_stereo_jack_PJ242;
+EndCmp
+
+BeginCmp
+TimeStamp = /5576DE6D;
+Reference = P1;
+ValeurCmp = CONN_01X12;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x12;
+EndCmp
+
+BeginCmp
+TimeStamp = /5576DF5A;
+Reference = P2;
+ValeurCmp = CONN_01X12;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x12;
+EndCmp
+
+BeginCmp
+TimeStamp = /5576DBD3;
+Reference = U1;
+ValeurCmp = XS3860;
+IdModule  = my_modules:XS3868;
+EndCmp
+
+EndListe
