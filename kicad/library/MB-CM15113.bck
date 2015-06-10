@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MB-CM15113
+D Bluetooth a2dp receiver module
+K bluetooth, a2dp, hsp, hfp avrcp
+$ENDCMP
+#
+#End Doc Library
