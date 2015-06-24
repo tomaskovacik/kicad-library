@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SOYO-BT24G03
+D Bluetooth Audio Module Supports BT call/FM Radio,HFP/HSP,OPP,A2DP/AVRCP,PBAP
+K bluetooth, a2dp, hsp, hfp, avrcp, MP3, WMA, WAV, SBC ,FM Radio Tuner ,Micro SD Controller ,USB(Slave)
+$ENDCMP
+#
+#End Doc Library
