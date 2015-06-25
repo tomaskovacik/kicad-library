@@ -913,8 +913,8 @@ F 3 "" H 7500 3900 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	7750 3900 7700 3900
-Text GLabel 1450 4900 0    60   Input ~ 0
+Text GLabel 3750 5000 2    60   Input ~ 0
 VDD(D2)
 Wire Wire Line
-	1600 4900 1450 4900
+	3750 5000 3500 5000
 $EndSCHEMATC
