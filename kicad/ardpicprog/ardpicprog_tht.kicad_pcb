@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 0.201506232253+5814~23~ubuntu14.04.1-product)
+(kicad_pcb (version 4) (host pcbnew 0.201506252249+5822~23~ubuntu14.04.1-product)
 
   (general
     (links 70)
@@ -747,12 +747,12 @@
     )
   )
 
-  (module Resistors_ThroughHole:Resistor_Horizontal_RM10mm (layer F.Cu) (tedit 53F56209) (tstamp 5447DD06)
+  (module Resistors_ThroughHole:Resistor_Horizontal_RM10mm (layer F.Cu) (tedit 558D6788) (tstamp 5447DD06)
     (at 94.6366 140.8201 270)
     (descr "Resistor, Axial,  RM 10mm, 1/3W,")
     (tags "Resistor, Axial, RM 10mm, 1/3W,")
     (path /54408974)
-    (fp_text reference R5 (at 0.24892 -3.50012 270) (layer F.SilkS)
+    (fp_text reference R5 (at -0.2311 -0.08 270) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
     )
     (fp_text value 2R2 (at 3.81 3.81 270) (layer F.SilkS) hide
@@ -775,12 +775,12 @@
     )
   )
 
-  (module Resistors_ThroughHole:Resistor_Horizontal_RM10mm (layer F.Cu) (tedit 53F56209) (tstamp 5447DD12)
+  (module Resistors_ThroughHole:Resistor_Horizontal_RM10mm (layer F.Cu) (tedit 558D6781) (tstamp 5447DD12)
     (at 90.9409 140.8201 270)
     (descr "Resistor, Axial,  RM 10mm, 1/3W,")
     (tags "Resistor, Axial, RM 10mm, 1/3W,")
     (path /54407870)
-    (fp_text reference R6 (at 0.24892 -3.50012 270) (layer F.SilkS)
+    (fp_text reference R6 (at -0.1803 -0.0419 270) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
     )
     (fp_text value 180R (at 3.81 3.81 270) (layer F.SilkS) hide
@@ -803,12 +803,12 @@
     )
   )
 
-  (module Resistors_ThroughHole:Resistor_Horizontal_RM10mm (layer F.Cu) (tedit 53F56209) (tstamp 5447DD1E)
+  (module Resistors_ThroughHole:Resistor_Horizontal_RM10mm (layer F.Cu) (tedit 558D6774) (tstamp 5447DD1E)
     (at 120.3922 162.78348)
     (descr "Resistor, Axial,  RM 10mm, 1/3W,")
     (tags "Resistor, Axial, RM 10mm, 1/3W,")
     (path /54406898)
-    (fp_text reference R7 (at 0.24892 -3.50012) (layer F.SilkS)
+    (fp_text reference R7 (at 0.0038 0.05592) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
     )
     (fp_text value 1k5 (at 3.81 3.81) (layer F.SilkS) hide
@@ -831,12 +831,12 @@
     )
   )
 
-  (module Resistors_ThroughHole:Resistor_Horizontal_RM10mm (layer F.Cu) (tedit 53F56209) (tstamp 5447DD2A)
+  (module Resistors_ThroughHole:Resistor_Horizontal_RM10mm (layer F.Cu) (tedit 558D678B) (tstamp 5447DD2A)
     (at 98.345 140.7312 270)
     (descr "Resistor, Axial,  RM 10mm, 1/3W,")
     (tags "Resistor, Axial, RM 10mm, 1/3W,")
     (path /544068DB)
-    (fp_text reference R8 (at 0.24892 -3.50012 270) (layer F.SilkS)
+    (fp_text reference R8 (at -0.1422 -0.0038 270) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
     )
     (fp_text value 15k (at 3.81 3.81 270) (layer F.SilkS) hide
