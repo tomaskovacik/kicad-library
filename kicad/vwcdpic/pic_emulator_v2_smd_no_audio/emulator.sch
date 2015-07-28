@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:emulator-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -161,7 +161,7 @@ F 3 "" H 4200 5850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L C-RESCUE-emulator C2
 U 1 1 52D02F40
 P 4200 5450
 F 0 "C2" H 4250 5550 50  0000 L CNN
@@ -183,7 +183,7 @@ F 3 "" H 4650 5100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L R-RESCUE-emulator R7
 U 1 1 52D02B05
 P 5200 4300
 F 0 "R7" V 5280 4300 50  0000 C CNN
@@ -194,7 +194,7 @@ F 3 "" H 5200 4300 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R5
+L R-RESCUE-emulator R5
 U 1 1 52D02AC2
 P 2550 3600
 F 0 "R5" V 2630 3600 50  0000 C CNN
@@ -205,7 +205,7 @@ F 3 "" H 2550 3600 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R6
+L R-RESCUE-emulator R6
 U 1 1 52D02ABB
 P 2550 4000
 F 0 "R6" V 2630 4000 50  0000 C CNN
@@ -240,7 +240,7 @@ $EndComp
 Wire Wire Line
 	7050 4600 7050 4650
 $Comp
-L R R1
+L R-RESCUE-emulator R1
 U 1 1 52D03054
 P 3050 3150
 F 0 "R1" V 3130 3150 50  0000 C CNN
@@ -271,7 +271,7 @@ Wire Wire Line
 Wire Wire Line
 	5100 4900 5100 5200
 $Comp
-L C C1
+L C-RESCUE-emulator C1
 U 1 1 54325C4C
 P 5100 5400
 F 0 "C1" H 5150 5500 50  0000 L CNN

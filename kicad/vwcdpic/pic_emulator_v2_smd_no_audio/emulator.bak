@@ -254,17 +254,6 @@ Wire Wire Line
 	3300 2700 3300 3300
 Wire Wire Line
 	3050 3400 3050 4300
-$Comp
-L CONN_01X02 P2
-U 1 1 542D83A2
-P 5650 3750
-F 0 "P2" H 5650 4050 50  0000 C CNN
-F 1 "CONN_01X02" V 5750 3750 50  0000 C CNN
-F 2 "" H 5650 3750 60  0000 C CNN
-F 3 "" H 5650 3750 60  0000 C CNN
-	1    5650 3750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3050 2900 3050 2850
 Wire Wire Line
@@ -310,8 +299,8 @@ Wire Wire Line
 	3050 2850 3300 2850
 Wire Wire Line
 	4750 3300 4750 3400
-Text Notes 5850 3800 0    60   ~ 0
-PJRC MP3 Player RX (19.2Kbps serial)\nArchos Jukebox RX (9600bps serial with weak pull-up,8bits, 1stop bit, no parity)\n
+Text Notes 6700 5900 0    60   ~ 0
+ICSP_DATA also PJRC MP3 Player RX (19.2Kbps serial)\nICSP_CLK also Archos Jukebox RX (9600bps serial with weak pull-up,8bits, 1stop bit, no parity)\n
 $Comp
 L CONN_01X06 P3
 U 1 1 54E5FBE4
