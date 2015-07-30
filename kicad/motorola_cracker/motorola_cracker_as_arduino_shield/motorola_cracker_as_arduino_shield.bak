@@ -418,7 +418,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 3350 6800 3350
 Wire Wire Line
-	6550 3550 6800 3550
+	6800 3550 6550 3550
 Wire Wire Line
 	9300 4150 9150 4150
 Wire Wire Line
