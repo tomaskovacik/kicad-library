@@ -1,4 +1,4 @@
-update=Tue 28 Jul 2015 19:01:18 CEST
+update=Fri 14 Aug 2015 12:44:16 CEST
 last_client=kicad
 [pcbnew]
 version=1
@@ -102,19 +102,6 @@ NetIExt=net
 EquName1=devcms
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
 [eeschema]
 version=1
 LibDir=/home/nail/src/kicad/library;/home/nail/src/kicad/KiCad/library
@@ -151,3 +138,13 @@ LibName29=contrib
 LibName30=valves
 LibName31=phonejack
 LibName32=device_sot
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
