@@ -1,4 +1,4 @@
-update=Mon 13 Jul 2015 14:48:31 CEST
+update=Mon 10 Aug 2015 16:49:12 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,9 +25,19 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=
+LibDir=/home/nail/src/kicad/library;/home/nail/src/kicad/KiCad/library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -62,13 +72,5 @@ LibName30=/home/nail/src/hw/kicad/library/XS3860
 LibName31=/home/nail/src/hw/kicad/library/MB-CM15113
 LibName32=/home/nail/src/hw/kicad/library/BLK-MD-SPK-B
 LibName33=onsemi
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName34=/home/nail/src/kicad/library/arduino_shieldsNCL
+LibName35=references
