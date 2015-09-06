@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ardpicprog-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -68,7 +68,7 @@ F 3 "" H 2500 6700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L GND-RESCUE-ardpicprog #PWR01
 U 1 1 543FB4F0
 P 1350 7500
 F 0 "#PWR01" H 1350 7500 30  0001 C CNN
@@ -79,7 +79,7 @@ F 3 "" H 1350 7500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L GND-RESCUE-ardpicprog #PWR02
 U 1 1 543FB522
 P 4800 7300
 F 0 "#PWR02" H 4800 7300 30  0001 C CNN
@@ -101,7 +101,7 @@ F 3 "" H 8850 1100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C1
+L C-RESCUE-ardpicprog C1
 U 1 1 543FBBF4
 P 8100 1450
 F 0 "C1" H 8100 1550 40  0000 L CNN
@@ -112,7 +112,7 @@ F 3 "" H 8100 1450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L GND-RESCUE-ardpicprog #PWR03
 U 1 1 543FBCBB
 P 8100 1800
 F 0 "#PWR03" H 8100 1800 30  0001 C CNN
@@ -144,7 +144,7 @@ CLK(D4)
 Text GLabel 10200 1450 0    60   Input ~ 0
 PGM
 $Comp
-L GND #PWR04
+L GND-RESCUE-ardpicprog #PWR04
 U 1 1 543FC550
 P 9700 1200
 F 0 "#PWR04" H 9700 1200 30  0001 C CNN
@@ -159,7 +159,7 @@ VDD(D2)
 Text GLabel 4200 6350 2    60   Input ~ 0
 PGM
 $Comp
-L R R4
+L R-RESCUE-ardpicprog R4
 U 1 1 543FCB5E
 P 9950 5850
 F 0 "R4" V 10030 5850 40  0000 C CNN
@@ -170,7 +170,7 @@ F 3 "" H 9950 5850 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L GND-RESCUE-ardpicprog #PWR05
 U 1 1 543FCBB3
 P 9950 6200
 F 0 "#PWR05" H 9950 6200 30  0001 C CNN
@@ -185,7 +185,7 @@ Text GLabel 9550 2200 0    60   Input ~ 0
 Text GLabel 8900 3200 0    60   Input ~ 0
 MCLR(A1)
 $Comp
-L R R3
+L R-RESCUE-ardpicprog R3
 U 1 1 543FCC61
 P 9950 2550
 F 0 "R3" V 10030 2550 40  0000 C CNN
@@ -207,7 +207,7 @@ F 3 "" H 9850 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L R-RESCUE-ardpicprog R1
 U 1 1 543FCDA2
 P 9300 3200
 F 0 "R1" V 9380 3200 40  0000 C CNN
@@ -218,7 +218,7 @@ F 3 "" H 9300 3200 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR06
+L GND-RESCUE-ardpicprog #PWR06
 U 1 1 543FCF51
 P 9950 3550
 F 0 "#PWR06" H 9950 3550 30  0001 C CNN
@@ -235,7 +235,7 @@ VPP
 Text GLabel 8900 3850 0    60   Input ~ 0
 ACTIVITY(A5)
 $Comp
-L R R2
+L R-RESCUE-ardpicprog R2
 U 1 1 543FEABB
 P 9300 3850
 F 0 "R2" V 9380 3850 40  0000 C CNN
@@ -246,7 +246,7 @@ F 3 "" H 9300 3850 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR07
+L GND-RESCUE-ardpicprog #PWR07
 U 1 1 543FEB21
 P 9950 4350
 F 0 "#PWR07" H 9950 4350 30  0001 C CNN
@@ -270,7 +270,7 @@ $EndComp
 Text GLabel 8900 4750 0    60   Input ~ 0
 RESET
 $Comp
-L GND #PWR08
+L GND-RESCUE-ardpicprog #PWR08
 U 1 1 543FED57
 P 9950 5100
 F 0 "#PWR08" H 9950 5100 30  0001 C CNN
@@ -320,7 +320,7 @@ RESET
 Text GLabel 3750 4500 2    60   Input ~ 0
 DATA(D7)
 $Comp
-L R R9
+L R-RESCUE-ardpicprog R9
 U 1 1 544037E6
 P 10400 2200
 F 0 "R9" V 10480 2200 40  0000 C CNN
@@ -342,7 +342,7 @@ F 3 "" H 11000 2450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR09
+L GND-RESCUE-ardpicprog #PWR09
 U 1 1 54403990
 P 11000 2950
 F 0 "#PWR09" H 11000 2950 30  0001 C CNN
@@ -353,7 +353,7 @@ F 3 "" H 11000 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L GND-RESCUE-ardpicprog #PWR010
 U 1 1 5440477D
 P 1350 4400
 F 0 "#PWR010" H 1350 4400 30  0001 C CNN
@@ -366,7 +366,7 @@ $EndComp
 Text GLabel 1400 4200 0    60   Input ~ 0
 5V
 $Comp
-L GND #PWR011
+L GND-RESCUE-ardpicprog #PWR011
 U 1 1 54404FEC
 P 3700 3750
 F 0 "#PWR011" H 3700 3750 30  0001 C CNN
@@ -390,7 +390,7 @@ $EndComp
 Text GLabel 2200 750  0    60   Input ~ 0
 5V
 $Comp
-L GND #PWR012
+L GND-RESCUE-ardpicprog #PWR012
 U 1 1 54406760
 P 2450 3000
 F 0 "#PWR012" H 2450 3000 30  0001 C CNN
@@ -401,7 +401,7 @@ F 3 "" H 2450 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR013
+L GND-RESCUE-ardpicprog #PWR013
 U 1 1 5440682B
 P 3550 2000
 F 0 "#PWR013" H 3550 2000 30  0001 C CNN
@@ -412,7 +412,7 @@ F 3 "" H 3550 2000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L R-RESCUE-ardpicprog R7
 U 1 1 54406898
 P 3400 2500
 F 0 "R7" V 3480 2500 40  0000 C CNN
@@ -423,7 +423,7 @@ F 3 "" H 3400 2500 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R8
+L R-RESCUE-ardpicprog R8
 U 1 1 544068DB
 P 4000 2100
 F 0 "R8" V 4080 2100 40  0000 C CNN
@@ -434,7 +434,7 @@ F 3 "" H 4000 2100 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR014
+L GND-RESCUE-ardpicprog #PWR014
 U 1 1 54406A7C
 P 3400 3000
 F 0 "#PWR014" H 3400 3000 30  0001 C CNN
@@ -445,7 +445,7 @@ F 3 "" H 3400 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L C-RESCUE-ardpicprog C4
 U 1 1 54406B81
 P 4350 2500
 F 0 "C4" H 4350 2600 40  0000 L CNN
@@ -456,7 +456,7 @@ F 3 "" H 4350 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L GND-RESCUE-ardpicprog #PWR015
 U 1 1 54406BE7
 P 4350 3000
 F 0 "#PWR015" H 4350 3000 30  0001 C CNN
@@ -480,7 +480,7 @@ F 3 "" H 4000 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L R-RESCUE-ardpicprog R6
 U 1 1 54407870
 P 3400 1350
 F 0 "R6" V 3480 1350 40  0000 C CNN
@@ -491,7 +491,7 @@ F 3 "" H 3400 1350 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L C-RESCUE-ardpicprog C3
 U 1 1 54407D45
 P 1500 2450
 F 0 "C3" H 1500 2550 40  0000 L CNN
@@ -502,7 +502,7 @@ F 3 "" H 1500 2450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L GND-RESCUE-ardpicprog #PWR016
 U 1 1 54407F9B
 P 1500 3000
 F 0 "#PWR016" H 1500 3000 30  0001 C CNN
@@ -513,7 +513,7 @@ F 3 "" H 1500 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L C-RESCUE-ardpicprog C2
 U 1 1 54408434
 P 1000 2450
 F 0 "C2" H 1000 2550 40  0000 L CNN
@@ -524,7 +524,7 @@ F 3 "" H 1000 2450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L GND-RESCUE-ardpicprog #PWR017
 U 1 1 544084F8
 P 1000 3000
 F 0 "#PWR017" H 1000 3000 30  0001 C CNN
@@ -535,7 +535,7 @@ F 3 "" H 1000 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L R-RESCUE-ardpicprog R5
 U 1 1 54408974
 P 1950 1250
 F 0 "R5" V 2030 1250 40  0000 C CNN
@@ -581,7 +581,7 @@ $EndComp
 Text GLabel 7750 3900 2    60   Input ~ 0
 13V
 $Comp
-L C C6
+L C-RESCUE-ardpicprog C6
 U 1 1 5440F98F
 P 5850 4250
 F 0 "C6" H 5850 4350 40  0000 L CNN
@@ -592,7 +592,7 @@ F 3 "" H 5850 4250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C7
+L C-RESCUE-ardpicprog C7
 U 1 1 5440FB1D
 P 6800 4300
 F 0 "C7" H 6800 4400 40  0000 L CNN
@@ -603,7 +603,7 @@ F 3 "" H 6800 4300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R11
+L R-RESCUE-ardpicprog R11
 U 1 1 5440FB9B
 P 6800 4600
 F 0 "R11" V 6880 4600 40  0000 C CNN
@@ -614,7 +614,7 @@ F 3 "" H 6800 4600 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R10
+L R-RESCUE-ardpicprog R10
 U 1 1 5440FC8D
 P 6450 4950
 F 0 "R10" V 6530 4950 40  0000 C CNN
@@ -833,7 +833,7 @@ Connection ~ 5850 3900
 Wire Wire Line
 	5850 4450 5850 4600
 $Comp
-L GND #PWR018
+L GND-RESCUE-ardpicprog #PWR018
 U 1 1 54410DD3
 P 6450 5400
 F 0 "#PWR018" H 6450 5400 30  0001 C CNN
@@ -846,7 +846,7 @@ $EndComp
 Wire Wire Line
 	6450 5400 6450 5200
 $Comp
-L GND #PWR019
+L GND-RESCUE-ardpicprog #PWR019
 U 1 1 54410F12
 P 5200 4350
 F 0 "#PWR019" H 5200 4350 30  0001 C CNN
@@ -861,7 +861,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 4000 5150 4000
 $Comp
-L C C5
+L C-RESCUE-ardpicprog C5
 U 1 1 544119A7
 P 5500 4250
 F 0 "C5" H 5500 4350 40  0000 L CNN
@@ -875,7 +875,7 @@ Wire Wire Line
 	5500 4050 5500 3900
 Connection ~ 5500 3900
 $Comp
-L GND #PWR020
+L GND-RESCUE-ardpicprog #PWR020
 U 1 1 54411B0A
 P 5500 4600
 F 0 "#PWR020" H 5500 4600 30  0001 C CNN
@@ -913,4 +913,8 @@ F 3 "" H 7500 3900 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	7750 3900 7700 3900
+Text GLabel 1450 4900 0    60   Input ~ 0
+VDD(D2)
+Wire Wire Line
+	1600 4900 1450 4900
 $EndSCHEMATC

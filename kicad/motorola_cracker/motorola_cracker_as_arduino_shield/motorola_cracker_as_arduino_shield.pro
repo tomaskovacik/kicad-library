@@ -1,4 +1,4 @@
-update=Thu 05 Mar 2015 16:17:51 CET
+update=Thu 30 Jul 2015 14:01:51 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -36,22 +36,24 @@ LibName8=led
 LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=power
-LibName2=device
-LibName3=transistors
-LibName4=conn
-LibName5=linear
-LibName6=regul
-LibName7=74xx
-LibName8=cmos4000
-LibName9=adc-dac
-LibName10=memory
-LibName11=xilinx
-LibName12=special
+LibName1=motorola_cracker_as_arduino_shield-rescue
+LibName2=power
+LibName3=device
+LibName4=transistors
+LibName5=conn
+LibName6=linear
+LibName7=regul
+LibName8=74xx
+LibName9=cmos4000
+LibName10=adc-dac
+LibName11=memory
+LibName12=xilinx
 LibName13=microcontrollers
 LibName14=dsp
 LibName15=microchip
@@ -71,5 +73,3 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=/home/nail/src/kicad/library/arduino_shieldsNCL
-[general]
-version=1

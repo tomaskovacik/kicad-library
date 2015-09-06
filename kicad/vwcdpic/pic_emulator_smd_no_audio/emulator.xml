@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/nail/src/hw/kicad/vwcdpic/pic_emulator_smd_no_audio/emulator.sch</source>
+    <date>Tue 25 Aug 2015 13:48:38 CEST</date>
+    <tool>Eeschema 0.201508120901+6086~28~ubuntu14.04.1-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>30 jan 2014</date>
+        <source>emulator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="emulator-rescue" part="C-RESCUE-emulator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52E79ABE</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="emulator-rescue" part="C-RESCUE-emulator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52D02F40</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>3k3</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="emulator-rescue" part="R-RESCUE-emulator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52D02B05</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>3k3</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="emulator-rescue" part="R-RESCUE-emulator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52D02AC2</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>3k3</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="emulator-rescue" part="R-RESCUE-emulator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52D02ABB</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>PIC12F629</value>
+      <footprint>my_modules:SOIC-8-W_long_pads</footprint>
+      <libsource lib="emulator-cache" part="PIC12F629"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52D02953</tstamp>
+    </comp>
+    <comp ref="RADIO1">
+      <value>CONN_01X05</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x05</footprint>
+      <libsource lib="conn" part="CONN_01X05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>542D55A4</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="emulator-rescue" part="R-RESCUE-emulator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>52D03054</tstamp>
+    </comp>
+    <comp ref="ICSP_UART1">
+      <value>CONN_01X04</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>542D83A2</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LM78L05ACZ</value>
+      <footprint>my_modules:SOT-223-REGULATOR</footprint>
+      <libsource lib="regul" part="78L05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546C9D74</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF/6.3V</value>
+      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_Reflow</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55C4B796</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="emulator-rescue" part="C-RESCUE-emulator">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-RESCUE-emulator</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="emulator-rescue" part="R-RESCUE-emulator">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-RESCUE-emulator</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X05">
+      <footprints>
+        <fp>Pin_Header_Straight_1X05</fp>
+        <fp>Pin_Header_Angled_1X05</fp>
+        <fp>Socket_Strip_Straight_1X05</fp>
+        <fp>Socket_Strip_Angled_1X05</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="7805">
+      <aliases>
+        <alias>LM7805</alias>
+        <alias>LM7812</alias>
+        <alias>78L05</alias>
+      </aliases>
+      <description>Linear Regulator +5V</description>
+      <docs>regulator\lm78xx.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">7805</field>
+      </fields>
+      <pins>
+        <pin num="GND" name="GND" type="input"/>
+        <pin num="VI" name="VI" type="input"/>
+        <pin num="VO" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="emulator-cache" part="PIC12F629">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PIC12F629</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="GP5/OSC1" type="input"/>
+        <pin num="3" name="GP4/OSC2" type="input"/>
+        <pin num="4" name="GP3/MCLR" type="input"/>
+        <pin num="5" name="GP2" type="input"/>
+        <pin num="6" name="GP1" type="input"/>
+        <pin num="7" name="GP0" type="input"/>
+        <pin num="8" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="emulator-rescue">
+      <uri>/home/nail/src/hw/kicad/vwcdpic/pic_emulator_smd_no_audio/emulator-rescue.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>/usr/share/kicad/library/regul.lib</uri>
+    </library>
+    <library logical="emulator-cache">
+      <uri>/home/nail/src/hw/kicad/vwcdpic/pic_emulator_smd_no_audio/emulator-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="DataOut">
+      <node ref="RADIO1" pin="3"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="2" name="POWER_CTL">
+      <node ref="RADIO1" pin="1"/>
+      <node ref="U2" pin="VI"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="3" name="CLK">
+      <node ref="R5" pin="2"/>
+      <node ref="RADIO1" pin="5"/>
+    </net>
+    <net code="4" name="Net-(R7-Pad1)">
+      <node ref="U1" pin="5"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="5" name="Net-(R6-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="6" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="7" name="DataIn">
+      <node ref="RADIO1" pin="4"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="8" name="+5V">
+      <node ref="C10" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="ICSP_UART1" pin="1"/>
+      <node ref="U2" pin="VO"/>
+    </net>
+    <net code="9" name="Net-(ICSP_UART1-Pad4)">
+      <node ref="U1" pin="2"/>
+      <node ref="ICSP_UART1" pin="4"/>
+    </net>
+    <net code="10" name="GND">
+      <node ref="U1" pin="8"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U2" pin="GND"/>
+      <node ref="RADIO1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="11" name="/MCLR_VPP">
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="ICSP_UART1" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="12" name="Net-(ICSP_UART1-Pad3)">
+      <node ref="ICSP_UART1" pin="3"/>
+      <node ref="U1" pin="3"/>
+    </net>
+  </nets>
+</export>

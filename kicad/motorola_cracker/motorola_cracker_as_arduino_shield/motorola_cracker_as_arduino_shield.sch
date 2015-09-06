@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:motorola_cracker_as_arduino_shield-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -61,7 +61,7 @@ F 3 "" H 6350 4850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L C-RESCUE-motorola_cracker_as_arduino_shield C4
 U 1 1 52DC255A
 P 2650 7200
 F 0 "C4" H 2700 7300 50  0000 L CNN
@@ -94,7 +94,7 @@ F 3 "" H 5900 3600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L C-RESCUE-motorola_cracker_as_arduino_shield C3
 U 1 1 52DC2436
 P 6350 4150
 F 0 "C3" H 6400 4250 50  0000 L CNN
@@ -105,7 +105,7 @@ F 3 "" H 6350 4150 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C2
+L C-RESCUE-motorola_cracker_as_arduino_shield C2
 U 1 1 52DC2429
 P 6350 3550
 F 0 "C2" H 6400 3650 50  0000 L CNN
@@ -138,7 +138,7 @@ F 3 "" H 850 7200 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R7
+L R-RESCUE-motorola_cracker_as_arduino_shield R7
 U 1 1 52DAF9A3
 P 6750 3150
 F 0 "R7" V 6830 3150 50  0000 C CNN
@@ -149,7 +149,7 @@ F 3 "" H 6750 3150 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R8
+L R-RESCUE-motorola_cracker_as_arduino_shield R8
 U 1 1 52DAF95D
 P 7000 1700
 F 0 "R8" V 7080 1700 50  0000 C CNN
@@ -160,7 +160,7 @@ F 3 "" H 7000 1700 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R9
+L R-RESCUE-motorola_cracker_as_arduino_shield R9
 U 1 1 52DAF927
 P 9550 4350
 F 0 "R9" V 9630 4350 50  0000 C CNN
@@ -193,7 +193,7 @@ F 3 "" H 9350 3200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L R-RESCUE-motorola_cracker_as_arduino_shield R2
 U 1 1 52DAF78A
 P 6750 4850
 F 0 "R2" V 6830 4850 50  0000 C CNN
@@ -248,7 +248,7 @@ F 3 "" H 8150 3350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L C-RESCUE-motorola_cracker_as_arduino_shield C1
 U 1 1 52DAF214
 P 1500 7200
 F 0 "C1" H 1550 7300 50  0000 L CNN

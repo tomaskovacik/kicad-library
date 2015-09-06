@@ -1,0 +1,6 @@
+C1	 - 1uF/6.3V, Tantal Size A
+C10,2    - 100n, 0805
+R1       - 10k,  0805
+R5,6,7   - 3k3,  0805
+U1       - PIC12F629-I/SN, SW: VWCPIC v2 or v3, 8SOIC
+U2       - AMS-1117-5.0 (5V) SOT-223
