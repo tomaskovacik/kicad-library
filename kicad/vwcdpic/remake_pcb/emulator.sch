@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:emulator-rescue
 LIBS:aimtec
 LIBS:74xgxx
 LIBS:74xx
@@ -52,7 +53,6 @@ LIBS:relays
 LIBS:rfcom
 LIBS:sensors
 LIBS:siliconi
-LIBS:special
 LIBS:stm8
 LIBS:stm32
 LIBS:supertex
@@ -207,7 +207,7 @@ Connection ~ 2300 3200
 Wire Wire Line
 	1500 1000 1750 1000
 $Comp
-L GND #PWR01
+L GND-RESCUE-emulator #PWR01
 U 1 1 52EA83F5
 P 2300 4000
 F 0 "#PWR01" H 2300 4000 30  0001 C CNN
@@ -218,7 +218,7 @@ F 3 "" H 2300 4000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L C-RESCUE-emulator C1
 U 1 1 52EA83EF
 P 2300 3600
 F 0 "C1" H 2350 3700 50  0000 L CNN
@@ -288,7 +288,7 @@ $EndComp
 Text GLabel 10500 2450 0    60   Input ~ 0
 POWER_CTL
 $Comp
-L GND #PWR012
+L GND-RESCUE-emulator #PWR012
 U 1 1 52D3D3F9
 P 10000 2600
 F 0 "#PWR012" H 10000 2600 30  0001 C CNN
@@ -332,7 +332,7 @@ right_out
 Text GLabel 8950 4650 2    60   Input ~ 0
 left_out
 $Comp
-L C C8
+L C-RESCUE-emulator C8
 U 1 1 52D3D12D
 P 8600 2300
 F 0 "C8" H 8650 2400 50  0000 L CNN
@@ -343,7 +343,7 @@ F 3 "" H 8600 2300 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C9
+L C-RESCUE-emulator C9
 U 1 1 52D3D123
 P 8600 4650
 F 0 "C9" H 8650 4750 50  0000 L CNN
@@ -354,7 +354,7 @@ F 3 "" H 8600 4650 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R11
+L R-RESCUE-emulator R11
 U 1 1 52D3CF9F
 P 6200 4450
 F 0 "R11" V 6280 4450 50  0000 C CNN
@@ -365,7 +365,7 @@ F 3 "" H 6200 4450 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R10
+L R-RESCUE-emulator R10
 U 1 1 52D3CF9C
 P 6200 2500
 F 0 "R10" V 6280 2500 50  0000 C CNN
@@ -376,7 +376,7 @@ F 3 "" H 6200 2500 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R17
+L R-RESCUE-emulator R17
 U 1 1 52D3CE44
 P 8000 4050
 F 0 "R17" V 8080 4050 50  0000 C CNN
@@ -387,7 +387,7 @@ F 3 "" H 8000 4050 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R16
+L R-RESCUE-emulator R16
 U 1 1 52D3CE2F
 P 8000 2900
 F 0 "R16" V 8080 2900 50  0000 C CNN
@@ -398,7 +398,7 @@ F 3 "" H 8000 2900 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C7
+L C-RESCUE-emulator C7
 U 1 1 52D3C91A
 P 6400 4750
 F 0 "C7" H 6450 4850 50  0000 L CNN
@@ -409,7 +409,7 @@ F 3 "" H 6400 4750 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C6
+L C-RESCUE-emulator C6
 U 1 1 52D3C8BA
 P 6400 2200
 F 0 "C6" H 6450 2300 50  0000 L CNN
@@ -448,7 +448,7 @@ CLK
 Text GLabel 4000 2150 2    60   Input ~ 0
 DataIn
 $Comp
-L R R1
+L R-RESCUE-emulator R1
 U 1 1 52D03054
 P 1500 1800
 F 0 "R1" V 1580 1800 50  0000 C CNN
@@ -481,7 +481,7 @@ F 3 "" H 3550 3050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L GND-RESCUE-emulator #PWR016
 U 1 1 52D02FB7
 P 3200 1550
 F 0 "#PWR016" H 3200 1550 30  0001 C CNN
@@ -492,7 +492,7 @@ F 3 "" H 3200 1550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L GND-RESCUE-emulator #PWR017
 U 1 1 52D02FA3
 P 3100 4000
 F 0 "#PWR017" H 3100 4000 30  0001 C CNN
@@ -503,7 +503,7 @@ F 3 "" H 3100 4000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L GND-RESCUE-emulator #PWR018
 U 1 1 52D02FA1
 P 2650 4000
 F 0 "#PWR018" H 2650 4000 30  0001 C CNN
@@ -514,7 +514,7 @@ F 3 "" H 2650 4000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR019
+L GND-RESCUE-emulator #PWR019
 U 1 1 52D02F9D
 P 3550 4000
 F 0 "#PWR019" H 3550 4000 30  0001 C CNN
@@ -525,7 +525,7 @@ F 3 "" H 3550 4000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L C-RESCUE-emulator C3
 U 1 1 52D02F45
 P 3550 3600
 F 0 "C3" H 3600 3700 50  0000 L CNN
@@ -536,7 +536,7 @@ F 3 "" H 3550 3600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L C-RESCUE-emulator C2
 U 1 1 52D02F40
 P 2650 3600
 F 0 "C2" H 2700 3700 50  0000 L CNN
@@ -558,7 +558,7 @@ F 3 "" H 3100 3250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L R-RESCUE-emulator R7
 U 1 1 52D02B05
 P 3650 2450
 F 0 "R7" V 3730 2450 50  0000 C CNN
@@ -569,7 +569,7 @@ F 3 "" H 3650 2450 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R5
+L R-RESCUE-emulator R5
 U 1 1 52D02AC2
 P 3650 1750
 F 0 "R5" V 3730 1750 50  0000 C CNN
@@ -580,7 +580,7 @@ F 3 "" H 3650 1750 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R6
+L R-RESCUE-emulator R6
 U 1 1 52D02ABB
 P 3650 2150
 F 0 "R6" V 3730 2150 50  0000 C CNN

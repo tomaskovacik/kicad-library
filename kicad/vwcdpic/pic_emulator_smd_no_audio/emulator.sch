@@ -49,10 +49,10 @@ $EndDescr
 Text GLabel 5000 5150 0    60   Input ~ 0
 POWER_CTL
 $Comp
-L C-RESCUE-emulator C10
+L C-RESCUE-emulator C3
 U 1 1 52E79ABE
 P 4100 2500
-F 0 "C10" H 4150 2600 50  0000 L CNN
+F 0 "C3" H 4150 2600 50  0000 L CNN
 F 1 "100n" H 4150 2400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 4100 2500 60  0001 C CNN
 F 3 "" H 4100 2500 60  0001 C CNN
@@ -73,17 +73,17 @@ F 3 "" H 6900 3550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7650 3800 0    60   Input ~ 0
-CLK
+CLK-PRG_DATA
 Text GLabel 7650 3700 0    60   Input ~ 0
-DataIn
+DataIn-PRG_CLK
 Text GLabel 7650 3600 0    60   Input ~ 0
 DataOut
 Text GLabel 5750 3950 2    60   Input ~ 0
 DataOut
 Text GLabel 5750 3250 2    60   Input ~ 0
-CLK
+CLK-PRG_DATA
 Text GLabel 5750 3650 2    60   Input ~ 0
-DataIn
+DataIn-PRG_CLK
 $Comp
 L +5V #PWR02
 U 1 1 52D03030
@@ -219,13 +219,13 @@ $EndComp
 $Comp
 L CONN_01X04 ICSP_UART1
 U 1 1 542D83A2
-P 2650 3600
-F 0 "ICSP_UART1" H 2700 3900 50  0000 C CNN
-F 1 "CONN_01X04" V 2750 3600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 2650 3600 60  0001 C CNN
-F 3 "" H 2650 3600 60  0000 C CNN
-	1    2650 3600
-	-1   0    0    1   
+P 7900 4450
+F 0 "ICSP_UART1" H 7950 4750 50  0000 C CNN
+F 1 "CONN_01X04" V 8000 4450 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 7900 4450 60  0001 C CNN
+F 3 "" H 7900 4450 60  0000 C CNN
+	1    7900 4450
+	1    0    0    -1  
 $EndComp
 $Comp
 L 78L05 U2
@@ -332,4 +332,28 @@ Wire Wire Line
 Connection ~ 3150 3950
 Wire Wire Line
 	2850 3550 3400 3550
+Wire Wire Line
+	7700 4600 7600 4600
+Wire Wire Line
+	7600 4500 7700 4500
+Wire Wire Line
+	7600 4400 7700 4400
+Wire Wire Line
+	7600 4300 7700 4300
+Text GLabel 7600 4300 0    60   Input ~ 0
++5V
+Text GLabel 2850 3750 0    60   Input ~ 0
++5V
+Text GLabel 7600 4400 0    60   Input ~ 0
+RESET
+Text GLabel 2850 3650 0    60   Input ~ 0
+RESET
+Text GLabel 2850 3450 0    60   Input ~ 0
+ARCHOS
+Text GLabel 2850 3550 0    60   Input ~ 0
+PJRC
+Text GLabel 7600 4600 0    60   Input ~ 0
+ARCHOS
+Text GLabel 7600 4500 0    60   Input ~ 0
+PJRC
 $EndSCHEMATC
