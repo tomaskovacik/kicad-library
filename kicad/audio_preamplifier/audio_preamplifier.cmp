@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Fri 07 Feb 2014 03:53:58 PM CET
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Fri 07 Feb 2014 04:07:06 PM CET
 
 BeginCmp
-TimeStamp = /52EA83EF;
+TimeStamp = /52E771C6;
 Reference = C1;
-ValeurCmp = 47m;
-IdModule  = TC-D-7343-31-A;
+ValeurCmp = 100m;
+IdModule  = c-smd-6.3mmx8mm;
 EndCmp
 
 BeginCmp
@@ -19,6 +19,13 @@ TimeStamp = /52D02F45;
 Reference = C3;
 ValeurCmp = 100n;
 IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E56B09;
+Reference = C4;
+ValeurCmp = 47m;
+IdModule  = TC-D-7343-31-A;
 EndCmp
 
 BeginCmp
@@ -57,6 +64,27 @@ IdModule  = c-smd-5mmx6.1mm;
 EndCmp
 
 BeginCmp
+TimeStamp = /52E79ABE;
+Reference = C10;
+ValeurCmp = 100n;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E79ACE;
+Reference = C11;
+ValeurCmp = 100n;
+IdModule  = SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E771D7;
+Reference = L1;
+ValeurCmp = 330uH;
+IdModule  = SM1210L;
+EndCmp
+
+BeginCmp
 TimeStamp = /52D3D325;
 Reference = P1;
 ValeurCmp = CONN_6;
@@ -78,16 +106,16 @@ IdModule  = PINHEAD1-3;
 EndCmp
 
 BeginCmp
-TimeStamp = /52D03054;
-Reference = R1;
-ValeurCmp = 10k;
-IdModule  = SM1206;
+TimeStamp = /52E918F7;
+Reference = P4;
+ValeurCmp = POWER;
+IdModule  = PINHEAD1-2;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EA819A;
-Reference = R2;
-ValeurCmp = 10;
+TimeStamp = /52D03054;
+Reference = R1;
+ValeurCmp = 10k;
 IdModule  = SM1206;
 EndCmp
 
