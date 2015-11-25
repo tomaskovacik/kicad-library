@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:arduino_based_cdc_emu-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -45,7 +45,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L R R9
+L R-RESCUE-arduino_based_cdc_emu R9
 U 1 1 5320822A
 P 4600 6500
 F 0 "R9" V 4680 6500 50  0000 C CNN
@@ -56,7 +56,7 @@ F 3 "" H 4600 6500 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R8
+L R-RESCUE-arduino_based_cdc_emu R8
 U 1 1 53208228
 P 4600 6400
 F 0 "R8" V 4680 6400 50  0000 C CNN
@@ -67,7 +67,7 @@ F 3 "" H 4600 6400 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R7
+L R-RESCUE-arduino_based_cdc_emu R7
 U 1 1 53208224
 P 4600 4400
 F 0 "R7" V 4680 4400 50  0000 C CNN
@@ -199,7 +199,7 @@ F 3 "" H 8450 1650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C10
+L C-RESCUE-arduino_based_cdc_emu C10
 U 1 1 5321A235
 P 8450 1400
 F 0 "C10" H 8500 1500 50  0000 L CNN
@@ -282,7 +282,7 @@ F 3 "" H 9050 3250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L C-RESCUE-arduino_based_cdc_emu C5
 U 1 1 53219EF9
 P 3800 2400
 F 0 "C5" H 3850 2500 50  0000 L CNN
@@ -297,7 +297,7 @@ LEFT OUT
 Text Label 7500 1400 0    60   ~ 0
 RIGHT OUT
 $Comp
-L C C9
+L C-RESCUE-arduino_based_cdc_emu C9
 U 1 1 53219ED0
 P 7300 2800
 F 0 "C9" H 7350 2900 50  0000 L CNN
@@ -308,7 +308,7 @@ F 3 "" H 7300 2800 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C8
+L C-RESCUE-arduino_based_cdc_emu C8
 U 1 1 53219EC3
 P 7300 1400
 F 0 "C8" H 7350 1500 50  0000 L CNN
@@ -319,7 +319,7 @@ F 3 "" H 7300 1400 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R11
+L R-RESCUE-arduino_based_cdc_emu R11
 U 1 1 53219EBD
 P 4100 2450
 F 0 "R11" V 4180 2450 50  0000 C CNN
@@ -330,7 +330,7 @@ F 3 "" H 4100 2450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R10
+L R-RESCUE-arduino_based_cdc_emu R10
 U 1 1 53219EB7
 P 4100 1750
 F 0 "R10" V 4180 1750 50  0000 C CNN
@@ -341,7 +341,7 @@ F 3 "" H 4100 1750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R13
+L R-RESCUE-arduino_based_cdc_emu R13
 U 1 1 53219EAF
 P 4700 2450
 F 0 "R13" V 4780 2450 50  0000 C CNN
@@ -352,7 +352,7 @@ F 3 "" H 4700 2450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R12
+L R-RESCUE-arduino_based_cdc_emu R12
 U 1 1 53219EA6
 P 4700 1750
 F 0 "R12" V 4780 1750 50  0000 C CNN
@@ -363,7 +363,7 @@ F 3 "" H 4700 1750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R19
+L R-RESCUE-arduino_based_cdc_emu R19
 U 1 1 53219E76
 P 6650 2200
 F 0 "R19" V 6730 2200 50  0000 C CNN
@@ -374,7 +374,7 @@ F 3 "" H 6650 2200 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R18
+L R-RESCUE-arduino_based_cdc_emu R18
 U 1 1 53219E64
 P 6650 2000
 F 0 "R18" V 6730 2000 50  0000 C CNN
@@ -385,7 +385,7 @@ F 3 "" H 6650 2000 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R17
+L R-RESCUE-arduino_based_cdc_emu R17
 U 1 1 53219D37
 P 5700 2450
 F 0 "R17" V 5780 2450 50  0000 C CNN
@@ -396,7 +396,7 @@ F 3 "" H 5700 2450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R16
+L R-RESCUE-arduino_based_cdc_emu R16
 U 1 1 53219D2D
 P 5700 1750
 F 0 "R16" V 5780 1750 50  0000 C CNN
@@ -407,7 +407,7 @@ F 3 "" H 5700 1750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R15
+L R-RESCUE-arduino_based_cdc_emu R15
 U 1 1 53219D1F
 P 5300 2450
 F 0 "R15" V 5380 2450 50  0000 C CNN
@@ -418,7 +418,7 @@ F 3 "" H 5300 2450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R14
+L R-RESCUE-arduino_based_cdc_emu R14
 U 1 1 53219D12
 P 5300 1750
 F 0 "R14" V 5380 1750 50  0000 C CNN
@@ -433,7 +433,7 @@ LEFT IN
 Text Label 4300 1300 0    60   ~ 0
 RIGHT IN
 $Comp
-L C C7
+L C-RESCUE-arduino_based_cdc_emu C7
 U 1 1 53219B9A
 P 5000 2900
 F 0 "C7" H 5050 3000 50  0000 L CNN
@@ -444,7 +444,7 @@ F 3 "" H 5000 2900 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C6
+L C-RESCUE-arduino_based_cdc_emu C6
 U 1 1 53219B8A
 P 5000 1300
 F 0 "C6" H 5050 1400 50  0000 L CNN
@@ -487,7 +487,7 @@ MIC+
 Text Label 1300 3000 0    60   ~ 0
 MIC+
 $Comp
-L R R5
+L R-RESCUE-arduino_based_cdc_emu R5
 U 1 1 5320858C
 P 2000 1050
 F 0 "R5" V 2080 1050 50  0000 C CNN
@@ -498,7 +498,7 @@ F 3 "" H 2000 1050 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R6
+L R-RESCUE-arduino_based_cdc_emu R6
 U 1 1 5320857B
 P 2000 3000
 F 0 "R6" V 2080 3000 50  0000 C CNN
@@ -547,17 +547,6 @@ F 1 "+5V" H 2700 1690 30  0000 C CNN
 F 2 "" H 2700 1600 60  0001 C CNN
 F 3 "" H 2700 1600 60  0001 C CNN
 	1    2700 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR018
-U 1 1 532083B7
-P 2700 700
-F 0 "#PWR018" H 2700 790 20  0001 C CNN
-F 1 "+5V" H 2700 790 30  0000 C CNN
-F 2 "" H 2700 700 60  0001 C CNN
-F 3 "" H 2700 700 60  0001 C CNN
-	1    2700 700 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -655,7 +644,7 @@ F 3 "" H 5000 5600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
+L R-RESCUE-arduino_based_cdc_emu R3
 U 1 1 5320728C
 P 4600 5750
 F 0 "R3" V 4680 5750 50  0000 C CNN
@@ -766,7 +755,7 @@ F 3 "" H 8650 6050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L C-RESCUE-arduino_based_cdc_emu C4
 U 1 1 530C7FE2
 P 10000 5650
 F 0 "C4" H 10050 5750 50  0000 L CNN
@@ -777,7 +766,7 @@ F 3 "" H 10000 5650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L C-RESCUE-arduino_based_cdc_emu C3
 U 1 1 530C7FD9
 P 8650 5650
 F 0 "C3" H 8700 5750 50  0000 L CNN
@@ -788,7 +777,7 @@ F 3 "" H 8650 5650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L R-RESCUE-arduino_based_cdc_emu R2
 U 1 1 530C78F0
 P 4600 4800
 F 0 "R2" V 4680 4800 50  0000 C CNN
@@ -799,7 +788,7 @@ F 3 "" H 4600 4800 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R1
+L R-RESCUE-arduino_based_cdc_emu R1
 U 1 1 530C77F4
 P 4600 4600
 F 0 "R1" V 4680 4600 50  0000 C CNN
@@ -810,7 +799,7 @@ F 3 "" H 4600 4600 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R4
+L R-RESCUE-arduino_based_cdc_emu R4
 U 1 1 530C77E3
 P 4600 6100
 F 0 "R4" V 4680 6100 50  0000 C CNN
@@ -854,7 +843,7 @@ F 3 "" H 6100 5650 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C2
+L C-RESCUE-arduino_based_cdc_emu C2
 U 1 1 530C7707
 P 5900 5500
 F 0 "C2" H 5950 5600 50  0000 L CNN
@@ -865,7 +854,7 @@ F 3 "" H 5900 5500 60  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L C C1
+L C-RESCUE-arduino_based_cdc_emu C1
 U 1 1 530C7703
 P 5900 4900
 F 0 "C1" H 5950 5000 50  0000 L CNN
@@ -1252,4 +1241,15 @@ Wire Wire Line
 	9350 1000 9350 1200
 Wire Wire Line
 	9350 1200 9700 1200
+$Comp
+L +12V #PWR?
+U 1 1 5624FB59
+P 2700 700
+F 0 "#PWR?" H 2700 650 20  0001 C CNN
+F 1 "+12V" H 2700 800 30  0000 C CNN
+F 2 "" H 2700 700 60  0001 C CNN
+F 3 "" H 2700 700 60  0001 C CNN
+	1    2700 700 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
