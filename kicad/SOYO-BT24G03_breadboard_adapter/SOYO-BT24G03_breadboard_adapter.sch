@@ -1,0 +1,350 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:SOYO-BT24G03
+LIBS:phonejack
+LIBS:bt_breakout_adapter_SOYO-BT24G03-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X24 P1
+U 1 1 55EEB34C
+P 4200 3900
+F 0 "P1" H 4200 5250 50  0000 C CNN
+F 1 "CONN_01X24" V 4300 3900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x24" H 4200 3900 60  0001 C CNN
+F 3 "" H 4200 3900 60  0000 C CNN
+	1    4200 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X23 P2
+U 1 1 55EEB79C
+P 7800 3950
+F 0 "P2" H 7800 5300 50  0000 C CNN
+F 1 "CONN_01X23" V 7900 3950 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x23" H 7800 3950 60  0001 C CNN
+F 3 "" H 7800 3950 60  0000 C CNN
+	1    7800 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2800 5400 2850
+Wire Wire Line
+	6500 2850 6500 2800
+Wire Wire Line
+	7250 3850 7600 3850
+Wire Wire Line
+	7550 2850 7600 2850
+Wire Wire Line
+	7600 2950 7500 2950
+Wire Wire Line
+	7450 3050 7600 3050
+Wire Wire Line
+	7400 3150 7600 3150
+Wire Wire Line
+	6500 2800 7350 2800
+Wire Wire Line
+	7350 2800 7350 3250
+Wire Wire Line
+	7350 3250 7600 3250
+Wire Wire Line
+	7600 3350 7250 3350
+Wire Wire Line
+	7250 3450 7600 3450
+Wire Wire Line
+	7600 3550 7250 3550
+Wire Wire Line
+	7250 3650 7600 3650
+Wire Wire Line
+	7600 3750 7250 3750
+Wire Wire Line
+	7600 3950 7250 3950
+Wire Wire Line
+	7250 4050 7600 4050
+Wire Wire Line
+	7600 4150 7250 4150
+Wire Wire Line
+	7250 4250 7600 4250
+Wire Wire Line
+	7600 4350 7250 4350
+Wire Wire Line
+	7250 4450 7600 4450
+Wire Wire Line
+	6600 4950 6600 5000
+Wire Wire Line
+	6600 5000 7100 5000
+Wire Wire Line
+	7100 5000 7100 4550
+Wire Wire Line
+	7100 4550 7600 4550
+Wire Wire Line
+	7600 4650 7150 4650
+Wire Wire Line
+	7150 4650 7150 5050
+Wire Wire Line
+	7150 5050 6500 5050
+Wire Wire Line
+	6500 5050 6500 4950
+Wire Wire Line
+	6400 4950 6400 5100
+Wire Wire Line
+	6400 5100 7200 5100
+Wire Wire Line
+	7200 5100 7200 4750
+Wire Wire Line
+	7200 4750 7600 4750
+Wire Wire Line
+	7600 4850 7250 4850
+Wire Wire Line
+	7250 4850 7250 5150
+Wire Wire Line
+	7250 5150 6300 5150
+Wire Wire Line
+	6300 5150 6300 4950
+Wire Wire Line
+	6200 4950 6200 5200
+Wire Wire Line
+	6200 5200 7300 5200
+Wire Wire Line
+	7300 5200 7300 4950
+Wire Wire Line
+	7300 4950 7600 4950
+Wire Wire Line
+	7600 5050 7350 5050
+Wire Wire Line
+	7350 5050 7350 5250
+Wire Wire Line
+	7350 5250 5900 5250
+Wire Wire Line
+	5900 5250 5900 4950
+Wire Wire Line
+	4400 3850 4600 3850
+$Comp
+L SOYO-BT24G03 U1
+U 1 1 55EEB2F0
+P 5200 3800
+F 0 "U1" H 5950 3700 60  0000 C CNN
+F 1 "SOYO-BT24G03" H 5950 3850 60  0000 C CNN
+F 2 "my_modules:SOYO-BT24G03" H 5250 3800 60  0001 C CNN
+F 3 "" H 5250 3800 60  0000 C CNN
+	1    5200 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 3750 4600 3750
+Wire Wire Line
+	4400 3650 4600 3650
+Wire Wire Line
+	4400 3550 4600 3550
+Wire Wire Line
+	4600 3450 4400 3450
+Wire Wire Line
+	4400 3350 4600 3350
+Wire Wire Line
+	4600 3250 4400 3250
+Wire Wire Line
+	4400 3150 4750 3150
+Wire Wire Line
+	4750 3150 4750 2800
+Wire Wire Line
+	4750 2800 5400 2800
+Wire Wire Line
+	4400 3050 4700 3050
+Wire Wire Line
+	4700 3050 4700 2750
+Wire Wire Line
+	4700 2750 5600 2750
+Wire Wire Line
+	5600 2750 5600 2850
+Wire Wire Line
+	5700 2850 5700 2700
+Wire Wire Line
+	5700 2700 4650 2700
+Wire Wire Line
+	4650 2700 4650 2950
+Wire Wire Line
+	4650 2950 4400 2950
+Wire Wire Line
+	4400 2850 4600 2850
+Wire Wire Line
+	4600 2850 4600 2650
+Wire Wire Line
+	4600 2650 5800 2650
+Wire Wire Line
+	5800 2650 5800 2850
+Wire Wire Line
+	5900 2850 5900 2600
+Wire Wire Line
+	5900 2600 4550 2600
+Wire Wire Line
+	4550 2600 4550 2750
+Wire Wire Line
+	4550 2750 4400 2750
+Wire Wire Line
+	7400 2750 7400 3150
+Wire Wire Line
+	6300 2750 7400 2750
+Wire Wire Line
+	6200 2700 7450 2700
+Wire Wire Line
+	7450 2700 7450 3050
+Wire Wire Line
+	6300 2750 6300 2850
+Wire Wire Line
+	6200 2700 6200 2850
+Wire Wire Line
+	6100 2850 6100 2650
+Wire Wire Line
+	6100 2650 7500 2650
+Wire Wire Line
+	7500 2650 7500 2950
+Wire Wire Line
+	7550 2850 7550 2600
+Wire Wire Line
+	7550 2600 6000 2600
+Wire Wire Line
+	6000 2600 6000 2850
+Wire Wire Line
+	4400 3950 4600 3950
+Wire Wire Line
+	4600 4050 4400 4050
+Wire Wire Line
+	4400 4150 4600 4150
+Wire Wire Line
+	4400 4250 4600 4250
+Wire Wire Line
+	4600 4350 4400 4350
+Wire Wire Line
+	4400 4450 4600 4450
+Wire Wire Line
+	4600 4550 4400 4550
+Wire Wire Line
+	4400 4650 4750 4650
+Wire Wire Line
+	4750 4650 4750 5000
+Wire Wire Line
+	4750 5000 5400 5000
+Wire Wire Line
+	4700 5050 5500 5050
+Wire Wire Line
+	4700 5050 4700 4750
+Wire Wire Line
+	4700 4750 4400 4750
+Wire Wire Line
+	4400 4850 4650 4850
+Wire Wire Line
+	4650 4850 4650 5100
+Wire Wire Line
+	4650 5100 5600 5100
+Wire Wire Line
+	4600 5150 5700 5150
+Wire Wire Line
+	4600 5150 4600 4950
+Wire Wire Line
+	4600 4950 4400 4950
+Wire Wire Line
+	5400 5000 5400 4950
+Wire Wire Line
+	5500 5050 5500 4950
+Wire Wire Line
+	5600 5100 5600 4950
+Wire Wire Line
+	5700 5150 5700 4950
+Wire Wire Line
+	7250 2550 7250 3250
+Wire Wire Line
+	4500 2550 8450 2550
+Wire Wire Line
+	6400 2550 6400 2850
+Wire Wire Line
+	5500 2550 5500 2850
+Connection ~ 6400 2550
+Wire Wire Line
+	4500 2550 4500 5300
+Connection ~ 4500 3750
+Connection ~ 5500 2550
+Wire Wire Line
+	4500 5300 6100 5300
+Wire Wire Line
+	5300 5300 5300 4950
+Wire Wire Line
+	6000 5300 6000 4950
+Connection ~ 5300 5300
+Wire Wire Line
+	6100 5300 6100 4950
+Connection ~ 6000 5300
+Wire Wire Line
+	4400 5050 4550 5050
+Wire Wire Line
+	4550 5050 4550 5200
+Wire Wire Line
+	4550 5200 5800 5200
+Wire Wire Line
+	5800 5200 5800 4950
+$Comp
+L SCJ368R1NUS0B00G J1
+U 1 1 55EEE911
+P 8750 3650
+F 0 "J1" H 8750 3950 60  0000 C CNN
+F 1 "jack" H 8750 3400 60  0000 C CNN
+F 2 "jacks:3.5mm_stereo_jack_PJ306M" H 8750 3650 60  0001 C CNN
+F 3 "" H 8750 3650 60  0000 C CNN
+	1    8750 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 2550 8450 3400
+Wire Wire Line
+	8450 3400 8500 3400
+Connection ~ 7250 2550
+Wire Wire Line
+	8500 3500 7400 3500
+Wire Wire Line
+	7400 3500 7400 3550
+Connection ~ 7400 3550
+Wire Wire Line
+	7400 3650 7400 3800
+Wire Wire Line
+	7400 3800 8500 3800
+Connection ~ 7400 3650
+$EndSCHEMATC
