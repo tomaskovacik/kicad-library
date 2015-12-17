@@ -133,7 +133,7 @@ F 3 "" H 5700 6850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-separated_audio_board C11
+L C C11
 U 1 1 52E79ACE
 P 4150 6300
 F 0 "C11" H 4200 6400 50  0000 L CNN
@@ -155,7 +155,7 @@ F 3 "" H 3150 5900 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C-RESCUE-separated_audio_board C1
+L CP C1
 U 1 1 52E771C6
 P 2700 6250
 F 0 "C1" H 2750 6350 50  0000 L CNN
@@ -166,7 +166,7 @@ F 3 "" H 2700 6250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-separated_audio_board C4
+L CP C4
 U 1 1 52E56B09
 P 3700 6300
 F 0 "C4" H 3750 6400 50  0000 L CNN
@@ -237,7 +237,7 @@ right_out
 Text GLabel 5200 3800 2    60   Input ~ 0
 left_out
 $Comp
-L C-RESCUE-separated_audio_board C5
+L CP C5
 U 1 1 52D3D19D
 P 5400 6450
 F 0 "C5" H 5450 6550 50  0000 L CNN
@@ -245,10 +245,10 @@ F 1 "2m2/16V" H 5450 6350 50  0000 L CNN
 F 2 "Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering" H 5400 6450 60  0001 C CNN
 F 3 "" H 5400 6450 60  0001 C CNN
 	1    5400 6450
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
-L R-RESCUE-separated_audio_board R9
+L R R9
 U 1 1 52D3D170
 P 5700 6500
 F 0 "R9" V 5780 6500 50  0000 C CNN
@@ -259,7 +259,7 @@ F 3 "" H 5700 6500 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R-RESCUE-separated_audio_board R8
+L R R8
 U 1 1 52D3D16C
 P 5700 5850
 F 0 "R8" V 5780 5850 50  0000 C CNN
@@ -388,7 +388,7 @@ F 1 "10m/16V" H 2550 3600 50  0000 L CNN
 F 2 "Capacitors_SMD:c_elec_5x5.8" H 2500 3700 60  0001 C CNN
 F 3 "" H 2500 3700 60  0001 C CNN
 	1    2500 3700
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L CP C6
@@ -399,7 +399,7 @@ F 1 "10m/16V" H 2600 1650 50  0000 L CNN
 F 2 "Capacitors_SMD:c_elec_5x5.8" H 2550 1750 60  0001 C CNN
 F 3 "" H 2550 1750 60  0001 C CNN
 	1    2550 1750
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L TL072 U3
@@ -480,7 +480,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 4450 7950 4550
 Wire Wire Line
-	2700 6450 2700 6650
+	2700 6400 2700 6650
 Connection ~ 2700 5900
 Wire Wire Line
 	2700 5900 2850 5900
@@ -495,7 +495,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 3800 5200 3800
 Wire Wire Line
-	5400 6650 5400 6800
+	5400 6600 5400 6800
 Wire Wire Line
 	4400 1850 4600 1850
 Wire Wire Line
@@ -507,7 +507,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 3800 4700 3800
 Wire Wire Line
-	5700 6750 5700 6850
+	5700 6650 5700 6850
 Wire Wire Line
 	4900 1850 5100 1850
 Wire Wire Line
@@ -523,12 +523,12 @@ Wire Wire Line
 Wire Wire Line
 	7400 2250 8150 2250
 Wire Wire Line
-	3700 5900 3700 6100
+	3700 5900 3700 6150
 Connection ~ 3700 5900
 Wire Wire Line
-	3700 6500 3700 6700
+	3700 6450 3700 6700
 Wire Wire Line
-	2700 5800 2700 6050
+	2700 5800 2700 6100
 Wire Wire Line
 	7950 4550 8200 4550
 Wire Wire Line
@@ -536,10 +536,10 @@ Wire Wire Line
 Wire Wire Line
 	3450 5900 4950 5900
 Wire Wire Line
-	4150 6100 4150 5900
+	4150 5900 4150 6150
 Connection ~ 4150 5900
 Wire Wire Line
-	4150 6500 4150 6700
+	4150 6450 4150 6700
 Wire Wire Line
 	3750 4550 3750 4200
 Wire Wire Line
@@ -564,14 +564,14 @@ Wire Wire Line
 	5400 6800 5700 6800
 Connection ~ 5700 6800
 Wire Wire Line
-	5400 6250 5400 6200
+	5400 6200 5400 6300
 Wire Wire Line
 	5400 6200 6400 6200
 Wire Wire Line
-	5700 6100 5700 6250
+	5700 6000 5700 6350
 Connection ~ 5700 6200
 Wire Wire Line
-	5700 5600 5700 5500
+	5700 5500 5700 5700
 Wire Wire Line
 	5700 5500 5150 5500
 Text Label 5150 5500 0    60   ~ 0

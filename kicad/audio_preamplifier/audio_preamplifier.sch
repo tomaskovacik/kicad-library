@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:audio_preamplifier-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,7 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:audio_preamplifier-rescue
 LIBS:audio_preamplifier-cache
 EELAYER 25 0
 EELAYER END
@@ -402,7 +402,7 @@ F 3 "" H 2550 1750 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TL072 U3
+L TL072-RESCUE-audio_preamplifier U3
 U 2 1 52D3B907
 P 3850 3800
 F 0 "U3" H 3800 4000 60  0000 L CNN
@@ -413,7 +413,7 @@ F 3 "" H 3850 3800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TL072 U3
+L TL072-RESCUE-audio_preamplifier U3
 U 1 1 52D3B8FE
 P 3900 1850
 F 0 "U3" H 3850 2050 60  0000 L CNN
