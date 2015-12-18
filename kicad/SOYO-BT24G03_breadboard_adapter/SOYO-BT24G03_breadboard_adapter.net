@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/nail/src/hw/kicad/SOYO-BT24G03_breadboard_adapter/SOYO-BT24G03_breadboard_adapter.sch)
-    (date "Fri 18 Dec 2015 12:56:26 AM CET")
-    (tool "Eeschema 0.201512080931+6353~38~ubuntu15.10.1-stable")
+    (date "Fri 18 Dec 2015 13:31:32 CET")
+    (tool "Eeschema 0.201512080931+6353~38~ubuntu14.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -29,8 +29,8 @@
       (tstamp 55EEB2F0))
     (comp (ref J1)
       (value jack)
-      (footprint jacks:3.5mm_stereo_jack_PJ306M)
-      (libsource (lib SOYO-BT24G03_breadboard_adapter-cache) (part SCJ368R1NUS0B00G))
+      (footprint jacks:PJ-327A)
+      (libsource (lib phonejack) (part SCJ368R1NUS0B00G))
       (sheetpath (names /) (tstamps /))
       (tstamp 55EEE911))
     (comp (ref P2)
@@ -75,7 +75,9 @@
         (pin (num 10) (name P10) (type passive))
         (pin (num 11) (name P11) (type passive))
         (pin (num 12) (name P12) (type passive))))
-    (libpart (lib SOYO-BT24G03_breadboard_adapter-cache) (part SCJ368R1NUS0B00G)
+    (libpart (lib phonejack) (part SCJ368R1NUS0B00G)
+      (description "SCJ368R1NUS0B00G, 3.5 mm Phone Jack")
+      (docs http://www.scpre.com.tw/ProductPage/101/2)
       (fields
         (field (name Reference) J)
         (field (name Value) SCJ368R1NUS0B00G))
@@ -147,8 +149,8 @@
   (libraries
     (library (logical SOYO-BT24G03)
       (uri /home/nail/src/hw/kicad/library/SOYO-BT24G03.lib))
-    (library (logical SOYO-BT24G03_breadboard_adapter-cache)
-      (uri /home/nail/src/hw/kicad/SOYO-BT24G03_breadboard_adapter/SOYO-BT24G03_breadboard_adapter-cache.lib))
+    (library (logical phonejack)
+      (uri /home/nail/src/kicad/library/phonejack.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib)))
   (nets

@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:phonejack
 LIBS:SOYO-BT24G03
 LIBS:SOYO-BT24G03_breadboard_adapter-cache
 EELAYER 25 0
@@ -72,7 +73,7 @@ U 1 1 55EEE911
 P 8750 3650
 F 0 "J1" H 8750 3950 60  0000 C CNN
 F 1 "jack" H 8750 3400 60  0000 C CNN
-F 2 "jacks:3.5mm_stereo_jack_PJ306M" H 8750 3650 60  0001 C CNN
+F 2 "jacks:PJ-327A" H 8750 3650 60  0001 C CNN
 F 3 "" H 8750 3650 60  0000 C CNN
 	1    8750 3650
 	1    0    0    -1  

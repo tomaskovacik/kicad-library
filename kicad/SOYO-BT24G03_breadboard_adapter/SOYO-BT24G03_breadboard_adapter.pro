@@ -1,4 +1,4 @@
-update=Tue 08 Sep 2015 13:21:10 CEST
+update=Tue 08 Dec 2015 09:58:23 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,5 +58,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/home/nail/src/hw/kicad/library/SOYO-BT24G03
-LibName31=/home/nail/src/kicad/library/phonejack
+LibName30=/home/nail/src/kicad/library/phonejack
+LibName31=/home/nail/src/hw/kicad/library/SOYO-BT24G03
