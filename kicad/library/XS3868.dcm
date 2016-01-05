@@ -5,4 +5,9 @@ D Bluetooth a2dp receiver module based on OVC3860 chip
 K bluetooth, a2dp, hsp, hfp avrcp
 $ENDCMP
 #
+$CMP XS3868
+D Bluetooth a2dp receiver module based on OVC3860 chip
+K bluetooth, a2dp, hsp, hfp avrcp,OVC3860 
+$ENDCMP
+#
 #End Doc Library
