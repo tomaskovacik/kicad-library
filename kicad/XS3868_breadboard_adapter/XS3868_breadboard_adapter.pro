@@ -1,4 +1,4 @@
-update=Wed 10 Jun 2015 18:42:05 CEST
+update=Tue 05 Jan 2016 13:08:31 CET
 version=1
 last_client=kicad
 [cvpcb]
@@ -59,6 +59,6 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/home/nail/src/hw/kicad/library/XS3860
-LibName31=phonejack
-LibName32=SOYO-BT24G03
+LibName30=phonejack
+LibName31=SOYO-BT24G03
+LibName32=XS3868
