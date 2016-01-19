@@ -1,0 +1,94 @@
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Wed 08 Oct 2014 17:32:53 CEST
+
+BeginCmp
+TimeStamp = /530C7703;
+Reference = C1;
+ValeurCmp = 22p;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C7707;
+Reference = C2;
+ValeurCmp = 22p;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C7FD9;
+Reference = C3;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C7FE2;
+Reference = C4;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C76C5;
+Reference = IC1;
+ValeurCmp = ATMEGA88-A;
+IdModule  = SMD_Packages:TQFP-32;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C9435;
+Reference = P1;
+ValeurCmp = CONN_5;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x05;
+EndCmp
+
+BeginCmp
+TimeStamp = /54357812;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C77F4;
+Reference = R1;
+ValeurCmp = 3k3;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C78F0;
+Reference = R2;
+ValeurCmp = 3k3;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /532072FD;
+Reference = R3;
+ValeurCmp = 3k3;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C77E3;
+Reference = R4;
+ValeurCmp = 3k3;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C7FFF;
+Reference = U1;
+ValeurCmp = 78L05;
+IdModule  = my_modules:SOT-223-REGULATOR;
+EndCmp
+
+BeginCmp
+TimeStamp = /530C76D9;
+Reference = X1;
+ValeurCmp = 20MHz;
+IdModule  = Crystals_Oscillators_SMD:Q_49U3HMS;
+EndCmp
+
+EndListe
