@@ -631,7 +631,7 @@ F 3 "" H 2500 9900 60  0001 C CNN
 $EndComp
 Text Label 7400 9450 0    60   ~ 0
 AOUTL
-Text Label 7400 9550 0    60   ~ 0
+Text Label 7400 9650 0    60   ~ 0
 AOUTR
 Text Label 7250 10450 0    60   ~ 0
 CDC_ENA_12V
@@ -1097,9 +1097,7 @@ Connection ~ 2500 9700
 Wire Wire Line
 	7250 10450 7900 10450
 Wire Wire Line
-	7250 9650 7900 9650
-Wire Wire Line
-	7900 9550 7400 9550
+	7900 9650 7400 9650
 Wire Wire Line
 	7900 9450 7400 9450
 Wire Wire Line
@@ -1629,8 +1627,6 @@ Wire Wire Line
 Wire Wire Line
 	7700 10150 7900 10150
 Wire Wire Line
-	7250 9650 7250 9300
-Wire Wire Line
 	2950 8150 3800 8150
 Text Label 9100 6950 2    60   ~ 0
 CDC_ENA_12V
@@ -1744,9 +1740,9 @@ F 3 "" H 4150 3750 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Label 10550 5850 2    60   ~ 0
-MIC
+MIC_IN
 Text Label 7400 9750 0    60   ~ 0
-MIC
+MIC_IN
 Wire Wire Line
 	7400 9750 7900 9750
 Wire Wire Line
@@ -1754,4 +1750,8 @@ Wire Wire Line
 Wire Wire Line
 	7800 9850 7800 10050
 Connection ~ 7800 10050
+Wire Wire Line
+	7250 9300 7250 9550
+Wire Wire Line
+	7250 9550 7900 9550
 $EndSCHEMATC
