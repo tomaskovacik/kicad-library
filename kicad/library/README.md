@@ -1,6 +1,6 @@
 OVC3860 BLK-MD-SPK-B XS3886 S3860M-s module setup 
 
-- use windows :(
+- use windows, or wine with symbolic link ~/.wine/dosdevices/com1 -> /dev/ttyUSBx
 - disable your HW COM1
 - set usb to serial dongle to be COM1
 - connect module to usb-serial dongle, BT module reset pin connected to GND
