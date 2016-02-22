@@ -1,4 +1,4 @@
-update=Thu 25 Sep 2014 13:46:53 CEST
+update=Wed 17 Feb 2016 12:40:27 CET
 version=1
 last_client=pcbnew
 [general]
@@ -52,20 +52,19 @@ LibName30=valves
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=bluetooth_breadboard_adapter.net
-UseCmpFile=1
-PadDrill=1.30048
-PadDrillOvalY=1.30048
-PadSizeH=3.2004
-PadSizeV=3.2004
+LastNetListRead=blk-md-spk-b_breadboard_adapter.net
+PadDrill=0.762
+PadDrillOvalY=0.762
+PadSizeH=1.524
+PadSizeV=1.524
 PcbTextSizeV=1.5
 PcbTextSizeH=1.5
 PcbTextThickness=0.3
 ModuleTextSizeV=1
 ModuleTextSizeH=1
 ModuleTextSizeThickness=0.15
-SolderMaskClearance=0
+SolderMaskClearance=0.2
 SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
-BoardOutlineThickness=0.09999999999999999
+BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
