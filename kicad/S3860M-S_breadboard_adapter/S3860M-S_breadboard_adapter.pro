@@ -1,6 +1,6 @@
-update=Tue 05 Jan 2016 13:08:31 CET
+update=Wed 17 Feb 2016 12:21:36 CET
 version=1
-last_client=kicad
+last_client=eeschema
 [cvpcb]
 version=1
 NetIExt=net
@@ -61,4 +61,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=phonejack
 LibName31=SOYO-BT24G03
-LibName32=XS3868
+LibName32=S3860M-S
