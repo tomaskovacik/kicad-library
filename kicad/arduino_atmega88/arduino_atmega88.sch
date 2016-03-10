@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:arduino_atmega88-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -303,7 +303,7 @@ F 3 "" H 8650 5700 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR01
+L GND-RESCUE-arduino_atmega88 #PWR01
 U 1 1 5335A5BD
 P 2200 6100
 F 0 "#PWR01" H 2200 6100 30  0001 C CNN
@@ -314,7 +314,7 @@ F 3 "" H 2200 6100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L GND-RESCUE-arduino_atmega88 #PWR02
 U 1 1 5335A5B8
 P 2700 6100
 F 0 "#PWR02" H 2700 6100 30  0001 C CNN
@@ -325,7 +325,7 @@ F 3 "" H 2700 6100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L GND-RESCUE-arduino_atmega88 #PWR03
 U 1 1 5335A5B7
 P 1650 6100
 F 0 "#PWR03" H 1650 6100 30  0001 C CNN
@@ -360,7 +360,7 @@ F 3 "" H 2200 5400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L C-RESCUE-arduino_atmega88 C6
 U 1 1 5335A584
 P 2700 5800
 F 0 "C6" H 2750 5900 50  0000 L CNN
@@ -371,7 +371,7 @@ F 3 "" H 2700 5800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L C-RESCUE-arduino_atmega88 C5
 U 1 1 5335A581
 P 1650 5750
 F 0 "C5" H 1700 5850 50  0000 L CNN
@@ -404,7 +404,7 @@ F 3 "" H 8050 4550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D2
+L LED-RESCUE-arduino_atmega88 D2
 U 1 1 53318026
 P 8050 5600
 F 0 "D2" H 8050 5700 50  0000 C CNN
@@ -415,7 +415,7 @@ F 3 "" H 8050 5600 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2
+L R-RESCUE-arduino_atmega88 R2
 U 1 1 53318025
 P 8050 5000
 F 0 "R2" V 8130 5000 50  0000 C CNN
@@ -426,7 +426,7 @@ F 3 "" H 8050 5000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L GND-RESCUE-arduino_atmega88 #PWR06
 U 1 1 53318024
 P 8050 6000
 F 0 "#PWR06" H 8050 6000 30  0001 C CNN
@@ -439,7 +439,7 @@ $EndComp
 Text Label 6750 4650 0    60   ~ 0
 SCK
 $Comp
-L GND #PWR07
+L GND-RESCUE-arduino_atmega88 #PWR07
 U 1 1 53317FD6
 P 7200 6000
 F 0 "#PWR07" H 7200 6000 30  0001 C CNN
@@ -450,7 +450,7 @@ F 3 "" H 7200 6000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L R-RESCUE-arduino_atmega88 R1
 U 1 1 53317FCD
 P 7200 5000
 F 0 "R1" V 7280 5000 50  0000 C CNN
@@ -461,7 +461,7 @@ F 3 "" H 7200 5000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D1
+L LED-RESCUE-arduino_atmega88 D1
 U 1 1 53317FC2
 P 7200 5600
 F 0 "D1" H 7200 5700 50  0000 C CNN
@@ -476,7 +476,7 @@ RTS
 Text Label 9000 6000 0    60   ~ 0
 DTR
 $Comp
-L +3.3V #PWR08
+L +3.3V-RESCUE-arduino_atmega88 #PWR08
 U 1 1 53317D04
 P 8800 6000
 F 0 "#PWR08" H 8800 5960 30  0001 C CNN
@@ -502,7 +502,7 @@ TX
 Text Label 9000 5500 0    60   ~ 0
 RX
 $Comp
-L GND #PWR010
+L GND-RESCUE-arduino_atmega88 #PWR010
 U 1 1 53317C3C
 P 9000 5200
 F 0 "#PWR010" H 9000 5200 30  0001 C CNN
@@ -515,7 +515,7 @@ $EndComp
 Text Label 4450 5550 0    60   ~ 0
 MOSI
 $Comp
-L GND #PWR011
+L GND-RESCUE-arduino_atmega88 #PWR011
 U 1 1 53317586
 P 4300 5950
 F 0 "#PWR011" H 4300 5950 30  0001 C CNN
@@ -554,7 +554,7 @@ F 3 "" H 9750 5700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR013
+L GND-RESCUE-arduino_atmega88 #PWR013
 U 1 1 53317494
 P 1750 3950
 F 0 "#PWR013" H 1750 3950 30  0001 C CNN
@@ -582,7 +582,7 @@ $EndComp
 Text Label 1850 2100 0    60   ~ 0
 AREF
 $Comp
-L GND #PWR015
+L GND-RESCUE-arduino_atmega88 #PWR015
 U 1 1 53317195
 P 1750 2650
 F 0 "#PWR015" H 1750 2650 30  0001 C CNN
@@ -593,7 +593,7 @@ F 3 "" H 1750 2650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L C-RESCUE-arduino_atmega88 C1
 U 1 1 5331718F
 P 1750 2350
 F 0 "C1" H 1800 2450 50  0000 L CNN
@@ -606,7 +606,7 @@ $EndComp
 Text Label 9550 1700 0    60   ~ 0
 AREF
 $Comp
-L GND #PWR016
+L GND-RESCUE-arduino_atmega88 #PWR016
 U 1 1 53317146
 P 10050 1850
 F 0 "#PWR016" H 10050 1850 30  0001 C CNN
@@ -659,7 +659,7 @@ A0
 Text Label 7150 2600 0    60   ~ 0
 Vin
 $Comp
-L GND #PWR017
+L GND-RESCUE-arduino_atmega88 #PWR017
 U 1 1 533170E1
 P 6750 2500
 F 0 "#PWR017" H 6750 2500 30  0001 C CNN
@@ -681,7 +681,7 @@ F 3 "" H 6850 2150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR019
+L +3.3V-RESCUE-arduino_atmega88 #PWR019
 U 1 1 533170BB
 P 7000 2150
 F 0 "#PWR019" H 7000 2110 30  0001 C CNN
@@ -712,7 +712,7 @@ TX
 Text Label 4250 3100 0    60   ~ 0
 RX
 $Comp
-L GND #PWR020
+L GND-RESCUE-arduino_atmega88 #PWR020
 U 1 1 53316F0E
 P 4900 3750
 F 0 "#PWR020" H 4900 3750 30  0001 C CNN
@@ -745,7 +745,7 @@ F 3 "" H 5500 2300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
+L R-RESCUE-arduino_atmega88 R3
 U 1 1 53316DE9
 P 4900 2650
 F 0 "R3" V 4980 2650 50  0000 C CNN
@@ -758,7 +758,7 @@ $EndComp
 Text Label 5550 2950 0    60   ~ 0
 DTR
 $Comp
-L C C3
+L C-RESCUE-arduino_atmega88 C3
 U 1 1 53316DBF
 P 5200 2950
 F 0 "C3" H 5250 3050 50  0000 L CNN
@@ -781,7 +781,7 @@ A1
 Text Label 4250 2350 0    60   ~ 0
 A0
 $Comp
-L GND #PWR022
+L GND-RESCUE-arduino_atmega88 #PWR022
 U 1 1 53316CEE
 P 5250 1400
 F 0 "#PWR022" H 5250 1400 30  0001 C CNN
@@ -792,7 +792,7 @@ F 3 "" H 5250 1400 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR023
+L GND-RESCUE-arduino_atmega88 #PWR023
 U 1 1 53316CAD
 P 4650 1400
 F 0 "#PWR023" H 4650 1400 30  0001 C CNN
@@ -803,7 +803,7 @@ F 3 "" H 4650 1400 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C4
+L C-RESCUE-arduino_atmega88 C4
 U 1 1 53316C9F
 P 5250 1750
 F 0 "C4" H 5300 1850 50  0000 L CNN
@@ -814,7 +814,7 @@ F 3 "" H 5250 1750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L C-RESCUE-arduino_atmega88 C2
 U 1 1 53316C9B
 P 4650 1750
 F 0 "C2" H 4700 1850 50  0000 L CNN
@@ -870,7 +870,7 @@ F 3 "" H 8450 2500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L R-RESCUE-arduino_atmega88 R4
 U 1 1 5452671C
 P 4600 2500
 F 0 "R4" V 4680 2500 50  0000 C CNN
