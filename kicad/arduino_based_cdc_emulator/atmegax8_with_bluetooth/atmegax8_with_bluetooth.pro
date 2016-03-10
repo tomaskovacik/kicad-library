@@ -1,4 +1,4 @@
-update=Fri 08 Jan 2016 12:43:22 CET
+update=Thu 25 Feb 2016 15:11:27 CET
 version=1
 last_client=kicad
 [cvpcb]
@@ -36,8 +36,6 @@ LibName8=led
 LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -74,3 +72,5 @@ LibName29=contrib
 LibName30=valves
 LibName31=/home/nail/src/hw/kicad/library/BLK-MD-SPK-B
 LibName32=/home/nail/src/hw/kicad/library/S3860M-S
+[general]
+version=1
