@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/nail/src/hw/kicad/S3860M-S_breadboard_adapter/S3860M-S_breadboard_adapter.sch)
-    (date "Thu 10 Mar 2016 14:18:41 CET")
+    (date "Thu 10 Mar 2016 16:55:52 CET")
     (tool "Eeschema 0.201603091917+6614~43~ubuntu14.04.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -23,7 +23,7 @@
       (tstamp 5576DBD3))
     (comp (ref J1)
       (value SCJ368R1NUS0B00G)
-      (footprint my_modules:3.5mm_stereo_jack_PJ242)
+      (footprint my_modules:3.5mm_stereo_jack_PJ320B)
       (libsource (lib phonejack) (part SCJ368R1NUS0B00G))
       (sheetpath (names /) (tstamps /))
       (tstamp 5576DC76))
@@ -247,14 +247,14 @@
         (pin (num 24) (name MUTE) (type ???))
         (pin (num 25) (name VPP) (type ???)))))
   (libraries
-    (library (logical phonejack)
-      (uri /home/nail/src/kicad/library/phonejack.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
+    (library (logical phonejack)
+      (uri /home/nail/src/kicad/library/phonejack.lib))
     (library (logical S3860M-S_breadboard_adapter-cache)
-      (uri /home/nail/src/hw/kicad/S3860M-S_breadboard_adapter/S3860M-S_breadboard_adapter-cache.lib)))
+      (uri /home/nail/src/hw/kicad/S3860M-S_breadboard_adapter/S3860M-S_breadboard_adapter-cache.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name "Net-(D1-Pad1)")
       (node (ref R2) (pin 1))
