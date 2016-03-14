@@ -1,6 +1,6 @@
-update=Wed 17 Feb 2016 12:21:36 CET
+update=Mon 14 Mar 2016 12:00:50 CET
 version=1
-last_client=eeschema
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -28,7 +28,7 @@ BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
 [eeschema]
 version=1
-LibDir=/home/nail/src/hw/kicad/library;/home/nail/src/kicad/library;/home/nail/src/kicad/KiCad/library
+LibDir=/home/nail/src/hw/kicad/library;/home/nail/src/kicad/library;/home/nail/src/kicad/KiCad/library;/home/nail/src/kicad/kicadlibrary
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -62,3 +62,4 @@ LibName29=valves
 LibName30=phonejack
 LibName31=SOYO-BT24G03
 LibName32=S3860M-S
+LibName33=open-project
