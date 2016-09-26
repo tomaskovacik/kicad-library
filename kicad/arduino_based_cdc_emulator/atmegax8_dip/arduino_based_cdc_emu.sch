@@ -47,19 +47,8 @@ $EndDescr
 $Comp
 L R-RESCUE-arduino_based_cdc_emu R9
 U 1 1 5320822A
-P 4600 6500
-F 0 "R9" V 4680 6500 50  0000 C CNN
-F 1 "3k3" V 4600 6500 50  0000 C CNN
-F 2 "Discret:R3" H 4600 6500 60  0001 C CNN
-F 3 "" H 4600 6500 60  0001 C CNN
-	1    4600 6500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R-RESCUE-arduino_based_cdc_emu R8
-U 1 1 53208228
 P 4600 6400
-F 0 "R8" V 4680 6400 50  0000 C CNN
+F 0 "R9" V 4680 6400 50  0000 C CNN
 F 1 "3k3" V 4600 6400 50  0000 C CNN
 F 2 "Discret:R3" H 4600 6400 60  0001 C CNN
 F 3 "" H 4600 6400 60  0001 C CNN
@@ -67,14 +56,25 @@ F 3 "" H 4600 6400 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
+L R-RESCUE-arduino_based_cdc_emu R8
+U 1 1 53208228
+P 4600 6500
+F 0 "R8" V 4680 6500 50  0000 C CNN
+F 1 "3k3" V 4600 6500 50  0000 C CNN
+F 2 "Discret:R3" H 4600 6500 60  0001 C CNN
+F 3 "" H 4600 6500 60  0001 C CNN
+	1    4600 6500
+	0    -1   -1   0   
+$EndComp
+$Comp
 L R-RESCUE-arduino_based_cdc_emu R7
 U 1 1 53208224
-P 4600 4400
-F 0 "R7" V 4680 4400 50  0000 C CNN
-F 1 "3k3" V 4600 4400 50  0000 C CNN
-F 2 "Discret:R3" H 4600 4400 60  0001 C CNN
-F 3 "" H 4600 4400 60  0001 C CNN
-	1    4600 4400
+P 4600 6600
+F 0 "R7" V 4680 6600 50  0000 C CNN
+F 1 "3k3" V 4600 6600 50  0000 C CNN
+F 2 "Discret:R3" H 4600 6600 60  0001 C CNN
+F 3 "" H 4600 6600 60  0001 C CNN
+	1    4600 6600
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -324,7 +324,7 @@ U 1 1 53219EBD
 P 4100 2450
 F 0 "R11" V 4180 2450 50  0000 C CNN
 F 1 "10k" V 4100 2450 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" H 4100 2450 60  0001 C CNN
+F 2 "Discret:R3" H 4100 2450 60  0001 C CNN
 F 3 "" H 4100 2450 60  0001 C CNN
 	1    4100 2450
 	1    0    0    -1  
@@ -335,7 +335,7 @@ U 1 1 53219EB7
 P 4100 1750
 F 0 "R10" V 4180 1750 50  0000 C CNN
 F 1 "10k" V 4100 1750 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" H 4100 1750 60  0001 C CNN
+F 2 "Discret:R3" H 4100 1750 60  0001 C CNN
 F 3 "" H 4100 1750 60  0001 C CNN
 	1    4100 1750
 	1    0    0    -1  
@@ -357,7 +357,7 @@ U 1 1 53219EA6
 P 4700 1750
 F 0 "R12" V 4780 1750 50  0000 C CNN
 F 1 "10k" V 4700 1750 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" H 4700 1750 60  0001 C CNN
+F 2 "Discret:R3" H 4700 1750 60  0001 C CNN
 F 3 "" H 4700 1750 60  0001 C CNN
 	1    4700 1750
 	1    0    0    -1  
@@ -368,7 +368,7 @@ U 1 1 53219E76
 P 6650 2200
 F 0 "R19" V 6730 2200 50  0000 C CNN
 F 1 "7M5" V 6650 2200 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" H 6650 2200 60  0001 C CNN
+F 2 "Discret:R3" H 6650 2200 60  0001 C CNN
 F 3 "" H 6650 2200 60  0001 C CNN
 	1    6650 2200
 	0    -1   -1   0   
@@ -379,7 +379,7 @@ U 1 1 53219E64
 P 6650 2000
 F 0 "R18" V 6730 2000 50  0000 C CNN
 F 1 "7M5" V 6650 2000 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" H 6650 2000 60  0001 C CNN
+F 2 "Discret:R3" H 6650 2000 60  0001 C CNN
 F 3 "" H 6650 2000 60  0001 C CNN
 	1    6650 2000
 	0    -1   -1   0   
@@ -390,7 +390,7 @@ U 1 1 53219D37
 P 5700 2450
 F 0 "R17" V 5780 2450 50  0000 C CNN
 F 1 "330k" V 5700 2450 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" H 5700 2450 60  0001 C CNN
+F 2 "Discret:R3" H 5700 2450 60  0001 C CNN
 F 3 "" H 5700 2450 60  0001 C CNN
 	1    5700 2450
 	1    0    0    -1  
@@ -401,7 +401,7 @@ U 1 1 53219D2D
 P 5700 1750
 F 0 "R16" V 5780 1750 50  0000 C CNN
 F 1 "330k" V 5700 1750 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" H 5700 1750 60  0001 C CNN
+F 2 "Discret:R3" H 5700 1750 60  0001 C CNN
 F 3 "" H 5700 1750 60  0001 C CNN
 	1    5700 1750
 	1    0    0    -1  
@@ -412,7 +412,7 @@ U 1 1 53219D1F
 P 5300 2450
 F 0 "R15" V 5380 2450 50  0000 C CNN
 F 1 "100k" V 5300 2450 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" H 5300 2450 60  0001 C CNN
+F 2 "Discret:R3" H 5300 2450 60  0001 C CNN
 F 3 "" H 5300 2450 60  0001 C CNN
 	1    5300 2450
 	1    0    0    -1  
@@ -423,7 +423,7 @@ U 1 1 53219D12
 P 5300 1750
 F 0 "R14" V 5380 1750 50  0000 C CNN
 F 1 "100k" V 5300 1750 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" H 5300 1750 60  0001 C CNN
+F 2 "Discret:R3" H 5300 1750 60  0001 C CNN
 F 3 "" H 5300 1750 60  0001 C CNN
 	1    5300 1750
 	1    0    0    -1  
@@ -492,7 +492,7 @@ U 1 1 5320858C
 P 2000 1050
 F 0 "R5" V 2080 1050 50  0000 C CNN
 F 1 "560" V 2000 1050 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" H 2000 1050 60  0001 C CNN
+F 2 "Discret:R3" H 2000 1050 60  0001 C CNN
 F 3 "" H 2000 1050 60  0001 C CNN
 	1    2000 1050
 	0    -1   -1   0   
@@ -503,7 +503,7 @@ U 1 1 5320857B
 P 2000 3000
 F 0 "R6" V 2080 3000 50  0000 C CNN
 F 1 "220" V 2000 3000 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" H 2000 3000 60  0001 C CNN
+F 2 "Discret:R3" H 2000 3000 60  0001 C CNN
 F 3 "" H 2000 3000 60  0001 C CNN
 	1    2000 3000
 	0    -1   -1   0   
@@ -560,11 +560,11 @@ F 3 "" H 2700 1400 60  0001 C CNN
 	1    2700 1400
 	1    0    0    -1  
 $EndComp
-Text Label 5050 6500 0    60   ~ 0
-NEXT
 Text Label 5050 6400 0    60   ~ 0
+NEXT
+Text Label 5050 6500 0    60   ~ 0
 PLAY
-Text Label 5050 4400 0    60   ~ 0
+Text Label 5050 6600 0    60   ~ 0
 PREV
 $Comp
 L 4066 U2
@@ -632,7 +632,7 @@ F 3 "" H 4600 5750 60  0001 C CNN
 	1    4600 5750
 	0    -1   -1   0   
 $EndComp
-Text Label 4950 4600 0    60   ~ 0
+Text Label 4950 4700 0    60   ~ 0
 DataIn
 Text Label 4950 4800 0    60   ~ 0
 Clock
@@ -768,12 +768,12 @@ $EndComp
 $Comp
 L R-RESCUE-arduino_based_cdc_emu R1
 U 1 1 530C77F4
-P 4600 4600
-F 0 "R1" V 4680 4600 50  0000 C CNN
-F 1 "3k3" V 4600 4600 50  0000 C CNN
-F 2 "Discret:R3" H 4600 4600 60  0001 C CNN
-F 3 "" H 4600 4600 60  0001 C CNN
-	1    4600 4600
+P 4600 4700
+F 0 "R1" V 4680 4700 50  0000 C CNN
+F 1 "3k3" V 4600 4700 50  0000 C CNN
+F 2 "Discret:R3" H 4600 4700 60  0001 C CNN
+F 3 "" H 4600 4700 60  0001 C CNN
+	1    4600 4700
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -939,6 +939,45 @@ Text Label 7200 4300 0    60   ~ 0
 RX
 Text Label 7200 4200 0    60   ~ 0
 TX
+Text Label 4200 6000 0    60   ~ 0
+RX
+Text Label 4200 5900 0    60   ~ 0
+TX
+Text Label 4150 5750 0    60   ~ 0
+RESET
+$Comp
+L +BATT #PWR?
+U 1 1 564CD739
+P 2700 700
+F 0 "#PWR?" H 2700 650 20  0001 C CNN
+F 1 "+BATT" H 2700 800 30  0000 C CNN
+F 2 "" H 2700 700 60  0001 C CNN
+F 3 "" H 2700 700 60  0001 C CNN
+	1    2700 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L +BATT #PWR?
+U 1 1 564D0555
+P 2700 1650
+F 0 "#PWR?" H 2700 1600 20  0001 C CNN
+F 1 "+BATT" H 2700 1750 30  0000 C CNN
+F 2 "" H 2700 1650 60  0001 C CNN
+F 3 "" H 2700 1650 60  0001 C CNN
+	1    2700 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +BATT #PWR?
+U 1 1 564D1BD4
+P 2700 2650
+F 0 "#PWR?" H 2700 2600 20  0001 C CNN
+F 1 "+BATT" H 2700 2750 30  0000 C CNN
+F 2 "" H 2700 2650 60  0001 C CNN
+F 3 "" H 2700 2650 60  0001 C CNN
+	1    2700 2650
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	9600 3550 9600 3350
 Wire Wire Line
@@ -946,7 +985,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 3100 3350 3000
 Wire Wire Line
-	6300 2300 6300 2400
+	6300 2300 6300 2500
 Wire Wire Line
 	4100 2950 4100 2700
 Wire Wire Line
@@ -956,7 +995,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 1100 8550 1100
 Wire Wire Line
-	6300 950  6300 1000
+	6300 950  6300 1100
 Wire Wire Line
 	6900 2000 6900 1400
 Wire Wire Line
@@ -977,7 +1016,7 @@ Connection ~ 5300 2100
 Wire Wire Line
 	7500 2800 8000 2800
 Wire Wire Line
-	7100 2800 6900 2800
+	6700 2800 7100 2800
 Wire Wire Line
 	5300 2000 5300 2200
 Wire Wire Line
@@ -985,11 +1024,11 @@ Wire Wire Line
 Wire Wire Line
 	5900 2000 5900 1500
 Wire Wire Line
-	5700 2700 5900 2700
+	5700 2700 6100 2700
 Wire Wire Line
 	4800 1300 4300 1300
 Wire Wire Line
-	5200 1300 5900 1300
+	5200 1300 6100 1300
 Wire Wire Line
 	9750 2050 9200 2050
 Wire Wire Line
@@ -1007,9 +1046,9 @@ Wire Wire Line
 Wire Wire Line
 	2700 1400 2700 1300
 Wire Wire Line
-	4850 6400 5300 6400
+	4850 6500 5300 6500
 Wire Wire Line
-	4350 6500 4150 6500
+	4350 6400 4150 6400
 Connection ~ 2150 4300
 Wire Wire Line
 	2150 4600 2250 4600
@@ -1062,7 +1101,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 6100 4850 6100
 Wire Wire Line
-	5300 4600 4850 4600
+	5300 4700 4850 4700
 Wire Wire Line
 	4850 5750 5000 5750
 Wire Wire Line
@@ -1083,11 +1122,11 @@ Wire Wire Line
 	2150 4900 2150 4100
 Connection ~ 2150 4600
 Wire Wire Line
-	4150 6400 4350 6400
+	4150 6500 4350 6500
 Wire Wire Line
-	4850 4400 5300 4400
+	4850 6600 5300 6600
 Wire Wire Line
-	4850 6500 5300 6500
+	4850 6400 5300 6400
 Wire Wire Line
 	2700 2300 2700 2200
 Wire Wire Line
@@ -1109,11 +1148,11 @@ Wire Wire Line
 Wire Wire Line
 	9750 2250 9200 2250
 Wire Wire Line
-	5900 2900 5200 2900
+	5200 2900 6100 2900
 Wire Wire Line
 	4800 2900 4300 2900
 Wire Wire Line
-	5900 1500 5700 1500
+	5700 1500 6100 1500
 Wire Wire Line
 	6400 2200 5900 2200
 Wire Wire Line
@@ -1123,7 +1162,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 2000 5700 2200
 Wire Wire Line
-	6900 1400 7100 1400
+	6700 1400 7100 1400
 Wire Wire Line
 	7500 1400 8000 1400
 Wire Wire Line
@@ -1144,7 +1183,7 @@ Connection ~ 4100 2800
 Wire Wire Line
 	4100 1500 4100 1350
 Wire Wire Line
-	6300 3300 6300 3200
+	6300 3100 6300 3300
 Wire Wire Line
 	8450 1200 8450 1100
 Connection ~ 8450 1100
@@ -1162,11 +1201,11 @@ Wire Wire Line
 	4550 2150 4700 2150
 Connection ~ 4700 2150
 Wire Wire Line
-	6300 1850 6300 1800
+	6300 1700 6300 1850
 Wire Wire Line
 	3350 1950 3350 2050
 Wire Wire Line
-	4350 4400 4150 4400
+	4350 6600 4150 6600
 Wire Wire Line
 	5100 3650 4550 3650
 Wire Wire Line
@@ -1201,12 +1240,6 @@ Wire Wire Line
 	4150 5900 4350 5900
 Wire Wire Line
 	4150 6000 4350 6000
-Text Label 4200 6000 0    60   ~ 0
-RX
-Text Label 4200 5900 0    60   ~ 0
-TX
-Text Label 4150 5750 0    60   ~ 0
-RESET
 Wire Wire Line
 	4150 4700 4350 4700
 Wire Wire Line
@@ -1217,39 +1250,10 @@ Wire Wire Line
 	9350 1000 9350 1200
 Wire Wire Line
 	9350 1200 9700 1200
-$Comp
-L +BATT #PWR?
-U 1 1 564CD739
-P 2700 700
-F 0 "#PWR?" H 2700 650 20  0001 C CNN
-F 1 "+BATT" H 2700 800 30  0000 C CNN
-F 2 "" H 2700 700 60  0001 C CNN
-F 3 "" H 2700 700 60  0001 C CNN
-	1    2700 700 
-	1    0    0    -1  
-$EndComp
-$Comp
-L +BATT #PWR?
-U 1 1 564D0555
-P 2700 1650
-F 0 "#PWR?" H 2700 1600 20  0001 C CNN
-F 1 "+BATT" H 2700 1750 30  0000 C CNN
-F 2 "" H 2700 1650 60  0001 C CNN
-F 3 "" H 2700 1650 60  0001 C CNN
-	1    2700 1650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2700 1650 2700 1700
-$Comp
-L +BATT #PWR?
-U 1 1 564D1BD4
-P 2700 2650
-F 0 "#PWR?" H 2700 2600 20  0001 C CNN
-F 1 "+BATT" H 2700 2750 30  0000 C CNN
-F 2 "" H 2700 2650 60  0001 C CNN
-F 3 "" H 2700 2650 60  0001 C CNN
-	1    2700 2650
-	1    0    0    -1  
-$EndComp
+Connection ~ 5900 2700
+Connection ~ 6900 2800
+Connection ~ 5900 1500
+Connection ~ 6900 1400
 $EndSCHEMATC

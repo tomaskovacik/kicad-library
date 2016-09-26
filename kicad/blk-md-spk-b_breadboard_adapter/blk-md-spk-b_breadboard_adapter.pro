@@ -1,4 +1,4 @@
-update=Wed 17 Feb 2016 12:51:02 CET
+update=Pi 16. september 2016, 14:44:39 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -44,8 +44,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=/home/nail/src/hw/kicad/library;/home/nail/src/kicad/library
@@ -175,3 +173,12 @@ LibName122=xlr-3
 LibName123=xtal-4
 LibName124=zener
 LibName125=BLK-MD-SPK-B
+LibName126=68HC05
+LibName127=aimtec
+LibName128=F-3188_CSR8645
+LibName129=MB-CM15113
+LibName130=raspberryPi_HAT
+LibName131=S3860M-S
+LibName132=SOYO-BT24G03
+[general]
+version=1
