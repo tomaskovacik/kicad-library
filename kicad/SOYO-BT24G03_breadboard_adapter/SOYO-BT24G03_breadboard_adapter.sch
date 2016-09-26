@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:SOYO-BT24G03_breadboard_adapter-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -57,17 +58,6 @@ F 3 "" H 4050 4000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L SOYO-BT24G03 U1
-U 1 1 55EEB2F0
-P 5200 3800
-F 0 "U1" H 5950 3700 60  0000 C CNN
-F 1 "SOYO-BT24G03" H 5950 3850 60  0000 C CNN
-F 2 "my_modules:SOYO-BT24G03" H 5250 3800 60  0001 C CNN
-F 3 "" H 5250 3800 60  0000 C CNN
-	1    5200 3800
-	1    0    0    -1  
-$EndComp
-$Comp
 L SCJ368R1NUS0B00G J1
 U 1 1 55EEE911
 P 8750 3650
@@ -113,8 +103,6 @@ F 3 "" H 7800 3900 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	5400 2500 5400 2850
-Wire Wire Line
-	6500 2450 6500 2850
 Wire Wire Line
 	7250 3850 7600 3850
 Wire Wire Line
@@ -198,16 +186,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 4950 5700 5450
 Wire Wire Line
-	6400 2450 6400 2850
-Wire Wire Line
-	5500 2550 5500 2850
-Connection ~ 6400 2550
-Wire Wire Line
-	4500 2550 4500 5300
-Connection ~ 4500 3750
-Connection ~ 5500 2550
-Wire Wire Line
-	4500 5300 6100 5300
+	4450 5300 6100 5300
 Wire Wire Line
 	5300 4950 5300 5650
 Wire Wire Line
@@ -218,8 +197,6 @@ Wire Wire Line
 Connection ~ 6000 5300
 Wire Wire Line
 	5800 4950 5800 5400
-Wire Wire Line
-	8450 2550 8450 3400
 Wire Wire Line
 	8450 3400 8500 3400
 Wire Wire Line
@@ -233,10 +210,7 @@ Wire Wire Line
 	7400 3800 8500 3800
 Connection ~ 7400 3650
 Wire Wire Line
-	7350 3250 7350 2550
-Connection ~ 7350 2550
-Wire Wire Line
-	7350 3250 7250 3250
+	7250 3250 8450 3250
 Wire Wire Line
 	6100 5350 6100 5650
 Wire Wire Line
@@ -280,8 +254,6 @@ Wire Wire Line
 Wire Wire Line
 	4250 3450 4250 3350
 Wire Wire Line
-	4600 3750 4500 3750
-Wire Wire Line
 	4600 3250 4550 3250
 Wire Wire Line
 	4550 3250 4550 2450
@@ -292,7 +264,41 @@ Wire Wire Line
 Wire Wire Line
 	5500 2500 5400 2500
 Wire Wire Line
-	4500 2550 8450 2550
-Wire Wire Line
 	6000 2450 6000 2850
+Wire Wire Line
+	6400 2750 6400 2850
+Wire Wire Line
+	4450 2750 6400 2750
+Wire Wire Line
+	5500 2750 5500 2850
+Wire Wire Line
+	4450 3750 4600 3750
+Wire Wire Line
+	4450 2750 4450 5300
+Connection ~ 5500 2750
+Connection ~ 4450 3750
+Wire Wire Line
+	8450 3250 8450 3400
+$Comp
+L SOYO-BT24G03 U1
+U 1 1 57E8C39E
+P 5200 3800
+F 0 "U1" H 5925 4950 60  0000 C CNN
+F 1 "SOYO-BT24G03" H 5925 4844 60  0000 C CNN
+F 2 "" H 5250 3800 60  0000 C CNN
+F 3 "" H 5250 3800 60  0000 C CNN
+	1    5200 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 2850 6500 2600
+Wire Wire Line
+	6500 2600 6400 2600
+Wire Wire Line
+	6400 2600 6400 2450
+Wire Wire Line
+	6500 2450 7550 2450
+Wire Wire Line
+	7550 2450 7550 3250
+Connection ~ 7550 3250
 $EndSCHEMATC
