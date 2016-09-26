@@ -30,7 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:MB-CM15113
 LIBS:audio_source-cache
-LIBS:bt_breakout_adapter_MB-CM15113-cache
+LIBS:MB-CM15113-btm-68D_breakout_adapter-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -84,7 +84,7 @@ U 1 1 55EC6792
 P 6450 4150
 F 0 "P2" H 6450 4350 50  0000 C CNN
 F 1 "CONN_01X05" V 6550 4150 50  0000 C CNN
-F 2 "jacks:PJ3020D" H 6450 4150 60  0001 C CNN
+F 2 "jacks:3.5mm_stereo_jack_PJ320B" H 6450 4150 60  0001 C CNN
 F 3 "" H 6450 4150 60  0000 C CNN
 	1    6450 4150
 	0    1    1    0   
