@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:regulated_power_supply-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -137,7 +138,7 @@ U 1 1 5671648C
 P 4350 1750
 F 0 "R4" V 4430 1750 50  0000 C CNN
 F 1 "10" V 4350 1750 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 4280 1750 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 4280 1750 50  0001 C CNN
 F 3 "" H 4350 1750 50  0000 C CNN
 	1    4350 1750
 	0    1    1    0   
@@ -148,7 +149,7 @@ U 1 1 567164C3
 P 5800 1750
 F 0 "R6" V 5880 1750 50  0000 C CNN
 F 1 "390" V 5800 1750 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 5730 1750 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 5730 1750 50  0001 C CNN
 F 3 "" H 5800 1750 50  0000 C CNN
 	1    5800 1750
 	0    1    1    0   
@@ -202,7 +203,7 @@ V723
 Text Label 6500 1750 2    60   ~ 0
 Voamp
 $Comp
-L POT Ri1
+L POT-RESCUE-regulated_power_supply Ri1
 U 1 1 567177D5
 P 7000 5150
 F 0 "Ri1" H 7000 5050 50  0000 C CNN
@@ -251,7 +252,7 @@ U 1 1 5671A3B7
 P 5350 4400
 F 0 "R7" V 5430 4400 50  0000 C CNN
 F 1 "4k7" V 5350 4400 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 5280 4400 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 5280 4400 50  0001 C CNN
 F 3 "" H 5350 4400 50  0000 C CNN
 	1    5350 4400
 	0    1    1    0   
@@ -284,7 +285,7 @@ U 1 1 5671B954
 P 4600 4400
 F 0 "R5" V 4680 4400 50  0000 C CNN
 F 1 "1k8" V 4600 4400 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 4530 4400 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 4530 4400 50  0001 C CNN
 F 3 "" H 4600 4400 50  0000 C CNN
 	1    4600 4400
 	-1   0    0    1   
@@ -301,7 +302,7 @@ F 3 "" H 4600 4700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT Rv1
+L POT-RESCUE-regulated_power_supply Rv1
 U 1 1 5671BE81
 P 6550 5150
 F 0 "Rv1" H 6550 5050 50  0000 C CNN
@@ -317,7 +318,7 @@ U 1 1 5671CCF4
 P 6550 5650
 F 0 "R8" V 6630 5650 50  0000 C CNN
 F 1 "1k2" V 6550 5650 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 6480 5650 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6480 5650 50  0001 C CNN
 F 3 "" H 6550 5650 50  0000 C CNN
 	1    6550 5650
 	1    0    0    -1  
@@ -513,7 +514,7 @@ U 1 1 56729F15
 P 3050 4850
 F 0 "R2" V 3130 4850 50  0000 C CNN
 F 1 "27k" V 3050 4850 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 2980 4850 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 2980 4850 50  0001 C CNN
 F 3 "" H 3050 4850 50  0000 C CNN
 	1    3050 4850
 	1    0    0    -1  
@@ -524,7 +525,7 @@ U 1 1 5672A01B
 P 3050 5250
 F 0 "R3" V 3130 5250 50  0000 C CNN
 F 1 "8k2" V 3050 5250 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 2980 5250 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 2980 5250 50  0001 C CNN
 F 3 "" H 3050 5250 50  0000 C CNN
 	1    3050 5250
 	1    0    0    -1  
@@ -570,7 +571,7 @@ U 1 1 5672CE66
 P 2100 3750
 F 0 "R1" V 2180 3750 50  0000 C CNN
 F 1 "2k2" V 2100 3750 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 2030 3750 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 2030 3750 50  0001 C CNN
 F 3 "" H 2100 3750 50  0000 C CNN
 	1    2100 3750
 	1    0    0    -1  
@@ -614,7 +615,7 @@ U 1 1 56730EAB
 P 8900 4300
 F 0 "R12" V 8980 4300 50  0000 C CNN
 F 1 "12k" V 8900 4300 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 8830 4300 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 8830 4300 50  0001 C CNN
 F 3 "" H 8900 4300 50  0000 C CNN
 	1    8900 4300
 	1    0    0    -1  
@@ -625,7 +626,7 @@ U 1 1 5673103F
 P 8900 4800
 F 0 "R13" V 8980 4800 50  0000 C CNN
 F 1 "12k" V 8900 4800 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 8830 4800 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 8830 4800 50  0001 C CNN
 F 3 "" H 8900 4800 50  0000 C CNN
 	1    8900 4800
 	1    0    0    -1  
@@ -776,13 +777,13 @@ Wire Wire Line
 Wire Wire Line
 	2400 5050 3050 5050
 Wire Wire Line
-	3600 4650 4000 4650
+	2850 4650 4000 4650
 Wire Wire Line
 	3600 4400 3600 4650
 Wire Wire Line
 	3900 3550 3900 3600
 Wire Wire Line
-	3600 3550 3900 3550
+	2850 3550 3900 3550
 Wire Wire Line
 	3600 3800 3600 3550
 Wire Wire Line
@@ -873,9 +874,9 @@ Wire Wire Line
 Wire Wire Line
 	2300 1900 2300 2300
 Wire Wire Line
-	2200 2150 3600 2150
+	2200 2150 3800 2150
 Wire Wire Line
-	2200 1500 3600 1500
+	2200 1500 3800 1500
 Wire Wire Line
 	2300 1500 2300 1300
 Connection ~ 2300 1300
@@ -940,7 +941,7 @@ Connection ~ 5150 4200
 Wire Wire Line
 	4900 4550 4900 4650
 Wire Wire Line
-	5150 4500 5600 4500
+	5050 4500 5600 4500
 Wire Wire Line
 	4600 4250 4600 4200
 Connection ~ 4900 4200
@@ -969,7 +970,7 @@ Connection ~ 6850 4500
 Wire Wire Line
 	4500 1750 5150 1750
 Wire Wire Line
-	6900 4000 6900 3900
+	6900 3450 6900 4000
 Wire Wire Line
 	7000 4100 7000 4900
 Wire Wire Line
@@ -1002,4 +1003,81 @@ Wire Wire Line
 	1350 1750 1350 1600
 Wire Wire Line
 	1350 1850 1350 2000
+$Comp
+L R R14
+U 1 1 56EAE50F
+P 3800 1800
+F 0 "R14" H 3870 1891 50  0000 L CNN
+F 1 "1K" H 3870 1800 50  0000 L CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" H 3870 1709 50  0000 L CNN
+F 3 "" H 3800 1800 50  0000 C CNN
+	1    3800 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 1500 3800 1650
+Connection ~ 3600 1500
+Wire Wire Line
+	3800 2150 3800 1950
+Connection ~ 3600 2150
+$Comp
+L R R15
+U 1 1 56EAEA7B
+P 11000 1900
+F 0 "R15" H 11070 1991 50  0000 L CNN
+F 1 "1K" H 11070 1900 50  0000 L CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" H 11070 1809 50  0000 L CNN
+F 3 "" H 11000 1900 50  0000 C CNN
+	1    11000 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11000 1750 11000 1450
+Wire Wire Line
+	11000 1450 10450 1450
+Wire Wire Line
+	10450 1450 10450 1800
+Connection ~ 10450 1800
+Wire Wire Line
+	10450 2000 10450 2200
+Wire Wire Line
+	10450 2200 11000 2200
+Wire Wire Line
+	11000 2200 11000 2050
+Connection ~ 10450 2000
+$Comp
+L C C12
+U 1 1 56EAFE0F
+P 2850 4100
+F 0 "C12" H 2965 4191 50  0000 L CNN
+F 1 "100n" H 2965 4100 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L7_W2.5_P5" H 2965 4009 50  0000 L CNN
+F 3 "" H 2850 4100 50  0000 C CNN
+	1    2850 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 3950 2850 3550
+Connection ~ 3600 3550
+Wire Wire Line
+	2850 4650 2850 4250
+Connection ~ 3600 4650
+$Comp
+L C C13
+U 1 1 56EB0315
+P 6200 3450
+F 0 "C13" V 5858 3450 50  0000 C CNN
+F 1 "100n" V 5949 3450 50  0000 C CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L7_W2.5_P5" V 6040 3450 50  0000 C CNN
+F 3 "" H 6200 3450 50  0000 C CNN
+	1    6200 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 3450 6900 3450
+Wire Wire Line
+	6050 3450 5050 3450
+Wire Wire Line
+	5050 3450 5050 4500
+Connection ~ 5150 4500
 $EndSCHEMATC
