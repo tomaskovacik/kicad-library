@@ -213,9 +213,9 @@ Text GLabel 8050 2350 0    60   Input ~ 0
 left_in
 Text GLabel 8050 2150 0    60   Input ~ 0
 right_in
-Text GLabel 8150 3350 0    60   Input ~ 0
-left_out
 Text GLabel 8150 3550 0    60   Input ~ 0
+left_out
+Text GLabel 8150 3350 0    60   Input ~ 0
 right_out
 $Comp
 L +12V #PWR012
@@ -429,7 +429,7 @@ U 1 1 54F9D72B
 P 8400 3550
 F 0 "P3" H 8400 3750 50  0000 C CNN
 F 1 "CONN_01X03" V 8500 3550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05" H 8400 3550 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05" H 8400 3550 60  0001 C CNN
 F 3 "" H 8400 3550 60  0000 C CNN
 	1    8400 3550
 	1    0    0    -1  
@@ -440,7 +440,7 @@ U 1 1 54F9D9C9
 P 8350 2250
 F 0 "P2" H 8350 2450 50  0000 C CNN
 F 1 "CONN_01X03" V 8450 2250 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 8350 2250 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 8350 2250 60  0001 C CNN
 F 3 "" H 8350 2250 60  0000 C CNN
 	1    8350 2250
 	1    0    0    -1  
