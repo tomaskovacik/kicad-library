@@ -1,4 +1,4 @@
-breadboard adapters for these adapters can be purchase at tindie:
+breadboard adapters for these bluetooth modules can be purchase at tindie:
 
 BLK-MD-SPK-B https://www.tindie.com/products/tomaskovacik/breadboard-adapter-for-blk-md-spk-b/
 
