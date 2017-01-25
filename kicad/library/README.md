@@ -1,4 +1,4 @@
-OVC3860 BLK-MD-SPK-B XS3886 S3860M-s module setup 
+OVC3860 BLK-MD-SPK-B XS3886 S3860M-s module setup: 
 
 - use windows, or wine with symbolic link ~/.wine/dosdevices/com1 -> /dev/ttyUSBx
 - disable your HW COM1
@@ -12,4 +12,12 @@ OVC3860 BLK-MD-SPK-B XS3886 S3860M-s module setup
 - baudrate: uart_baudrate
 - device name: localname
 - disable all sounds from BT module (poweron/off, connected etc.): set all tone_conf[x].cnt=00
+
+
+breadboard adapters for these adapters can be purchase at tindie:
+BLK-MD-SPK-B https://www.tindie.com/products/tomaskovacik/breadboard-adapter-for-blk-md-spk-b/
+XS3886 / S3860M-s https://www.tindie.com/products/tomaskovacik/breadboard-adapter-for-s3860m-s-sx3868/
+SOYO-BT24G03 https://www.tindie.com/products/tomaskovacik/breadboard-adapter-for-soyo-bt24g03-bt-module/
+F-3188 https://www.tindie.com/products/tomaskovacik/breadboard-adapter-for-f-3188-csr8645-module/
+
 
