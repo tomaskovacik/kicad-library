@@ -1,4 +1,4 @@
-(module Pin_Header_Straight_1x03_no_silk (layer F.Cu) (tedit 562108B6)
+(module Pin_Header_Straight_1x03_no_silk (layer F.Cu) (tedit 58296E14)
   (descr "Through hole pin header")
   (tags "pin header")
   (fp_text reference P2 (at 0 -5.1) (layer F.SilkS) hide
@@ -14,9 +14,4 @@
   (pad 1 smd oval (at 0 0) (size 5 2) (layers B.Cu B.Paste B.Mask))
   (pad 2 smd oval (at 0 2.54) (size 5 2) (layers B.Cu B.Paste B.Mask))
   (pad 3 smd oval (at 0 5.08) (size 5 2) (layers B.Cu B.Paste B.Mask))
-  (model Pin_Headers.3dshapes/Pin_Header_Straight_1x03.wrl
-    (at (xyz 0 -0.1 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
-  )
 )

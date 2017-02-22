@@ -1,4 +1,4 @@
-update=Thu 25 Feb 2016 15:11:27 CET
+update=St 22. február 2017, 15:35:26 CET
 version=1
 last_client=kicad
 [cvpcb]
@@ -74,3 +74,13 @@ LibName31=/home/nail/src/hw/kicad/library/BLK-MD-SPK-B
 LibName32=/home/nail/src/hw/kicad/library/S3860M-S
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1

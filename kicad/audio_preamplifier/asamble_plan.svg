@@ -45,12 +45,12 @@
      id="namedview4228"
      showgrid="false"
      inkscape:zoom="3.4931558"
-     inkscape:cx="181.8738"
+     inkscape:cx="82.250418"
      inkscape:cy="118.44096"
      inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g12552"
+     inkscape:current-layer="g13795"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -2372,7 +2372,9 @@
          y="43433.66"
          id="text4763"
          sodipodi:linespacing="125%"
-         transform="scale(-0.99999996,1)"><tspan
+         transform="scale(-0.99999996,1)"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
            sodipodi:role="line"
            id="tspan4765"
            x="-70068.328"
@@ -2412,12 +2414,12 @@
            x="-70068.328"
            y="53155.895"
            style="font-size:1111.11230469px"
-           id="tspan4791">C1              100m/25V 6.3x7.7mm smd elec.</tspan><tspan
+           id="tspan4791">C1              47m/16V 6.3x7.7mm smd elec.</tspan><tspan
            sodipodi:role="line"
            x="-70068.328"
            y="54544.781"
            style="font-size:1111.11230469px"
-           id="tspan4799">C4              47m/25V sizeD smd tantal</tspan><tspan
+           id="tspan4799">C4              47m/16V sizeD smd tantal</tspan><tspan
            sodipodi:role="line"
            x="-70068.328"
            y="55933.672"
@@ -2474,7 +2476,7 @@
            sodipodi:role="line"
            id="tspan4795"
            x="-68128.023"
-           y="53866.773"></tspan></text>
+           y="53866.773" /></text>
     </g>
     <g
        id="g12578"

@@ -10,7 +10,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -88,8 +87,8 @@ L SCJ368R1NUS0B00G J1
 U 1 1 54919413
 P 3900 2600
 F 0 "J1" H 3900 2900 60  0000 C CNN
-F 1 "SCJ368R1NUS0B00G" H 3900 2350 60  0000 C CNN
-F 2 "" H 3900 2600 60  0000 C CNN
+F 1 "3.5mmjack" H 3900 2350 60  0000 C CNN
+F 2 "jacks:3.5mm_stereo_jack_PJ306M" H 3900 2600 60  0000 C CNN
 F 3 "" H 3900 2600 60  0000 C CNN
 	1    3900 2600
 	-1   0    0    1   

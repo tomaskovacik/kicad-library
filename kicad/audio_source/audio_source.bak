@@ -96,11 +96,11 @@ F 3 "" H 3900 2600 60  0000 C CNN
 $EndComp
 Text GLabel 4350 2450 2    60   Input ~ 0
 RADIO_left_out
-Text GLabel 4350 2650 2    60   Input ~ 0
+Text GLabel 4350 2750 2    60   Input ~ 0
 RADIO_right_out
 Text GLabel 4350 2550 2    60   Input ~ 0
 CD_left_in
-Text GLabel 4350 2750 2    60   Input ~ 0
+Text GLabel 4350 2650 2    60   Input ~ 0
 CD_right_in
 $Comp
 L AGND #PWR03

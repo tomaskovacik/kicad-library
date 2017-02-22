@@ -1,11 +1,23 @@
 (export (version D)
   (design
     (source /home/nail/src/hw/kicad/audio_source/audio_source.sch)
-    (date "Tue 03 Feb 2015 11:07:57 CET")
-    (tool "Eeschema 0.201502030101+5402~21~ubuntu14.04.1-product"))
+    (date St 26. október 2016, 19:18:59 CEST)
+    (tool "Eeschema 4.1.0-alpha+201608211231+7083~46~ubuntu16.04.1-product")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date "22 sep 2014")
+        (source audio_source.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
   (components
     (comp (ref J1)
-      (value SCJ368R1NUS0B00G)
+      (value 3.5mmjack)
+      (footprint jacks:3.5mm_stereo_jack_PJ306M)
       (libsource (lib phonejack) (part SCJ368R1NUS0B00G))
       (sheetpath (names /) (tstamps /))
       (tstamp 54919413))
@@ -20,19 +32,8 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5491A2C9)))
   (libparts
-    (libpart (lib phonejack) (part SCJ368R1NUS0B00G)
-      (description "SCJ368R1NUS0B00G, 3.5 mm Phone Jack")
-      (docs http://www.scpre.com.tw/ProductPage/101/2)
-      (fields
-        (field (name Reference) J)
-        (field (name Value) SCJ368R1NUS0B00G))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type input))
-        (pin (num 3) (name 3) (type passive))
-        (pin (num 4) (name 4) (type passive))
-        (pin (num 5) (name 5) (type input))))
     (libpart (lib conn) (part CONN_01X03)
+      (description "Connector, single row, 01x03")
       (footprints
         (fp Pin_Header_Straight_1X03)
         (fp Pin_Header_Angled_1X03)
@@ -44,7 +45,19 @@
       (pins
         (pin (num 1) (name P1) (type passive))
         (pin (num 2) (name P2) (type passive))
-        (pin (num 3) (name P3) (type passive)))))
+        (pin (num 3) (name P3) (type passive))))
+    (libpart (lib phonejack) (part SCJ368R1NUS0B00G)
+      (description "SCJ368R1NUS0B00G, 3.5 mm Phone Jack")
+      (docs http://www.scpre.com.tw/ProductPage/101/2)
+      (fields
+        (field (name Reference) J)
+        (field (name Value) SCJ368R1NUS0B00G))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type input))
+        (pin (num 3) (name 3) (type passive))
+        (pin (num 4) (name 4) (type passive))
+        (pin (num 5) (name 5) (type input)))))
   (libraries
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
