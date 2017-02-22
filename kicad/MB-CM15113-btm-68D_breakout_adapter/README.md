@@ -7,4 +7,3 @@ XS3886 / S3860M-s https://www.tindie.com/products/tomaskovacik/breadboard-adapte
 SOYO-BT24G03 https://www.tindie.com/products/tomaskovacik/breadboard-adapter-for-soyo-bt24g03-bt-module/
 
 F-3188 https://www.tindie.com/products/tomaskovacik/breadboard-adapter-for-f-3188-csr8645-module/
-
