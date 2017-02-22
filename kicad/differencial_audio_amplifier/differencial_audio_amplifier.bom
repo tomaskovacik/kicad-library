@@ -1,0 +1,16 @@
+R9,R10                      39k
+R11,R15,R22,R12,R18,R24     47k
+R20,R21,R8,R23              22k
+R16,R17                     100k
+
+C7,C8,c12        100n smd 0805
+C9,C14           47m/25V smd elec. 6.3x5.7mm
+C15,C16,C17,C18  33p smd 0805
+C6,C19,C20,C21   10u/16V smd elec. 5x5.8mm
+C10              100m/25V smd elec. 6.3x7.7mm
+C11              47m/25V smd tantal sizeD
+C13              2m2/16V smd tantal sizeA
+
+L1               330uH smd 1210
+
+U3               TL072/NE5532/equivalent 
