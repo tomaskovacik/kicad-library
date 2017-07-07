@@ -1,9 +1,6 @@
-(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-6223534~58~ubuntu16.04.1)
+(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-37f8c83~58~ubuntu16.04.1)
 
   (general
-    (links 99)
-    (no_connects 1)
-    (area 114.3 72.23 178.815001 134.74888)
     (thickness 1.6)
     (drawings 6)
     (tracks 366)
@@ -62,7 +59,7 @@
     (pad_drill 1.016)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements FFFEFF7F)
+    (visible_elements FFFFFF7F)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -1403,7 +1400,7 @@
   (gr_line (start 157.0482 82.9945) (end 157.0482 131.5466) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 129.4765 82.9945) (end 157.0482 82.9945) (angle 90) (layer Edge.Cuts) (width 0.15))
   (dimension 49.53 (width 0.3) (layer Dwgs.User)
-    (gr_text "49,530 mm" (at 139.065 73.58) (layer Dwgs.User) (tstamp 58C941C8)
+    (gr_text "49,530 mm" (at 139.065 73.58) (layer Dwgs.User) (tstamp 595FB4B7)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 114.3 80.645) (xy 114.3 72.23)))
@@ -1415,7 +1412,7 @@
     (arrow2b (pts (xy 163.83 74.93) (xy 162.703496 75.516421)))
   )
   (dimension 49.53 (width 0.3) (layer Dwgs.User)
-    (gr_text "49,530 mm" (at 172.165 107.315 270) (layer Dwgs.User) (tstamp 58C941C9)
+    (gr_text "49,530 mm" (at 172.165 107.315 270) (layer Dwgs.User) (tstamp 595FB4B8)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 164.465 132.08) (xy 173.515 132.08)))
