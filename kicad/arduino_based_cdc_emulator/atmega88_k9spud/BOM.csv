@@ -1,9 +1,0 @@
-"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
-1;"C1,C2";"C_1206_HandSoldering";2;"22p";;;
-2;"C3,C4";"C_1206_HandSoldering";2;"100n";;;
-3;"IC1";"TQFP-32";1;"ATMEGA88-A";;;
-4;"GND,12V,CLK,IN,OUT";"Pin_Header_Straight_1x05";1;"CONN_5";;;
-5;"R1,R2,R3,R4";"R_1206_HandSoldering";4;"3k3";;;
-6;"U1";"SOT-223-REGULATOR";1;"78L05";;;
-7;"X1";"Q_49U3HMS";1;"16MHz";;;
-8;"UART";"Pin_Header_Straight_1x02";1;"CONN_2";;;

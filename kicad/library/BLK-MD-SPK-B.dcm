@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP BLK-MD-SPK-B
-D A2DP, AVRCP Bluetooth module
-K A2DP, AVRCP, bluetooth
-F datasheet/BLK-MD-SPK-B_Technical_Manual.pdf
-$ENDCMP
-#
-#End Doc Library

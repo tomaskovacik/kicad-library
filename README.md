@@ -1,8 +1,17 @@
-repo for hw
+schematics parts and PCB footprints for kicad of parts used in my projects create by me.
 
-fritzing: projects made in fritzing (abandoned, switching to kicad, I work on re-do all this PCBs in kicad)
+including:
 
-kicad: projects made in kicad
+S3860M-S bluetooth audio module based on OVC3860
+MB-CM15113 bluetooth audio module
+F-3188 CSR8645 based bluetooth 4.0 module
+BLK-MD-SPK-B bluetooth audio module based on OVC3860
+68HC05 motorola cpu
+SOYO-BT24G03 bluetooth module
+aimtec DC-DC convertor AM1D 
 
-audi_chorus_cd_changer_input: all files needed to convert audi chorus 1 to enable CD changer input, more: http://kovo-blog.blogspot.sk/2013/11/how-to-enable-cd-changer-input-on-audi.html
+
+work in progress:
+F-6188 - BK800L BT2.0 audio bluetooth module
+F-6888 - BK3254 BT4.0 audio bluetooth module 
 
