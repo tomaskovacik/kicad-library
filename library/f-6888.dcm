@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP F-6888 
-D A2DP, AVRCP Bluetooth module
+$CMP F-6888
+D F-6888 A2DP, AVRCP Bluetooth V4.1 module
 K A2DP, AVRCP, bluetooth
 F datasheet/F-6888_bk3254/F-6888_BK3254_datasheet.pdf
 $ENDCMP
