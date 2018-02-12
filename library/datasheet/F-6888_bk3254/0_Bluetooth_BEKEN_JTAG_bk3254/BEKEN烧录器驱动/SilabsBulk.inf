@@ -1,0 +1,95 @@
+[Version]
+Signature=$CHICAGO$
+Class=USBI/OControlledDevices
+ClassGUID={96e73b6e-7a5a-11d4-9f24-0080c82727f4}
+Provider=%MFGNAME%
+
+[Manufacturer]
+%MFGNAME%=DeviceList
+
+[DestinationDirs]
+DefaultDestDir=10,System32\Drivers
+
+[SourceDisksFiles]
+SiBulk.sys=1
+
+[SourceDisksNames]
+1=%INSTDISK%,,,
+
+[DeviceList]
+%DESCRIPTION%=DriverInstall,USB\VID_10C4&PID_0003
+
+
+;------------------------------------------------------------------------------
+;  Windows 2000 Sections
+;------------------------------------------------------------------------------
+
+; install class, Windows 2000:
+[ClassInstall32] 
+AddReg=_AddReg_ClassInstall
+
+[DriverInstall.NT]
+CopyFiles=DriverCopyFiles
+
+[DriverCopyFiles]
+SiBulk.sys,,,2
+
+[DriverInstall.NT.Services]
+AddService=SiBulk,2,DriverService
+
+[DriverService]
+ServiceType=1
+StartType=3
+ErrorControl=1
+ServiceBinary=%10%\system32\drivers\SiBulk.sys
+
+[DriverInstall.nt.hw]
+AddReg=DriverHwAddReg
+
+[DriverHwAddReg]
+HKR,,FriendlyName,,%FRIENDLYNAME%
+
+
+;------------------------------------------------------------------------------
+;  Windows 98 Sections
+;------------------------------------------------------------------------------
+
+; install class, Windows 98:
+[ClassInstall] 
+AddReg=_AddReg_ClassInstall
+
+[DriverInstall]
+AddReg=DriverAddReg
+CopyFiles=DriverCopyFiles98
+
+[DriverCopyFiles98]
+SiBulk.sys,,,2
+
+[DriverAddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,SiBulk.sys
+
+; registry entries required for class 
+[_AddReg_ClassInstall]
+HKR,,,,"%S_DeviceClassDisplayName%"
+HKR,,Icon,,"-20"
+
+[DriverInstall.HW]
+AddReg=DriverHwAddReg
+
+
+;------------------------------------------------------------------------------
+;  String Definitions
+;------------------------------------------------------------------------------
+
+[Strings]
+MFGNAME="Silicon Laboratories"
+INSTDISK="Silabs Software Installation Disc"
+DESCRIPTION="Silabs C8051F320 USB Board"
+FRIENDLYNAME="Silabs C8051F320 USB Board"
+
+; device class display name, shown in Device Manager
+S_DeviceClassDisplayName="USB I/O controlled devices"
+
+
+
