@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP F-6188
+D F-6188 A2DP, AVRCP Bluetooth 2.1+ EDR module based on BK8000L chip
+K A2DP, AVRCP Bluetooth
+F datasheet/F-6188_BK8000L/F-6188-BK8000L-eng.pdf
+$ENDCMP
+#
+#End Doc Library
