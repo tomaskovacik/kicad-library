@@ -1,0 +1,96 @@
+#######################################
+## BC HS Configurator                ##
+## Generated PSR File                ##
+## Version = BC86XX                  ##
+#######################################
+
+//USR  0 - PSKEY_BATTERY_CONFIG             
+&028a - 
+
+//USR  1 - PSKEY_BUTTON_CONFIG              
+&028b - 
+
+//USR  2 - PSKEY_BUTTON_PATTERN_CONFIG      
+&028c - 
+
+//USR  4 - PSKEY_INPUT_PIO_BLOCK            
+&028e - 
+
+//USR  5 - PSKEY_HFP_1_5_SUPPORTED_FEATURES 
+&028f - 
+
+//USR  6 - PSKEY_TIMEOUTS                   
+&0290 - 
+
+//USR  7 - PSKEY_TRI_COLOUR_LEDS            
+&0291 - 
+
+//USR  9 - PSKEY_LENGTHS                    
+&0293 - 
+
+//USR 10 - PSKEY_BUTTON_TRANSLATIONS        
+&0294 - 
+
+//USR 11 - PSKEY_TTS_CONFIG                 
+&0295 - 
+
+//USR 13 - PSKEY_RADIO_CONFIG               
+&0297 - 
+
+//USR 15 - PSKEY_FEATURE_BLOCK              
+&0299 - 
+
+//USR 16 - PSKEY_SPEAKER_GAIN_MAPPING       
+&029a - 
+
+//USR 17 - PSKEY_HFP_OAR_PARAMETERS         
+&029b - 
+
+//USR 18 - PSKEY_LED_FILTERS                
+&029c - 
+
+//USR 19 - PSKEY_USER_TONES                 
+&029d - 
+
+//USR 20 - PSKEY_LED_STATES                 
+&029e - 
+
+//USR 21 - PSKEY_VOICE_PROMPTS              
+&029f - 
+
+//USR 22 - PSKEY_LED_EVENTS                 
+&02a0 - 
+
+//USR 23 - PSKEY_EVENTS_A                   
+&02a1 - 
+
+//USR 24 - PSKEY_EVENTS_B                   
+&02a2 - 
+
+//USR 25 - PSKEY_EVENTS_C                   
+&02a3 - 
+
+//USR 26 - PSKEY_TONES                      
+&02a4 - 
+
+//USR 27 - PSKEY_RSSI                       
+&02a5 - 
+
+//USR 28 - PSKEY_USB                        
+&02a6 - 
+
+//USR 29 - PSKEY_ENERGY_PARAMS              
+&02a7 - 
+
+//USR 30 - PSKEY_ONE_TOUCH_DIAL             
+&02a8 =  0001 0000
+
+//USR 31 - PSKEY_CONFIGURATION_ID           
+&02a9 =  0000
+
+//PSKEY_CODEC_PIO - MIC BIAS                
+&01b9 =  00FE
+
+//PSKEY_LOCAL_DEVICE_NAME                   
+&0108 =  4F46 5255 422D 5455 4F54 2D4E 5348
+
