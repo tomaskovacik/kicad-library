@@ -1,3 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP F-3188_CSR8645
+D AD2P bluetooth 4.0 module based on CSR8645 chip with APTX
+K HFPV1.6, A2DPV1.2, AVRCPV1.4 , HSPV1.2, CSR8645, APTX
+F datasheet/F-3188_CSR8645_bluetooth/CSR8645_datasheet.pdf
+$ENDCMP
+#
 #End Doc Library
