@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP BLK-MD-SPK-B
-D A2DP, AVRCP Bluetooth module
+D A2DP, AVRCP Bluetooth module based on OVC3860 chip
 K A2DP, AVRCP, bluetooth
 F datasheet/BLK-MD-SPK-B_Technical_Manual.pdf
 $ENDCMP
