@@ -20,6 +20,5 @@ F-6888 - BK3254 BT4.0 audio bluetooth module
 
 Microchip BM20 and BM23 BT modules
 
-work in progress:
 F-6188 - BK800L BT2.0 audio bluetooth module 
 
