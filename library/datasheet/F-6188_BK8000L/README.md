@@ -101,37 +101,39 @@ Feedback data format: < IND> [<param>] \ r \ n
 | CK | | volume up | AT+CK\r\n |||
 | CL | | volume down | AT+CL\r\n |||
 | CM | | Multi-language switch | AT+CM\r\n |||
-| CN | |  |  |||
+| CN | |  |  ||test this|
 | CO | | Channel switching (invalid) | AT+CO\r\n || to be tested |
 | CP | | Shutdown | AT+CP\r\n |||
-| CQ | |  |  |||
-| CR | |  |  |||
-| CS | |  |  |||
+| CQ | |  |  ||test this|
+| CR | |  |  ||test this|
+| CS | |  |  ||test this|
 | CT | | Enter the test mode | AT+CT\r\n |||
-| CU | |  |  |||
-| CW | | Retention |  |||
+| CU | |  |  ||test this|
+| CW | | Retention |  ||test this|
 | CV | | Open phone VOICE | AT+CV\r\n |||
-| CX | |  |  ||
-| CY | | Retention |  |||
+| CX | |  |  |test this|
+| CY | | Retention |  ||test this|
 | CZ | | Memory clear | AT+CZ\r\n |||
 | CMM | <Number> :( 0-4 ) | Set the number of multi-lingual | AT+CMM4\r\n |||
 | MA | | Music Play / Pause | AT+MA\r\n |||
-| MB | |  |  |||
+| MB | |  |  ||test this|
 | MC | | The music stops | AT+MC\r\n |||
 | MD | | next track | AT+MD\r\n |||
 | ME | | previous track | AT+ME\r\n |||
-| MF | | fast forward | AT+MF\r\n || test how does this exacly works |
+| MF | | fast forward | AT+MF\r\n || test how does this exacly works? |
 | MG | |  |  |||
-| MH | | rewind | AT+MH\r\n || test how does this exacly works |
-| MI | |  |  |||
-| MJ | |  |  |||
-| MK | |  |  |||
-| ML | |  |  |||
-| MM | |  |  |||
-| MN | | Bluetooth name query | AT+MN\r\n | NA:BK8000L\r\n ||
-| MO | |  |  |||
+| MH | | rewind | AT+MH\r\n || test how does this exacly works? |
+| MI | |  |  ||test this|
+| MJ | |  |  ||test this|
+| MK | |  |  ||test this|
+| ML | |  |  ||test this|
+| MM | |  |  ||test this|
+| MN | | Query bluetooth name | AT+MN\r\n | NA:BK8000L\r\n |test this|
+| MO | | Bluetooth connection status inquiry | AT+MO\rn | connection succeeded:" C1 \ r \ n "
+no connection:" C0 \ r \ n " ||
 | MP | | PIN Code query | AT+MP\r\n | PN:0000\r\n ||
-| MR | | Queries Bluetooth address | AT+MR\r\n | AD:111111111111\r\n ||
+| MR | | Query bluetooth address | AT+MR\r\n | AD:111111111111\r\n ||
+| MQ | | Query software version | AT+MQ\r\n |XZX-V1.2\r\n||
 | MS | |  |  |
 | MT | |  |  |
 | MU | |  |  |
