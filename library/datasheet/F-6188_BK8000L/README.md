@@ -1,8 +1,7 @@
 
-#Highlights of BK8000L from datasheet
+# Highlights of BK8000L from datasheet
 
-
-#specs:
+## specs:
 
 
 1) Bluetooth v2.1 + EDR ;
@@ -14,7 +13,7 @@
 7) IOP
 
 
-#Parameters:
+## Parameters:
 
 |||
 |-------------------------|----------------|
@@ -34,7 +33,7 @@
 | Size adapter plate | 21x29mm |
 
 
-#PINOUT
+## PINOUT
 
 
 | PIN | NAME | decription | NOTES |
@@ -73,9 +72,9 @@
 | 32 | GND | power ground ||
 
 
-#AT instruction
+## AT instruction
 
-## Serial Configuration
+### Serial Configuration
 
 1. Baud Rate 9600 ;
 2. 8 Data bits;
@@ -83,12 +82,12 @@
 4. One stop bit;
 5. 9600 , N , 8 , 1 .
 
-## format
+### Format
 
 Control Instruction format: AT + <CMD> [<param>] \ r \ n
 Feedback data format: < IND> [<param>] \ r \ n
 
-## Control instructions
+### Control instructions
 
 --------------------------------------------------------------------------------
 | Serial command | parameter | description | example | return |note|
@@ -146,7 +145,7 @@ Feedback data format: < IND> [<param>] \ r \ n
 | MY | |  |  ||test this|
 | MZ | |  |  ||test this|
 
-## bluetooth status information send without request
+### bluetooth status information send without request
 
 -----------------------------------------------------------------------------
 | static part of data | variable part of sent data| description | real data |
@@ -159,7 +158,7 @@ Feedback data format: < IND> [<param>] \ r \ n
 | PR | number | Outdoing number | PR-136XXXXX |
 | ON || Bluetooth is thurned on | ON\r\n |
 
-##SPP Introduction
+### SPP Introduction
 
 --------------------------------------------------------------------------------
 | SPP Data Format | parameter | description | example | info returnd by module |
@@ -167,3 +166,4 @@ Feedback data format: < IND> [<param>] \ r \ n
 | APT+SPP8888 | Four-digit password ( 8888 ) | Through a password to open SPP | APT+SPP8888\r\n | pass OK: OK\r\n, wrong pass: ERR \r\n |
 | APT+XXXXXXX | data 64byte | transfer data, do not exceed recommended 64byte | APT+XXXXXX\r\n | success: OK\r\n, error: ERR\r\n |
 | APR+XXXXXXX | data 64byte | receive data, do not exceed recommended 64byte | APR+XXXXXX\r\n | Data sent from phone |
+
