@@ -33,7 +33,7 @@ Size adapter plate 21x29mm
 
 ---------------------------
 | PIN | NAME | decription |
----------------------------
+|-----|------|------------|
 | 1 | GND | ground for antena |
 | 2 | ANT | antena, default off, internal is used |
 | 3 | GND | ground for antena |
@@ -66,7 +66,7 @@ Size adapter plate 21x29mm
 | 30 | 3V0 | Unused |
 | 31 | ADC | Unused |
 | 32 | GND | power ground |
----------------------------------
+
 
 #AT instruction
 
