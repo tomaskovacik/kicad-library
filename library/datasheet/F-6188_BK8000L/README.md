@@ -85,53 +85,53 @@ Feedback data format: < IND> [<param>] \ r \ n
 
 ## Control instructions
 
-----------------------------------------------------------------------
-| Serial command | parameter | description | example | note |
-|----------------|-----------|-------------|------------|------------|
-| CA | | pairing | AT+CA\r\n ||
-| CB | | Exit pairing | AT+CB\r\n ||
-| CC | | The last paired device connected | AT+CC\r\n |what this should do? connect to last connected device?|
-| CD | | disconnect | AT+CD\r\n ||
-| CE | | Answer the call | AT+CD\r\n ||
-| CF | | reject a call | AT+CF\r\n ||
-| CG | | Hang up | AT+CG\r\n | |
-| CH | | redial | AT+CH\r\n | last called number? |
-| CI | |  |  |
-| CJ | |  |  |
-| CK | |  |  |
-| CL | |  |  |
-| CM | |  |  |
-| CN | |  |  |
-| CO | |  |  |
-| CP | |  |  |
-| CQ | |  |  |
-| CR | |  |  |
-| CS | |  |  |
-| CT | |  |  |
-| CU | |  |  |
-| CW | |  |  |
-| CV | |  |  |
-| CX | |  |  |
-| CY | |  |  |
-| CZ | |  |  |
-| CMM | |  |  |
-| MA | |  |  |
-| MB | |  |  |
-| MC | |  |  |
-| MD | |  |  |
-| ME | |  |  |
-| MF | |  |  |
-| MG | |  |  |
-| MH | |  |  |
-| MI | |  |  |
-| MJ | |  |  |
-| MK | |  |  |
-| ML | |  |  |
-| MM | |  |  |
-| MN | |  |  |
-| MO | |  |  |
-| MP | |  |  |
-| MR | |  |  |
+--------------------------------------------------------------------------------
+| Serial command | parameter | description | example | return |note|
+|----------------|-----------|-------------|------------|------------|----------|
+| CA | | pairing | AT+CA\r\n |||
+| CB | | Exit pairing | AT+CB\r\n |||
+| CC | | The last paired device connected | AT+CC\r\n ||what this should do? connect to last connected device?|
+| CD | | disconnect | AT+CD\r\n |||
+| CE | | Answer the call | AT+CD\r\n |||
+| CF | | reject a call | AT+CF\r\n |||
+| CG | | Hang up | AT+CG\r\n | ||
+| CH | | redial | AT+CH\r\n || last called number? |
+| CI | |  |  || test this |
+| CJ | |  |  || test this |
+| CK | | volume up | AT+CK\r\n |||
+| CL | | volume down | AT+CL\r\n |||
+| CM | | Multi-language switch | AT+CM\r\n |||
+| CN | |  |  |||
+| CO | | Channel switching (invalid) | AT+CO\r\n || to be tested |
+| CP | | Shutdown | AT+CP\r\n |||
+| CQ | |  |  |||
+| CR | |  |  |||
+| CS | |  |  |||
+| CT | | Enter the test mode | AT+CT\r\n |||
+| CU | |  |  |||
+| CW | | Retention |  |||
+| CV | | Open phone VOICE | AT+CV\r\n |||
+| CX | |  |  ||
+| CY | | Retention |  |||
+| CZ | | Memory clear | AT+CZ\r\n |||
+| CMM | <Number> :( 0-4 ) | Set the number of multi-lingual | AT+CMM4\r\n |||
+| MA | | Music Play / Pause | AT+MA\r\n |||
+| MB | |  |  |||
+| MC | | The music stops | AT+MC\r\n |||
+| MD | | next track | AT+MD\r\n |||
+| ME | | previous track | AT+ME\r\n |||
+| MF | | fast forward | AT+MF\r\n || test how does this exacly works |
+| MG | |  |  |||
+| MH | | rewind | AT+MH\r\n || test how does this exacly works |
+| MI | |  |  |||
+| MJ | |  |  |||
+| MK | |  |  |||
+| ML | |  |  |||
+| MM | |  |  |||
+| MN | | Bluetooth name query | AT+MN\r\n | NA:BK8000L\r\n ||
+| MO | |  |  |||
+| MP | | PIN Code query | AT+MP\r\n | PN:0000\r\n ||
+| MR | | Queries Bluetooth address | AT+MR\r\n | AD:111111111111\r\n ||
 | MS | |  |  |
 | MT | |  |  |
 | MU | |  |  |
