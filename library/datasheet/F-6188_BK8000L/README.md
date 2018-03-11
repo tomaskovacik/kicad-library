@@ -168,3 +168,27 @@ Feedback data format: \<IND\> \[\<param\>\]\r\n
 | APT+XXXXXXX | data 64byte | transfer data, do not exceed recommended 64byte | APT+XXXXXX\r\n | success: OK\r\n, error: ERR\r\n |
 | APR+XXXXXXX | data 64byte | receive data, do not exceed recommended 64byte | APR+XXXXXX\r\n | Data sent from phone |
 
+## NOTES:
+
+based on datasheet (BK8000L_datasheet.pdf) BK8000L has support for SDcard:
+
+| PIN |function|
+|-----------|------------|
+| GPIO12 |sd_clk/clk13m|
+| GPIO13 |sd_cmd/SCL|
+| GPIO14 |sd_data[0]/SDA|
+| GPIO15 |sd_data[1]|
+| GPIO16 |sd_data[2]|
+| GPIO17 |sd_data[3]|
+
+wakeup:
+
+The BK8000L can enter into shut down mode when there is no active connection. The shut mode can be waked up by GPIO and USB charge.
+All GPIO can be source to wake up MCU from shut down state. In shut down state, any level change on the set GPIO will trigger the wake up procedure.
+
+## KICAD supporting files:
+
+schematics symbol:
+
+<img src="https://raw.githubusercontent.com/tomaskovacik/kicad-library/master/library/datasheet/F-6188_BK8000L/F-6188_schematics_symbol.svg">
+
