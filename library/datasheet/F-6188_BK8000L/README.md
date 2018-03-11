@@ -1,3 +1,4 @@
+
 #Highlights of BK8000L from datasheet
 
 #specs:
@@ -154,4 +155,12 @@ Feedback data format: < IND> [<param>] \ r \ n
 | PR | number | Outdoing number | PR-136XXXXX |
 | ON || Bluetooth is thurned on | ON\r\n |
 
+##SPP Introduction
 
+
+--------------------------------------------------------------------------------
+| SPP Data Format | parameter | description | example | info returnd by module |
+|-----------------|-----------|-------------|---------|------------------------|
+| APT+SPP8888 | Four-digit password ( 8888 ) | Through a password to open SPP | APT+SPP8888\r\n | pass OK: OK\r\n, wrong pass: ERR \r\n |
+| APT+XXXXXXX | data 64byte | transfer data, do not exceed recommended 64byte | APT+XXXXXX\r\n | success: OK\r\n, error: ERR\r\n |
+| APR+XXXXXXX | data 64byte | receive data, do not exceed recommended 64byte | APR+XXXXXX\r\n | Data sent from phone |
