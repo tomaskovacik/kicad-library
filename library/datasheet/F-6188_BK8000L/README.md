@@ -114,7 +114,7 @@ Feedback data format: < IND> [<param>] \ r \ n
 | CX | |  |  |test this|
 | CY | | Retention |  ||test this|
 | CZ | | Memory clear | AT+CZ\r\n |||
-| CMM | <Number> :( 0-4 ) | Set the number of multi-lingual | AT+CMM4\r\n |||
+| CMM | Number:( 0-4 ) | Set the number of multi-lingual | AT+CMM4\r\n |||
 | MA | | Music Play / Pause | AT+MA\r\n |||
 | MB | |  |  ||test this|
 | MC | | The music stops | AT+MC\r\n |||
@@ -150,8 +150,8 @@ Feedback data format: < IND> [<param>] \ r \ n
 | IA || disconnect | IA\r\n|
 | MA ||| timeout: MA\r\n(isn't this paused music?) |
 | MB ||| Play: MB\r\n|
-| IR | <number> | Caller ID | IR-136XXXXXX |
-| PR | <number> | Outdoing number | PR-136XXXXX |
+| IR | number | Caller ID | IR-136XXXXXX |
+| PR | number | Outdoing number | PR-136XXXXX |
 | ON || Bluetooth is thurned on | ON\r\n |
 
 
