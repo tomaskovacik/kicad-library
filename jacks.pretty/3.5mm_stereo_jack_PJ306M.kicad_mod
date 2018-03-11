@@ -3,7 +3,7 @@
     (effects (font (size 0.39878 0.39878) (thickness 0.0508)))
   )
   (fp_text value PJ-306M (at 0 2.35) (layer F.SilkS) hide
-    (effects (font (thickness 0.3048)))
+    (effects (font (size 1.524 1.524) (thickness 0.3048)))
   )
   (fp_line (start -1.55 -3) (end 2.95 -3.9) (layer F.SilkS) (width 0.15))
   (fp_line (start 3 -4.75) (end -3.05 -3.55) (layer F.SilkS) (width 0.15))
