@@ -16,7 +16,7 @@
 
 #Parameters:
 
--------------------------------------------
+|-------------------------|----------------|
 | Bluetooth Specification | Bluetooth V2.1 |
 | Supply voltage | DC3.3-4.2V , ≤ 2.9V Automatic shutdown, ≤ 3.1V Call the police |
 | Bluetooth protocol support | HFPV1.5 , A2DPV1.2 , AVRCPV1.4 , HSP1.2 , GAVDP1.2 , IOP |
