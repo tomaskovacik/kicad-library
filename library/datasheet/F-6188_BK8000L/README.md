@@ -84,8 +84,9 @@
 
 ### Format
 
-Control Instruction format: AT + <CMD> [<param>] \ r \ n
-Feedback data format: < IND> [<param>] \ r \ n
+Control Instruction format: AT + \<CMD\> \[\<param\>\]\r\n
+
+Feedback data format: \<IND\> \[\<param\>\]\r\n
 
 ### Control instructions
 
