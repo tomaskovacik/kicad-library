@@ -1,4 +1,4 @@
-(module F-3188_CSR8645 (layer F.Cu) (tedit 5AA42358)
+(module F-3188_CSR8645 (layer F.Cu) (tedit 5AA57D16)
   (fp_text reference REF** (at 6.57 -8.99) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
