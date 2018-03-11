@@ -129,40 +129,27 @@ Feedback data format: < IND> [<param>] \ r \ n
 | ML | |  |  ||test this|
 | MM | |  |  ||test this|
 | MN | | Query bluetooth name | AT+MN\r\n | NA:BK8000L\r\n |test this|
-| MO | | Bluetooth connection status inquiry | AT+MO\rn | connection succeeded:" C1 \ r \ n "
-no connection:" C0 \ r \ n " ||
+| MO | | Bluetooth connection status inquiry | AT+MO\rn | connection succeeded:" C1\r\n"no connection:"C0\r\n" ||
 | MP | | PIN Code query | AT+MP\r\n | PN:0000\r\n ||
 | MR | | Query bluetooth address | AT+MR\r\n | AD:111111111111\r\n ||
 | MQ | | Query software version | AT+MQ\r\n |XZX-V1.2\r\n||
-| MS | |  |  |
-| MT | |  |  |
-| MU | |  |  |
-| MV | |  |  |
-| MX | |  |  |
-| MY | |  |  |
-| MZ | |  |  |
-| CA | |  |  |
-| CA | |  |  |
-| CA | |  |  |
-| CA | |  |  |
-| CA | |  |  |
-| CA | |  |  |
-| CA | |  |  |
-| CA | |  |  |
-| CA | |  |  |
-| CA | |  |  |
-| CA | |  |  |
-| CA | |  |  |
-| CA | |  |  |
-| CA | |  |  |
-| CA | |  |  |
-| CA | |  |  |
-| CA | |  |  |
-| CA | |  |  |
-| CA | |  |  |
-| CA | |  |  |
-| CA | |  |  |
-| CA | |  |  |
-| CA | |  |  |
-| CA | |  |  |
+| MS | |  |  ||test this|
+| MT | |  |  ||test this|
+| MU | |  |  ||test this|
+| MV | | Bluetooth playback status inquiry | AT+MV\r\n |Play: "MB\r\n", time out:"MA\r\n", disconnect:" M0\r\n" ||
+| MX | | Bluetooth inquiry HFP status | AT+MY\r\n | disconnect:"M0\r\n", connection:"M1\r\n", Caller: "M2\r\n", Outgoing: "M3\r\n", calling:"M4\r\n" ||
+| MY | |  |  ||test this|
+| MZ | |  |  ||test this|
+
+## bluetooth status information send without request
+
+|----|------|----------|-------|
+| static part of data | variable part of sent data| description | real data |
+| II  || connection succeeded | II\r\n|
+| IA || disconnect | IA\r\n|
+| MA ||| timeout: MA\r\n(isn't this paused music?) |
+| MB ||| Play: MB\r\n|
+| IR | <number> | Caller ID | IR-136XXXXXX |
+| PR | <number> | Outdoing number | PR-136XXXXX |
+| ON || Bluetooth is thurned on | ON\r\n |
 
