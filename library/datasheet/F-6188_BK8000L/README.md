@@ -190,5 +190,5 @@ All GPIO can be source to wake up MCU from shut down state. In shut down state, 
 
 schematics symbol:
 
-<img src="https://raw.githubusercontent.com/tomaskovacik/kicad-library/master/library/datasheet/F-6188_BK8000L/F-6188_schematics_symbol.svg">
+<img src="https://raw.githubusercontent.com/tomaskovacik/kicad-library/master/library/datasheet/F-6188_BK8000L/F-6188_schematics_symbol.png">
 
