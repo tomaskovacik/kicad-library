@@ -143,9 +143,9 @@ Feedback data format: < IND> [<param>] \ r \ n
 
 ## bluetooth status information send without request
 
-|----|------|----------|-------|
+|---------------------|---------------------------|-------------|-----------|
 | static part of data | variable part of sent data| description | real data |
-|----|------|----------|-------|
+|---------------------|---------------------------|-------------|-----------|
 | II  || connection succeeded | II\r\n|
 | IA || disconnect | IA\r\n|
 | MA ||| timeout: MA\r\n(isn't this paused music?) |
