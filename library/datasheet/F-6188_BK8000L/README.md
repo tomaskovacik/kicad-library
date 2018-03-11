@@ -1,7 +1,9 @@
 
 #Highlights of BK8000L from datasheet
 
+
 #specs:
+
 
 1) Bluetooth v2.1 + EDR ;
 2) A2DP v1.2 ;
@@ -14,20 +16,21 @@
 
 #Parameters:
 
-Bluetooth Specification Bluetooth V2.1
-Supply voltage DC3.3-4.2V , ≤ 2.9V Automatic shutdown, ≤ 3.1V Call the police
-Bluetooth protocol support: HFPV1.5 , A2DPV1.2 , AVRCPV1.4 , HSP1.2 , GAVDP1.2 , IOP
-Working current ≤ 60mA
-Standby Current <500uA
-temperature range - 40oC ~ + 85oC
-Wireless transmission range ≤ 10 Meters
-transmit power Class2 4dbm
-Sensitivity - 80dBm <0.1% BER
-Frequency Range 2.4GHz ~ 2.480GHz
-External Interface Serial ( TTL Level), and PC Connection requires conversion level, such as CH340G , USB turn TTL
-Audio Performance SBC decoding
-Module size 25x13.5x1.8mm
-Size adapter plate 21x29mm
+-------------------------------------------
+| Bluetooth Specification | Bluetooth V2.1 |
+| Supply voltage | DC3.3-4.2V , ≤ 2.9V Automatic shutdown, ≤ 3.1V Call the police |
+| Bluetooth protocol support | HFPV1.5 , A2DPV1.2 , AVRCPV1.4 , HSP1.2 , GAVDP1.2 , IOP |
+| Working current | ≤ 60mA |
+| Standby Current | <500uA |
+| temperature range | - 40oC ~ + 85oC |
+| Wireless transmission range | ≤ 10 Meters |
+| transmit power  |Class2 4dbm |
+| Sensitivity | - 80dBm <0.1% BER |
+| Frequency Range | 2.4GHz ~ 2.480GHz |
+| External Interface | Serial ( TTL Level, 3.3V ) |
+| Audio Performance | SBC decoding |
+| Module size | 25x13.5x1.8mm |
+| Size adapter plate | 21x29mm |
 
 
 #PINOUT
@@ -156,7 +159,6 @@ Feedback data format: < IND> [<param>] \ r \ n
 | ON || Bluetooth is thurned on | ON\r\n |
 
 ##SPP Introduction
-
 
 --------------------------------------------------------------------------------
 | SPP Data Format | parameter | description | example | info returnd by module |
