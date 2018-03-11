@@ -14,7 +14,7 @@
   (pad 1 smd oval (at 0 0) (size 5 2) (layers B.Cu B.Paste B.Mask))
   (pad 2 smd oval (at 0 2.54) (size 5 2) (layers B.Cu B.Paste B.Mask))
   (model Pin_Headers.3dshapes/Pin_Header_Straight_1x02.wrl
-    (at (xyz 0 -0.05 0))
+    (offset (xyz 0 -1.269999980926514 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
