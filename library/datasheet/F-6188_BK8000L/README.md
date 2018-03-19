@@ -149,7 +149,7 @@ Feedback data format: \<IND\> \[\<param\>\]\r\n
 ### from dump of lash:
 
 -----------------------------------------------------------
-| command | what google tell as about it | module response|
+| command | what google tell us about it | module response|
 |---------|------------------------------|----------------|
 | AT+CKPD=200|Notifies the AG service when a button on the headset is pressed. [1] | OK |
 | AT+VGM= | AT+VGM=%gain% Notifies the audio gateway service when the microphone volume on the headset is changed to the specified gain value. [1]||
@@ -176,6 +176,7 @@ Feedback data format: \<IND\> \[\<param\>\]\r\n
 | AT+IPHONEACCEV= | ||
 
 [1] https://docs.microsoft.com/en-us/previous-versions/windows/embedded/ms881905(v=msdn.10)
+
 [2] https://docs.microsoft.com/en-us/previous-versions/windows/embedded/ms881893(v=msdn.10)
 
 ### bluetooth status information send without request
