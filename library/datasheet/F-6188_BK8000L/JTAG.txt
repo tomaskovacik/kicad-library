@@ -1,0 +1,4 @@
+TMS - 4 (VOL+) 
+TCK - 5 (VOL-)
+TDO - 6 (NEXT)
+TDI - 7 (PREV)
