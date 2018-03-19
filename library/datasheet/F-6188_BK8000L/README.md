@@ -148,33 +148,35 @@ Feedback data format: \<IND\> \[\<param\>\]\r\n
 
 ### from dump of lash:
 
-------------------------------------------
-| command | what google tell as about it |
-------------------------------------------
-| AT+CKPD=200| |
-| AT+VGM= | |
-| AT+VGS= | |
-| AT+CHUP | |
-| AT+CCWA= | |
-| AT+BLDN | |
-| AT+BRSF= | |
-| AT+BTRH= | |
-| AT+BTRH? | |
-| AT+BVRA= | |
-| AT+CIND=? | |
-| AT+CIND? | |
-| AT+CMER=3,0,0, | |
-| AT+CHLD= | |
-| AT+CHLD=? | |
-| AT+CLCC | |
-| AT+CLIP= | |
-| AT+COPS=3,0 | |
-| AT+COPS? | |
-| AT+CNUM | |
-| AT+VTS= | |
+----------------------------------------------------------
+| command | what google tell as about it | module response|
+-------------------------------------------------------------
+| AT+CKPD=200|Notifies the AG service when a button on the headset is pressed. [1] | OK |
+| AT+VGM= | AT+VGM=%gain% Notifies the audio gateway service when the microphone volume on the headset is changed to the specified gain value. [1]||
+| AT+VGS= | AT+VGS=%gain% Notifies the audio gateway service when the speaker volume on the headset is changed to the specified gain value. [1]||
+| AT+CHUP | Rejects an incoming call. [2]|OK|
+| AT+CCWA= | Enables call waiting notification in the audio gateway [2]2|OK|
+| AT+BLDN | Bluetooth last dialled number [2]||
+| AT+BRSF= | Retrieves the supported features [2]||
+| AT+BTRH= |  ||
+| AT+BTRH? |  ||
+| AT+BVRA= | Enables or disables voice recognition in the audio gateway. [2] ||
+| AT+CIND=? | Retrieves the indicator mappings for the audio gateway. [2]|||
+| AT+CIND? | Reads the current status of the audio gateway indicators. [2] ||
+| AT+CMER=3,0,0, | Registers or unregisters status updates. [2] |OK|
+| AT+CHLD= |  |OK|
+| AT+CHLD=? |  |OK|
+| AT+CLCC |  |OK|
+| AT+CLIP= | Enables the call line identification. |OK|
+| AT+COPS=3,0 | |OK|
+| AT+COPS? | |OK|
+| AT+CNUM | ||
+| AT+VTS= | ||
 | AT+XAPL=0000-0000-0100,7 | |
-| AT+IPHONEACCEV= | |
+| AT+IPHONEACCEV= | ||
 
+[1] https://docs.microsoft.com/en-us/previous-versions/windows/embedded/ms881905(v=msdn.10)
+[2] https://docs.microsoft.com/en-us/previous-versions/windows/embedded/ms881893(v=msdn.10)
 
 ### bluetooth status information send without request
 
