@@ -234,188 +234,367 @@ RE-draw of basic supporting circutes (mic, output etc...) is in breakout board a
 ### strings from flash dump:
 
 /AT+
+
 ...skipping
+
 AT+CKPD=200
+
 AT+VGM=
+
 AT+VGS=
+
 sec_ssp_keypress_notify %02x:%02x:%02x:%02x:%02x:%02x %02x
+
 sec_ssp_passkey_notify %02x:%02x:%02x:%02x:%02x:%02x %06lu
+
 sec_ssp_passkey_req %02x:%02x:%02x:%02x:%02x:%02x
+
 remote_name_complete %02x:%02x:%02x:%02x:%02x:%02x %02x %s
+
 Command in progress was aborted by the target device
+
 sec_ssp_conf_req %02x:%02x:%02x:%02x:%02x:%02x %06lu
+
 EVENT_PLAYBACK_STATUS_CHANGED
+
 UNKNOWN EVENT
+
 EVENT_TRACK_CHANGED
+
 EVENT_TRACK_REACHED_END
+
 EVENT_TRACK_REACHED_START
+
 EVENT_PLAYBACK_POS_CHANGED
+
 EVENT_BATT_STATUS_CHANGED
+
 EVENT_SYSTEM_STATUS_CHANGED
+
 EVENT_PLAYER_APPLICATION_SETTING_CHANGED
+
 EVENT_NOW_PLAYING_CONTENT_CHANGED
+
 EVENT_AVAILABLE_PLAYERS_CHANGED
+
 EVENT_ADDRESSED_PLAYER_CHANGED
+
 EVENT_UIDS_CHANGED
+
 EVENT_VOLUME_CHANGED
+
 avrcp getcaps eventids: count %d
+
   id=%d (%s)
+
 STOPPED
+
 UNKNOWN
+
 PLAYING
+
 PAUSED
+
 FWD_SEEK
+
 REV_SEEK
+
   id=%d (%s)
+
 ,  playback status=%s
+
 ,  current track index=0x%08lx:%08lx
+
 avrcp play status: 
+
   song length %ld sec
+
   song position %ld sec
+
   play status %s
+
 avrcp %s: %lu
+
 Beken
+
 FFTTEST
+
 AECTEST
+
 AECIOCTL
+
 acl_req %02x:%02x:%02x:%02x:%02x:%02x %02x%02x%02x
+
 hs disconnected %lu
+
 INVALID RESULT_T VALUE
+
 sco failed to open %s
+
 hs connected %lu
+
 release failed
+
 press failed
+
 TITLE
+
 ARTIST
+
 ALBUM
+
 TOTAL_TRACK_NUMBER
+
 GENRE
+
 PLAYING_TIME
+
 [cont']
+
     attr_id %s, char_set_id %d, attr_len 0x%x attr_val%s: %.*s
+
 %u %02x:%02x:%02x:%02x:%02x:%02x %u
-/
+
 ...skipping
+
 AT+CHUP
+
 AT+CCWA=
+
 AT+BLDN
+
 AT+BRSF=
+
 AT+BTRH=
+
 AT+BTRH?
+
 AT+BVRA=
+
 AT+CIND=?
+
 AT+CIND?
+
 AT+CMER=3,0,0,
+
 AT+CHLD=
+
 AT+CHLD=?
+
 AT+CLCC
+
 AT+CLIP=
+
 AT+COPS=3,0
+
 AT+COPS?
+
 AT+CNUM
+
 AT+VTS=
+
 AT+XAPL=0000-0000-0100,7
+
 AT+IPHONEACCEV=
+
 call on hold
+
 held call rejected
+
 held call accepted
+
 AG Response and Hold status - %s
+
 AG indicator %s=%d
+
 AG current calls %d, %d, %d, %d, %d, %s, %d, %s, %d
+
 PR-%s
+
 IR-%s
+
 AG calling line identification %s, %d, %s, %d, %s, %d
+
 AG operator %s
+
 AG state {service %d, call %d, callsetup %d, callheld %d, signal %d, roam %d}
+
 AG subscriber %s, type %d
+
 AG waiting call notification %s, %d, %d, %s, %d, %s, %d, %d
+
 disable_complete %lu %02x
+
 a2dp connected %lu
+
 hf connected %lu
+
 stream suspended %lu
+
 stream started %lu
+
 enable_complete %lu %02x
+
 OPERATION NOT STARTED
+
 OPERATION IN PROGRESS
+
 OPERATION NOT PERMITTED
+
 NO SUCH ENTRY
+
 INPUT/OUTPUT ERROR
+
 DEVICE NOT CONFIGURED
+
 FAILED ALLOCATING MEMORY
+
 RESOURCE IS BUSY
+
 NO SUCH DEVICE
+
 INVALID ARGUMENT
+
 OPERATION NOT SUPPORTED
+
 OPERATION TIMED OUT
+
 DEVICE IS SUSPENDED
+
 GENERAL-PURPOSE ERROR
+
 LOGICAL TEST FAILURE
+
 INCORRECT STATE
+
 PIPE IS STALLED
+
 INVALID PARAMETER
+
 OPERATION ABORTED
+
 SHORT TRANSFER
+
 WOULD BLOCK
+
 ALREADY
+
 EVALUATION TIME EXPIRED
+
 RESOURCE IS FULL
+
 DEST ADDR REQUIRED
+
 CAN'T ASSIGN REQUESTED ADDRESS
+
 MESSAGE TOO LONG
+
 NET DOWN
+
 NET UNREACHABLE
+
 NET RESET
+
 CONNECTION ABORTED
+
 CONNECTION RESET
+
 ALREADY CONNECTED
+
 NOT CONNECTED
+
 CONNECTION REFUSED
+
 HOST DOWN
+
 HOST UNREACHABLE
+
 NO LINK
+
 PROTOCOL
+
 NO PROTOCOL OPTION
+
 OPERATION INTERRUPTED
+
 PROTOCOL TYPE MISMATCH
+
 newconn, svc id
+
 connecting, svc id
+
 %u %02x:%02x:%02x:%02x:%02x:%02x
+
 a2dp connecting %lu
+
 hs connecting %lu
+
  SBC [%02x %02x]
+
  bitpool %d/%d
+
  16KHz %s, 32KHz %s, 44KHz %s, 48KHz %s
+
  MONO %s, DUAL %s, STEREO %s, JOINT STEREO %s
+
  block 4 %s, 8 %s, 12 %s, 16 %s
+
  subbands 4 %s, 8 %s
+
  SNR %s, Loudness %s
+
  MPEG-1,2 AUDIO [%02x %02x %02x %02x]
+
  I %s, II %s, III %s, CRC %s
+
  16K %s, 22K %s, 24K %s, 32K %s, 44K %s, 48K %s
+
  MPF %s, VBR %s
+
  bit rate 0x%x, 0x%x
+
  MPEG-2,4 AAC [%02x %02x %02x %02x %02x %02x]
+
  MPEG2 LC %s, MPEG4 LC %s, LTP %s, SCALABLE %s
+
  8K %s, 11K %s, 12K %s, 16K %s, 22K %s, 24K %s, 32K %s, 44K %s
+
  48K %s, 64K %s, 88K %s, 96K %s
+
  MONO %s, STEREO %s, VBR %s, bit rate %ld
+
  ATRAC [%02x %02x %02x %02x %02x %02x %02x]
+
 0123456789ABCDEF
+
 0123456789abcdef
+
 Infinity
+
 POSIX
+
 powf
+
 sqrtf
+
 ASCII
+
 ASCII
+
 
 Public Browse Group Root
+
 Bluetooth service discovery
+
 0000
 
+
 Audio Sink
+
 Audio/Video remote Control
+
 BK8000L
+
 0000
 
 
