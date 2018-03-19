@@ -91,7 +91,7 @@ Feedback data format: \<IND\> \[\<param\>\]\r\n
 ### Control instructions
 
 --------------------------------------------------------------------------------
-| Serial command | parameter | description | example | return |note|
+| Serial command | parameter | description |   example  |   return   |   note   |
 |----------------|-----------|-------------|------------|------------|----------|
 | CA | | pairing | AT+CA\r\n |||
 | CB | | Exit pairing | AT+CB\r\n |||
@@ -150,7 +150,7 @@ Feedback data format: \<IND\> \[\<param\>\]\r\n
 
 -----------------------------------------------------------
 | command | what google tell as about it | module response|
------------------------------------------------------------
+|---------|------------------------------|----------------|
 | AT+CKPD=200|Notifies the AG service when a button on the headset is pressed. [1] | OK |
 | AT+VGM= | AT+VGM=%gain% Notifies the audio gateway service when the microphone volume on the headset is changed to the specified gain value. [1]||
 | AT+VGS= | AT+VGS=%gain% Notifies the audio gateway service when the speaker volume on the headset is changed to the specified gain value. [1]||
