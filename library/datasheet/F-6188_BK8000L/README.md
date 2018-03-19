@@ -146,6 +146,35 @@ Feedback data format: \<IND\> \[\<param\>\]\r\n
 | MY | |  |  ||test this|
 | MZ | |  |  ||test this|
 
+### from dump of lash:
+
+------------------------------------------
+| command | what google tell as about it |
+------------------------------------------
+| AT+CKPD=200| |
+| AT+VGM= | |
+| AT+VGS= | |
+| AT+CHUP | |
+| AT+CCWA= | |
+| AT+BLDN | |
+| AT+BRSF= | |
+| AT+BTRH= | |
+| AT+BTRH? | |
+| AT+BVRA= | |
+| AT+CIND=? | |
+| AT+CIND? | |
+| AT+CMER=3,0,0, | |
+| AT+CHLD= | |
+| AT+CHLD=? | |
+| AT+CLCC | |
+| AT+CLIP= | |
+| AT+COPS=3,0 | |
+| AT+COPS? | |
+| AT+CNUM | |
+| AT+VTS= | |
+| AT+XAPL=0000-0000-0100,7 | |
+| AT+IPHONEACCEV= | |
+
 
 ### bluetooth status information send without request
 
