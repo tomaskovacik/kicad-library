@@ -105,50 +105,30 @@ Feedback data format: \<IND\> \[\<param\>\]\r\n
 | CF | | reject a call | AT+CF\r\n |||
 | CG | | Hang up | AT+CG\r\n | ||
 | CH | | redial | AT+CH\r\n || last called number? |
-| CI | |  |  || test this |
-| CJ | |  |  || test this |
 | CK | | volume up | AT+CK\r\n |||
 | CL | | volume down | AT+CL\r\n |||
 | CM | | Multi-language switch | AT+CM\r\n |||
-| CN | |  |  ||test this|
 | CO | | Channel switching (invalid) | AT+CO\r\n || to be tested |
 | CP | | Shutdown | AT+CP\r\n |||
-| CQ | |  |  ||test this|
-| CR | |  |  ||test this|
-| CS | |  |  ||test this|
 | CT | | Enter the test mode | AT+CT\r\n |||
-| CU | |  |  ||test this|
 | CW | | Retention |  ||test this|
 | CV | | Open phone VOICE | AT+CV\r\n |||
-| CX | |  |  |test this|
 | CY | | Retention |  ||test this|
 | CZ | | Memory clear | AT+CZ\r\n |||
 | CMM | Number:( 0-4 ) | Set the number of multi-lingual | AT+CMM4\r\n |||
 | MA | | Music Play / Pause | AT+MA\r\n |||
-| MB | |  |  ||test this|
 | MC | | The music stops | AT+MC\r\n |||
 | MD | | next track | AT+MD\r\n |||
 | ME | | previous track | AT+ME\r\n |||
 | MF | | fast forward | AT+MF\r\n || test how does this exacly works? |
-| MG | |  |  |||
 | MH | | rewind | AT+MH\r\n || test how does this exacly works? |
-| MI | |  |  ||test this|
-| MJ | |  |  ||test this|
-| MK | |  |  ||test this|
-| ML | |  |  ||test this|
-| MM | |  |  ||test this|
 | MN | | Query bluetooth name | AT+MN\r\n | NA:BK8000L\r\n |test this|
 | MO | | Bluetooth connection status inquiry | AT+MO\rn | connection succeeded:" C1\r\n"no connection:"C0\r\n" ||
 | MP | | PIN Code query | AT+MP\r\n | PN:0000\r\n ||
 | MR | | Query bluetooth address | AT+MR\r\n | AD:111111111111\r\n ||
 | MQ | | Query software version | AT+MQ\r\n |XZX-V1.2\r\n||
-| MS | |  |  ||test this|
-| MT | |  |  ||test this|
-| MU | |  |  ||test this|
 | MV | | Bluetooth playback status inquiry | AT+MV\r\n |Play: "MB\r\n", time out:"MA\r\n", disconnect:" M0\r\n" ||
-| MX | | Bluetooth inquiry HFP status | AT+MY\r\n | disconnect:"M0\r\n", connection:"M1\r\n", Caller: "M2\r\n", Outgoing: "M3\r\n", calling:"M4\r\n" ||
-| MY | |  |  ||test this|
-| MZ | |  |  ||test this|
+| MY | | Bluetooth inquiry HFP status | AT+MY\r\n | disconnect:"M0\r\n", connection:"M1\r\n", Caller: "M2\r\n", Outgoing: "M3\r\n", calling:"M4\r\n" ||
 
 ### from dump of lash:
 
