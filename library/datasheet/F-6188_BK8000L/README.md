@@ -3,7 +3,7 @@
 
 ## arduino library:
 
-<a href="https://github.com/tomaskovacik/arduino/tree/master/libraries/F-6188">Library for this module</a>
+<a href="https://github.com/tomaskovacik/BK8000L/">Library for this module</a>
 
 ## specs:
 
