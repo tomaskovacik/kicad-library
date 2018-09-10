@@ -14,7 +14,7 @@ diff -ur orig/flashrom-0.9.9/flashchips.c flashrom-0.9.9/flashchips.c
      },
  
 +       {
-+                .vendor         = "FMD", /*http://www.fremontmicro.com/prolist-15-1.html*/
++                .vendor         = "FMD", /*http://famousconnections.eu/wp-content/uploads/2017/10/FT25H04.pdf*/
 +                .name           = "FT25H04",
 +                .bustype        = BUS_SPI,
 +                .manufacture_id = FMD_ID,
