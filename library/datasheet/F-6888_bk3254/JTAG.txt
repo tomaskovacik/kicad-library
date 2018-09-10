@@ -1,0 +1,4 @@
+TMS - 4 (GPIO19) Digital I/O JTAG pin
+TCK - 5 (GPIO18) Digital I/O JTAG pin
+TDO - 6 (GPIO21) Digital I/O JTAG pin
+TDI - 7 (GPIO20) Digital I/O JTAG pin
