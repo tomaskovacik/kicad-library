@@ -1,3 +1,4 @@
+.gitignore
 *saved*
 *bak
 *autosave*
@@ -5,3 +6,4 @@
 *~
 *.bck
 *rescue.lib
+library/datasheet/F-6888_bk3254/BK3254 Datasheet v0.3.pdf
