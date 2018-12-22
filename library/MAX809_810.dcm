@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX809
+D Very Low Supply Current 3-Pin Microprocessor Reset Monitors
+K reset IC
+F https://datasheets.maximintegrated.com/en/ds/MAX803-MAX810Z.pdf
+$ENDCMP
+#
+$CMP MAX810
+D Very Low Supply Current 3-Pin Microprocessor Reset Monitors
+K Reset IC
+F https://datasheets.maximintegrated.com/en/ds/MAX803-MAX810Z.pdf
+$ENDCMP
+#
+#End Doc Library
