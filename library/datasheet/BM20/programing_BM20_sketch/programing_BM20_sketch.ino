@@ -3,6 +3,7 @@
 #define BLUETOOTH_RESET PB14
 //only for flash based modules BM6x
 #define BLUETOOTH_FLASH_UPLOAD PA5
+#define BLUETOOTH_EAN PA6
 
 void setup() {
   Serial.begin(115200);
@@ -13,6 +14,7 @@ void setup() {
   digitalWrite(BLUETOOTH_RESET, LOW);
   delay(100);
   digitalWrite(BLUETOOTH_RESET, HIGH);
+
 }
 
 void loop() {
