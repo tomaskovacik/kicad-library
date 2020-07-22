@@ -16,3 +16,21 @@ After removind SimpleIO-UM.dll inside UART_tool directory, serial example tool '
 # arduino library
 
 https://github.com/tomaskovacik/IS2020
+
+# my eeprom setting 
+
+BM20.ipf file contains eeprom patch with settings:
+
+- HFP/HSP profile
+- A2DP profile 
+- AVRCP controler and target profile
+- SPP profile
+- now buttons
+- line in (P3_0 detection)
+- power on directly
+- serial interface at 115200b
+- simple pairing enabled
+.... 
+
+load it with ui tool to see
+
