@@ -8,9 +8,11 @@ SLK0 -> BCK
 
 DI0  -> DIN
 
-GND  -> GND,XMT,FMT
+GND  -> GND,FMT
 
 ADAP_IN -> VCC
+
+unmute: connect 3V3 to XMT
 
 EEPROM PATCH:
 
