@@ -6,7 +6,7 @@ RFS0 -> LCK
 
 SLK0 -> BCK
 
-DI0  -> DIN
+DT0  -> DIN
 
 GND  -> GND,FMT
 
